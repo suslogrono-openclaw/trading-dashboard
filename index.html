@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>En Las Nubes Capital ☁️ — Paper Trading</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    :root {
+      --bg-primary: #0d1c40;
+      --bg-secondary: #132252;
+      --bg-card: #1a2d5a;
+      --text-primary: #ffffff;
+      --text-secondary: #a8b8d8;
+      --accent-blue: #4a9eff;
+      --accent-green: #00d4a4;
+      --accent-red: #ff6b6b;
+      --accent-yellow: #ffd93d;
+      --border-color: rgba(74, 158, 255, 0.2);
+    }
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      min-height: 100vh;
+      line-height: 1.5;
+    }
+    
+    /* Header */
+    .header {
+      background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--border-color);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    
+    .header-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+    
+    .logo {
+      font-size: 20px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .paper-badge {
+      background: var(--accent-yellow);
+      color: #000;
+      font-size: 10px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    
+    .last-update {
+      font-size: 11px;
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    
+    .live-dot {
+      width: 8px;
+      height: 8px;
+      background: var(--accent-green);
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+    
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+    
+    /* Main container */
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 16px;
+      padding-bottom: 40px;
+    }
+    
+    /* Section titles */
+    .section-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin: 24px 0 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    /* Cards */
+    .card {
+      background: var(--bg-card);
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 16px;
+      border: 1px solid var(--border-color);
+    }
+    
+    /* Stats Grid */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+    
+    .stat-card {
+      background: var(--bg-secondary);
+      border-radius: 12px;
+      padding: 16px;
+      text-align: center;
+    }
+    
+    .stat-label {
+      font-size: 11px;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 6px;
+    }
+    
+    .stat-value {
+      font-size: 22px;
+      font-weight: 700;
+    }
+    
+    .stat-value.positive { color: var(--accent-green); }
+    .stat-value.negative { color: var(--accent-red); }
+    
+    .stat-sub {
+      font-size: 12px;
+      color: var(--text-secondary);
+      margin-top: 2px;
+    }
+    
+    /* Capital Card */
+    .capital-card {
+      background: linear-gradient(135deg, var(--bg-secondary) 0%, #1a3a7a 100%);
+      border-radius: 16px;
+      padding: 24px;
+      text-align: center;
+      margin-bottom: 16px;
+      border: 1px solid rgba(74, 158, 255, 0.3);
+    }
+    
+    .capital-icon {
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+    
+    .capital-label {
+      font-size: 12px;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    
+    .capital-value {
+      font-size: 36px;
+      font-weight: 700;
+      margin: 8px 0;
+    }
+    
+    .capital-sub {
+      font-size: 14px;
+      color: var(--text-secondary);
+    }
+    
+    /* Position Cards */
+    .position-card {
+      background: var(--bg-card);
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 12px;
+      border: 1px solid var(--border-color);
+    }
+    
+    .position-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+    
+    .asset-info {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    
+    .asset-icon {
+      width: 44px;
+      height: 44px;
+      background: var(--bg-secondary);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+    }
+    
+    .asset-name {
+      font-size: 18px;
+      font-weight: 700;
+    }
+    
+    .asset-pair {
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+    
+    .position-pnl {
+      text-align: right;
+    }
+    
+    .pnl-value {
+      font-size: 20px;
+      font-weight: 700;
+    }
+    
+    .pnl-value.positive { color: var(--accent-green); }
+    .pnl-value.negative { color: var(--accent-red); }
+    
+    .pnl-percent {
+      font-size: 13px;
+      padding: 3px 8px;
+      border-radius: 6px;
+      font-weight: 600;
+    }
+    
+    .pnl-percent.positive { background: rgba(0, 212, 164, 0.2); color: var(--accent-green); }
+    .pnl-percent.negative { background: rgba(255, 107, 107, 0.2); color: var(--accent-red); }
+    
+    .position-details {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    
+    .detail-item {
+      background: var(--bg-secondary);
+      padding: 12px;
+      border-radius: 10px;
+    }
+    
+    .detail-label {
+      font-size: 10px;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 4px;
+    }
+    
+    .detail-value {
+      font-size: 15px;
+      font-weight: 600;
+    }
+    
+    .detail-arrow {
+      color: var(--accent-blue);
+      margin: 0 6px;
+    }
+    
+    /* Progress Bar */
+    .progress-section {
+      margin-top: 8px;
+    }
+    
+    .progress-labels {
+      display: flex;
+      justify-content: space-between;
+      font-size: 10px;
+      color: var(--text-secondary);
+      margin-bottom: 6px;
+    }
+    
+    .progress-labels span:first-child { color: var(--accent-red); }
+    .progress-labels span:last-child { color: var(--accent-green); }
+    
+    .progress-bar {
+      height: 8px;
+      background: var(--bg-secondary);
+      border-radius: 4px;
+      overflow: hidden;
+      position: relative;
+    }
+    
+    .progress-fill {
+      height: 100%;
+      border-radius: 4px;
+      transition: width 0.5s ease;
+    }
+    
+    .progress-fill.positive { background: linear-gradient(90deg, var(--accent-red), var(--accent-yellow), var(--accent-green)); }
+    .progress-fill.negative { background: linear-gradient(90deg, var(--accent-red), #ff4444); }
+    
+    .progress-marker {
+      position: absolute;
+      top: -4px;
+      width: 4px;
+      height: 16px;
+      background: var(--text-primary);
+      border-radius: 2px;
+      transform: translateX(-50%);
+    }
+    
+    .time-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 11px;
+      color: var(--text-secondary);
+      background: var(--bg-secondary);
+      padding: 4px 10px;
+      border-radius: 6px;
+      margin-top: 12px;
+    }
+    
+    /* Empty state */
+    .empty-state {
+      text-align: center;
+      padding: 40px 20px;
+      color: var(--text-secondary);
+    }
+    
+    .empty-icon {
+      font-size: 48px;
+      margin-bottom: 16px;
+      opacity: 0.5;
+    }
+    
+    /* Table */
+    .history-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    
+    .history-table th {
+      text-align: left;
+      font-size: 10px;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 8px 6px;
+      border-bottom: 1px solid var(--border-color);
+    }
+    
+    .history-table td {
+      padding: 12px 6px;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    
+    .history-table tr:last-child td { border-bottom: none; }
+    
+    .trade-buy { color: var(--accent-green); }
+    .trade-sell { color: var(--accent-red); }
+    .trade-sell.profit { color: var(--accent-green); }
+    
+    .reason-badge {
+      font-size: 10px;
+      padding: 3px 8px;
+      border-radius: 4px;
+      background: var(--bg-secondary);
+    }
+    
+    /* Chart */
+    .chart-container {
+      background: var(--bg-secondary);
+      border-radius: 12px;
+      padding: 16px;
+      margin-top: 12px;
+    }
+    
+    .chart-canvas {
+      width: 100%;
+      height: 180px;
+    }
+    
+    /* VS Market */
+    .vs-market-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    
+    .vs-market-item:last-child { border-bottom: none; }
+    
+    .vs-asset {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .vs-icon {
+      width: 36px;
+      height: 36px;
+      background: var(--bg-secondary);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+    }
+    
+    .vs-name { font-weight: 600; font-size: 14px; }
+    .vs-type { font-size: 11px; color: var(--text-secondary); }
+    
+    .vs-values {
+      text-align: right;
+    }
+    
+    .vs-change {
+      font-size: 15px;
+      font-weight: 600;
+    }
+    
+    .vs-change.positive { color: var(--accent-green); }
+    .vs-change.negative { color: var(--accent-red); }
+    
+    .vs-detail {
+      font-size: 11px;
+      color: var(--text-secondary);
+    }
+    
+    /* Glossary */
+    .glossary-item {
+      padding: 12px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    
+    .glossary-item:last-child { border-bottom: none; }
+    
+    .glossary-term {
+      font-weight: 600;
+      color: var(--accent-blue);
+      margin-bottom: 4px;
+    }
+    
+    .glossary-def {
+      font-size: 13px;
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+    
+    /* Loading */
+    .loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+      color: var(--text-secondary);
+    }
+    
+    .spinner {
+      width: 24px;
+      height: 24px;
+      border: 3px solid var(--border-color);
+      border-top-color: var(--accent-blue);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin-right: 12px;
+    }
+    
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    
+    /* No positions message */
+    .no-positions {
+      text-align: center;
+      padding: 30px;
+      color: var(--text-secondary);
+    }
+    
+    /* Responsive */
+    @media (max-width: 380px) {
+      .capital-value { font-size: 28px; }
+      .stat-value { font-size: 18px; }
+      .position-details { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="header-top">
+      <div class="logo">☁️ En Las Nubes Capital</div>
+      <div class="paper-badge">📝 Paper Trading</div>
+    </div>
+    <div class="last-update">
+      <div class="live-dot"></div>
+      <span id="lastUpdate">Cargando...</span>
+    </div>
+  </div>
+  
+  <div class="container" id="mainContent">
+    <div class="loading">
+      <div class="spinner"></div>
+      <span>Actualizando datos...</span>
+    </div>
+  </div>
+
+  <script>
+    // Config
+    const DATA_FILE = 'dashboard-data.json';
+    const REFRESH_INTERVAL = 60000; // 1 minuto
+    
+    // Assets info
+    const ASSETS = {
+      'BTC/USDT': { name: 'Bitcoin', symbol: 'BTC', icon: '₿', color: '#F7931A' },
+      'ETH/USDT': { name: 'Ethereum', symbol: 'ETH', icon: 'Ξ', color: '#627EEA' },
+      'SOL/USDT': { name: 'Solana', symbol: 'SOL', icon: '◎', color: '#00FFA3' }
+    };
+    
+    // State
+    let currentData = null;
+    let marketData = {};
+    
+    // Initial capital (aprox 3000 USDT inicial)
+    const INITIAL_CAPITAL = 3000;
+    const STOP_LOSS_PCT = 3;
+    const TAKE_PROFIT_PCT = 6;
+    
+    // Icons
+    const ICONS = {
+      btc: '₿', eth: 'Ξ', sol: '◎',
+      clock: '⏱️', target: '🎯', shield: '🛡️', chart: '📈',
+      win: '🏆', clock2: '⏰', check: '✅', x: '❌'
+    };
+    
+    // Load data
+    async function loadData() {
+      try {
+        const resp = await fetch(DATA_FILE + '?t=' + Date.now());
+        if (resp.ok) {
+          currentData = await resp.json();
+          await loadMarketData();
+          render();
+        } else {
+          // Si no existe el archivo, usar datos de demo
+          loadDemoData();
+          await loadMarketData();
+          render();
+        }
+      } catch(e) {
+        console.log('Using demo data:', e.message);
+        loadDemoData();
+        await loadMarketData();
+        render();
+      }
+    }
+    
+    function loadDemoData() {
+      currentData = {
+        positions: {
+          'BTC/USDT': { entry_price: 77167.38, amount: 0.012959, cost: 999.32, entry_time: '2026-04-17T18:59:45' },
+          'ETH/USDT': { entry_price: 2420.55, amount: 0.371845, cost: 899.96, entry_time: '2026-04-17T18:59:46' },
+          'SOL/USDT': { entry_price: 89.17, amount: 9.084578, cost: 810.38, entry_time: '2026-04-17T18:59:48' }
+        },
+        trades: [
+          { time: '2026-04-17T18:59:45', symbol: 'BTC/USDT', action: 'BUY', price: 77167.38 },
+          { time: '2026-04-17T18:59:46', symbol: 'ETH/USDT', action: 'BUY', price: 2420.55 },
+          { time: '2026-04-17T18:59:48', symbol: 'SOL/USDT', action: 'BUY', price: 89.17 }
+        ],
+        last_update: new Date().toISOString()
+      };
+    }
+    
+    async function loadMarketData() {
+      const symbols = ['BTC/USDT', 'ETH/USDT', 'SOL/USDT'];
+      for (const sym of symbols) {
+        try {
+          // Binance public API (no auth needed)
+          const resp = await fetch(`https://api.binance.com/api/v3/ticker/price?symbol=${sym.replace('/', '')}`);
+          if (resp.ok) {
+            const data = await resp.json();
+            marketData[sym] = { price: parseFloat(data.price) };
+          }
+        } catch(e) {
+          console.log('Market data error:', e.message);
+        }
+        await new Promise(r => setTimeout(r, 100));
+      }
+    }
+    
+    function calcPositionPnL(pos) {
+      const current = marketData[pos.symbol]?.price || pos.entry_price;
+      const pnl = (current - pos.entry_price) * pos.amount;
+      const pnlPct = ((current - pos.entry_price) / pos.entry_price) * 100;
+      return { current, pnl, pnlPct };
+    }
+    
+    function calcTotalPnL() {
+      let totalCost = 0, totalValue = 0;
+      for (const [sym, pos] of Object.entries(currentData.positions)) {
+        const current = marketData[sym]?.price || pos.entry_price;
+        totalCost += pos.cost;
+        totalValue += pos.amount * current;
+      }
+      const sells = currentData.trades.filter(t => t.action === 'SELL');
+      sells.forEach(t => {
+        totalValue += t.revenue || 0;
+        totalCost += t.cost || 0;
+      });
+      return {
+        totalValue,
+        totalCost: totalCost || INITIAL_CAPITAL,
+        pnl: totalValue - (totalCost || INITIAL_CAPITAL),
+        pnlPct: ((totalValue - (totalCost || INITIAL_CAPITAL)) / (totalCost || INITIAL_CAPITAL)) * 100
+      };
+    }
+    
+    function calcWinRate() {
+      const sells = currentData.trades.filter(t => t.action === 'SELL');
+      if (sells.length === 0) return { wins: 0, total: 0, rate: 0 };
+      const wins = sells.filter(t => (t.profit || 0) > 0).length;
+      return { wins, total: sells.length, rate: sells.length ? (wins / sells.length) * 100 : 0 };
+    }
+    
+    function timeAgo(dateStr) {
+      const diff = Date.now() - new Date(dateStr).getTime();
+      const h = Math.floor(diff / 3600000);
+      const m = Math.floor((diff % 3600000) / 60000);
+      if (h > 0) return `${h}h ${m}m`;
+      return `${m}m`;
+    }
+    
+    function formatPrice(p) {
+      if (p >= 1000) return '$' + p.toLocaleString('es-ES', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+      return '$' + p.toFixed(4);
+    }
+    
+    function render() {
+      const el = document.getElementById('mainContent');
+      const pnl = calcTotalPnL();
+      const winRate = calcWinRate();
+      const positions = Object.entries(currentData.positions);
+      const sells = currentData.trades.filter(t => t.action === 'SELL');
+      const startTime = currentData.trades[0]?.time || currentData.last_update;
+      
+      // Calculate progress for each position (distance to SL or TP)
+      const positionsHTML = positions.length ? positions.map(([sym, pos]) => {
+        const asset = ASSETS[sym];
+        const { current, pnl: posPnl, pnlPct } = calcPositionPnL({...pos, symbol: sym});
+        const isProfitable = posPnl >= 0;
+        
+        // Progress: -3% is SL (left), +6% is TP (right)
+        // Current position as percentage
+        let progressPct = ((pnlPct + 3) / 9) * 100; // normalize to 0-100%
+        progressPct = Math.max(0, Math.min(100, progressPct));
+        
+        return `
+          <div class="position-card">
+            <div class="position-header">
+              <div class="asset-info">
+                <div class="asset-icon">${asset.icon}</div>
+                <div>
+                  <div class="asset-name">${asset.symbol}</div>
+                  <div class="asset-pair">${asset.name}</div>
+                </div>
+              </div>
+              <div class="position-pnl">
+                <div class="pnl-value ${isProfitable ? 'positive' : 'negative'}">${isProfitable ? '+' : ''}${formatPrice(posPnl)}</div>
+                <span class="pnl-percent ${isProfitable ? 'positive' : 'negative'}">${pnlPct >= 0 ? '+' : ''}${pnlPct.toFixed(2)}%</span>
+              </div>
+            </div>
+            
+            <div class="position-details">
+              <div class="detail-item">
+                <div class="detail-label">Entrada</div>
+                <div class="detail-value">${formatPrice(pos.entry_price)}</div>
+              </div>
+              <div class="detail-item">
+                <div class="detail-label">Actual</div>
+                <div class="detail-value">${formatPrice(current)}</div>
+              </div>
+            </div>
+            
+            <div class="progress-section">
+              <div class="progress-labels">
+                <span>🛡️ Stop -3%</span>
+                <span>🎯 +6% Target</span>
+              </div>
+              <div class="progress-bar">
+                <div class="progress-fill ${isProfitable ? 'positive' : 'negative'}" style="width: 100%"></div>
+                <div class="progress-marker" style="left: ${progressPct}%"></div>
+              </div>
+            </div>
+            
+            <div class="time-badge">⏱️ Abierta hace ${timeAgo(pos.entry_time)}</div>
+          </div>
+        `;
+      }).join('') : `
+        <div class="no-positions">
+          <div class="empty-icon">📭</div>
+          <p>No hay posiciones abiertas</p>
+          <p style="font-size:12px;margin-top:8px">El sistema está buscando oportunidades...</p>
+        </div>
+      `;
+      
+      // History table
+      const historyHTML = sells.length ? `
+        <table class="history-table">
+          <thead>
+            <tr>
+              <th>Fecha</th>
+              <th>Activo</th>
+              <th>Tipo</th>
+              <th>P/L</th>
+              <th>Motivo</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${sells.map(t => {
+              const asset = ASSETS[t.symbol];
+              const isProfit = (t.profit || 0) > 0;
+              return `
+                <tr>
+                  <td>${new Date(t.time).toLocaleDateString('es-ES', {day:'2-digit',month:'2-digit'})}</td>
+                  <td>${asset.symbol}</td>
+                  <td class="trade-sell ${isProfit ? 'profit' : ''}">${t.action}</td>
+                  <td class="${isProfit ? 'positive' : 'negative'}" style="color:${isProfit ? 'var(--accent-green)' : 'var(--accent-red)'}">${isProfit ? '+' : ''}${(t.profit || 0).toFixed(2)}€</td>
+                  <td><span class="reason-badge">${t.reason || 'SIGNAL'}</span></td>
+                </tr>
+              `;
+            }).join('')}
+          </tbody>
+        </table>
+      ` : `
+        <div class="no-positions">
+          <p>Aún no hay operaciones cerradas</p>
+        </div>
+      `;
+      
+      // VS Market comparison
+      const vsMarketHTML = Object.entries(marketData).slice(0,3).map(([sym, data]) => {
+        const asset = ASSETS[sym];
+        const pos = currentData.positions[sym];
+        if (!pos) return '';
+        
+        // Simular cuánto habría ganado si compraba y mantenía
+        const entryPrice = pos.entry_price;
+        const currentPrice = data.price;
+        const holdPnl = (currentPrice - entryPrice) * pos.amount;
+        const holdPnlPct = ((currentPrice - entryPrice) / entryPrice) * 100;
+        
+        const { pnl: stratPnl, pnlPct: stratPct } = calcPositionPnL({...pos, symbol: sym});
+        
+        return `
+          <div class="vs-market-item">
+            <div class="vs-asset">
+              <div class="vs-icon">${asset.icon}</div>
+              <div>
+                <div class="vs-name">${asset.symbol}</div>
+                <div class="vs-type">Estrategia vs HODL</div>
+              </div>
+            </div>
+            <div class="vs-values">
+              <div class="vs-change ${stratPnl >= holdPnl ? 'positive' : 'negative'}">${stratPnl >= holdPnl ? '🏆' : '📉'} ${((stratPnl - holdPnl) >= 0 ? '+' : '')}${(stratPnl - holdPnl).toFixed(2)}€</div>
+              <div class="vs-detail">vs HODL: ${holdPnl >= 0 ? '+' : ''}${holdPnl.toFixed(2)}€ (${holdPnlPct >= 0 ? '+' : ''}${holdPnlPct.toFixed(2)}%)</div>
+            </div>
+          </div>
+        `;
+      }).join('');
+      
+      // Chart
+      const chartHTML = `
+        <div class="chart-container">
+          <canvas id="portfolioChart" class="chart-canvas"></canvas>
+        </div>
+      `;
+      
+      el.innerHTML = `
+        <!-- Resumen Capital -->
+        <div class="capital-card">
+          <div class="capital-icon">💰</div>
+          <div class="capital-label">Capital Total</div>
+          <div class="capital-value">${formatPrice(pnl.totalValue)}</div>
+          <div class="capital-sub" style="color: ${pnl.pnl >= 0 ? 'var(--accent-green)' : 'var(--accent-red)'}">
+            ${pnl.pnl >= 0 ? '📈' : '📉'} ${pnl.pnl >= 0 ? '+' : ''}${pnl.pnl.toFixed(2)}€ (${pnl.pnlPct >= 0 ? '+' : ''}${pnl.pnlPct.toFixed(2)}%)
+          </div>
+        </div>
+        
+        <!-- Stats Grid -->
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-label">Posiciones</div>
+            <div class="stat-value">${positions.length}</div>
+            <div class="stat-sub">abiertas</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Win Rate</div>
+            <div class="stat-value ${winRate.rate >= 50 ? 'positive' : ''}">${winRate.rate.toFixed(0)}%</div>
+            <div class="stat-sub">${winRate.wins}/${winRate.total} ganadas</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Operaciones</div>
+            <div class="stat-value">${currentData.trades.length}</div>
+            <div class="stat-sub">totales</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Tiempo</div>
+            <div class="stat-value" style="font-size:16px">${timeAgo(startTime)}</div>
+            <div class="stat-sub">operando</div>
+          </div>
+        </div>
+        
+        <!-- Posiciones Abiertas -->
+        <div class="section-title">📊 Posiciones Abiertas</div>
+        ${positionsHTML}
+        
+        <!-- Gráfico -->
+        <div class="section-title">📈 Evolución del Portfolio</div>
+        <div class="card">
+          ${chartHTML}
+        </div>
+        
+        <!-- VS Mercado -->
+        <div class="section-title">🏆 vs Mercado (HODL)</div>
+        <div class="card">
+          ${vsMarketHTML || '<div class="no-positions">Datos de mercado no disponibles</div>'}
+        </div>
+        
+        <!-- Historial -->
+        <div class="section-title">📋 Historial de Operaciones</div>
+        <div class="card">
+          ${historyHTML}
+        </div>
+        
+        <!-- Glosario -->
+        <div class="section-title">📚 Glosario Simple</div>
+        <div class="card">
+          <div class="glossary-item">
+            <div class="glossary-term">P&L (Profit & Loss)</div>
+            <div class="glossary-def">Lo que has ganado o perdido. Positivo = beneficio, Negativo = pérdida.</div>
+          </div>
+          <div class="glossary-item">
+            <div class="glossary-term">Stop Loss (-3%)</div>
+            <div class="glossary-def">Si el precio baja un 3%, vendemos automáticamente para limitar pérdidas.</div>
+          </div>
+          <div class="glossary-item">
+            <div class="glossary-term">Take Profit (+6%)</div>
+            <div class="glossary-def">Si el precio sube un 6%, vendemos para asegurar ganancias.</div>
+          </div>
+          <div class="glossary-item">
+            <div class="glossary-term">Win Rate</div>
+            <div class="glossary-def">Porcentaje de operaciones rentables. 70% significa 7 de cada 10 operaciones ganan.</div>
+          </div>
+          <div class="glossary-item">
+            <div class="glossary-term">HODL</div>
+            <div class="glossary-def">Estrategia de "comprar y mantener". Comprar y no vender, sin importar lo que haga el precio.</div>
+          </div>
+          <div class="glossary-item">
+            <div class="glossary-term">Paper Trading</div>
+            <div class="glossary-def">Simulación con dinero ficticio. No es dinero real, solo aprendemos.</div>
+          </div>
+        </div>
+      `;
+      
+      // Update timestamp
+      document.getElementById('lastUpdate').textContent = 'Actualizado: ' + new Date().toLocaleTimeString('es-ES');
+      
+      // Draw chart
+      setTimeout(drawChart, 100);
+    }
+    
+    function drawChart() {
+      const canvas = document.getElementById('portfolioChart');
+      if (!canvas) return;
+      
+      const ctx = canvas.getContext('2d');
+      const w = canvas.width = canvas.offsetWidth * 2;
+      const h = canvas.height = canvas.offsetHeight * 2;
+      ctx.scale(2, 2);
+      
+      const pnl = calcTotalPnL();
+      const startValue = INITIAL_CAPITAL;
+      const currentValue = pnl.totalValue;
+      
+      // Clear
+      ctx.fillStyle = '#132252';
+      ctx.fillRect(0, 0, w/2, h/2);
+      
+      // Simple line chart
+      ctx.strokeStyle = currentValue >= startValue ? '#00d4a4' : '#ff6b6b';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      
+      // Draw line from start to current
+      ctx.moveTo(20, 100);
+      ctx.lineTo(w/2 - 20, 100);
+      ctx.stroke();
+      
+      // Start dot
+      ctx.fillStyle = '#4a9eff';
+      ctx.beginPath();
+      ctx.arc(20, 100, 5, 0, Math.PI * 2);
+      ctx.fill();
+      
+      // Current dot
+      ctx.fillStyle = currentValue >= startValue ? '#00d4a4' : '#ff6b6b';
+      ctx.beginPath();
+      ctx.arc(w/2 - 20, 100, 7, 0, Math.PI * 2);
+      ctx.fill();
+      
+      // Labels
+      ctx.fillStyle = '#a8b8d8';
+      ctx.font = '11px Inter, sans-serif';
+      ctx.fillText('Inicio', 10, 130);
+      ctx.fillText('Ahora', w/2 - 45, 130);
+      
+      // Value
+      ctx.fillStyle = '#fff';
+      ctx.font = 'bold 14px Inter, sans-serif';
+      ctx.fillText(formatPrice(currentValue), w/2 - 70, 80);
+      
+      // Change
+      ctx.fillStyle = currentValue >= startValue ? '#00d4a4' : '#ff6b6b';
+      ctx.font = '12px Inter, sans-serif';
+      ctx.fillText(`${currentValue >= startValue ? '+' : ''}${(currentValue - startValue).toFixed(2)}€`, w/2 - 70, 60);
+    }
+    
+    // Init
+    loadData();
+    setInterval(loadData, REFRESH_INTERVAL);
+  </script>
+</body>
+</html>

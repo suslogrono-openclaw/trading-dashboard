@@ -1,0 +1,80 @@
+{
+  "last_update": "2026-04-17T20:00:38.758886",
+  "capital": {
+    "total": 10006.83232521,
+    "available": 7290.334581,
+    "invested": 2716.49774421,
+    "pnl": 0,
+    "pnl_pct": 0.0
+  },
+  "stats": {
+    "positions_open": 3,
+    "total_trades": 3,
+    "completed_trades": 0,
+    "wins": 0,
+    "losses": 0,
+    "win_rate": 0
+  },
+  "positions": {
+    "BTC/USDT": {
+      "entry_price": 77167.38,
+      "amount": 0.012959,
+      "cost": 999.317571,
+      "entry_time": "2026-04-17T18:59:45.180670",
+      "order_id": "6259729",
+      "current_price": 77377.76,
+      "pnl": 2.7263144199998717,
+      "pnl_pct": 0.2726281493553236
+    },
+    "ETH/USDT": {
+      "entry_price": 2420.55,
+      "amount": 0.371845,
+      "cost": 899.964208,
+      "entry_time": "2026-04-17T18:59:46.667856",
+      "order_id": "3293164",
+      "current_price": 2428.57,
+      "pnl": 2.9821968999999933,
+      "pnl_pct": 0.33132965648303
+    },
+    "SOL/USDT": {
+      "entry_price": 89.17,
+      "amount": 9.084578,
+      "cost": 810.38364,
+      "entry_time": "2026-04-17T18:59:48.142521",
+      "order_id": "843744",
+      "current_price": 89.24,
+      "pnl": 0.6359204599999381,
+      "pnl_pct": 0.07850173825276795
+    }
+  },
+  "trades": [
+    {
+      "time": "2026-04-17T18:59:45.180715",
+      "symbol": "BTC/USDT",
+      "action": "BUY",
+      "price": 77167.38,
+      "amount": 0.012959,
+      "cost": 999.317571,
+      "order_id": "6259729"
+    },
+    {
+      "time": "2026-04-17T18:59:46.667885",
+      "symbol": "ETH/USDT",
+      "action": "BUY",
+      "price": 2420.55,
+      "amount": 0.371845,
+      "cost": 899.964208,
+      "order_id": "3293164"
+    },
+    {
+      "time": "2026-04-17T18:59:48.142573",
+      "symbol": "SOL/USDT",
+      "action": "BUY",
+      "price": 89.17,
+      "amount": 9.084578,
+      "cost": 810.38364,
+      "order_id": "843744"
+    }
+  ],
+  "start_time": "2026-04-17T18:59:45.180715"
+}
