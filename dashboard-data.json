@@ -1,55 +1,42 @@
 {
-  "last_update": "2026-04-17T20:17:45.966419",
+  "last_update": "2026-04-17T20:36:22.585315",
   "capital": {
-    "total": 10006.83,
-    "available": 7290.33,
-    "invested": 2716.5,
-    "pnl": 0.0,
-    "pnl_pct": 0.0
+    "total": 9995.79592412,
+    "available": 8095.812861,
+    "invested": 1899.98306312,
+    "pnl": -4.905359999999973,
+    "pnl_pct": -0.1635119999999991
   },
   "stats": {
-    "positions_open": 3,
-    "total_trades": 3,
-    "completed_trades": 0,
+    "positions_open": 2,
+    "total_trades": 4,
+    "completed_trades": 1,
     "wins": 0,
-    "losses": 0,
+    "losses": 1,
     "win_rate": 0.0
   },
-  "positions": [
-    {
-      "symbol": "BTC/USDT",
-      "amount": 0.012959,
+  "positions": {
+    "BTC/USDT": {
       "entry_price": 77167.38,
-      "current_price": 77377.76,
-      "value": 1002.74,
-      "cost": 999.32,
-      "pnl_pct": 0.27,
-      "pnl_usd": 3.42,
-      "entry_time": "2026-04-17T18:59:45.180670"
+      "amount": 0.012959,
+      "cost": 999.317571,
+      "entry_time": "2026-04-17T18:59:45.180670",
+      "order_id": "6259729",
+      "current_price": 77200.53,
+      "pnl": 0.4295908499999246,
+      "pnl_pct": 0.042958566171346205
     },
-    {
-      "symbol": "ETH/USDT",
-      "amount": 0.371845,
+    "ETH/USDT": {
       "entry_price": 2420.55,
-      "current_price": 2428.57,
-      "value": 903.05,
-      "cost": 899.96,
-      "pnl_pct": 0.33,
-      "pnl_usd": 3.09,
-      "entry_time": "2026-04-17T18:59:46.667856"
-    },
-    {
-      "symbol": "SOL/USDT",
-      "amount": 9.084578,
-      "entry_price": 89.17,
-      "current_price": 89.24,
-      "value": 810.71,
-      "cost": 810.38,
-      "pnl_pct": 0.08,
-      "pnl_usd": 0.32,
-      "entry_time": "2026-04-17T18:59:48.142521"
+      "amount": 0.371845,
+      "cost": 899.964208,
+      "entry_time": "2026-04-17T18:59:46.667856",
+      "order_id": "3293164",
+      "current_price": 2419.13,
+      "pnl": -0.5280199000000271,
+      "pnl_pct": -0.058664353142883756
     }
-  ],
+  },
   "trades": [
     {
       "time": "2026-04-17T18:59:45.180715",
@@ -77,17 +64,19 @@
       "amount": 9.084578,
       "cost": 810.38364,
       "order_id": "843744"
-    }
-  ],
-  "start_time": "2026-04-17T18:59:45.180715",
-  "portfolio_history": [
-    {
-      "time": "2026-04-17T20:17:06.324443",
-      "value": 2710.15
     },
     {
-      "time": "2026-04-17T20:17:45.965916",
-      "value": 10006.83
+      "time": "2026-04-17T20:36:21.119602",
+      "symbol": "SOL/USDT",
+      "action": "SELL",
+      "price": 88.67,
+      "amount": 9.084578,
+      "revenue": 805.47828,
+      "profit": -4.905359999999973,
+      "profit_pct": -0.6053133056832161,
+      "reason": "SIGNAL",
+      "order_id": "848205"
     }
-  ]
+  ],
+  "start_time": "2026-04-17T18:59:45.180715"
 }
