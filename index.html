@@ -643,17 +643,17 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js" onerror="window._chartFailed=true"></script>
 <script>window.Chart=window.Chart||null;window._chartFailed=window._chartFailed||!window.Chart;</script>
 <script>
-// ─────────────────────────────────────────────────────────────
+// ------------------------------------------------------------
 // DATA
-// ─────────────────────────────────────────────────────────────
+// ------------------------------------------------------------
 const DATA_FILE = 'dashboard-data.json';
 const REFRESH_MS = 60000;
 let data = null;
 let chartInstance = null;
 
-// ─────────────────────────────────────────────────────────────
+// ------------------------------------------------------------
 // UTILS
-// ─────────────────────────────────────────────────────────────
+// ------------------------------------------------------------
 const $ = id => document.getElementById(id);
 
 function fmt(n, decimals=2) {
@@ -667,13 +667,13 @@ function fmtPct(n, showSign=true) {
 }
 
 function fmtDate(isoStr) {
-  if (!isoStr) return '—';
+  if (!isoStr) return '-';
   const d = new Date(isoStr);
   return d.toLocaleDateString('es-ES', {day:'2-digit', month:'2-digit', hour:'2-digit', minute:'2-digit'});
 }
 
 function fmtShortDate(isoStr) {
-  if (!isoStr) return '—';
+  if (!isoStr) return '-';
   const d = new Date(isoStr);
   return d.toLocaleDateString('es-ES', {day:'2-digit', month:'2-digit'});
 }
@@ -689,9 +689,9 @@ function timeAgo(isoStr) {
 function pnlClass(n) { return n >= 0 ? 'green' : 'red'; }
 function pnlSign(n) { return n >= 0 ? '+' : ''; }
 
-// ─────────────────────────────────────────────────────────────
+// ------------------------------------------------------------
 // GLOSSARY
-// ─────────────────────────────────────────────────────────────
+// ------------------------------------------------------------
 const GLOSSARY = [
   { term: 'P&L (Profit & Loss)', def: 'Lo que has ganado o perdido. Es la diferencia entre lo que invertiste y lo que tienes ahora. Positivo = estás ganando, Negativo = estás perdiendo.' },
   { term: 'Paper Trading', def: 'Simulación con dinero ficticio. Usamos $10,000 de mentira para aprender sin arriesgar dinero real.' },
@@ -702,7 +702,7 @@ const GLOSSARY = [
   { term: 'Estrategia Momentum', def: 'Nuestra estrategia basada en indicadores técnicos. Compra cuando los indicadores dicen que el precio va a subir, y vende cuando dicen que va a bajar.' },
   { term: 'Signal (SIGNAL)', def: 'Motivo de la operación. SIGNAL significa que nuestros indicadores técnicos dieron una orden de compra o venta.' },
   { term: 'USDT', def: 'Una stablecoin (moneda estable). Su valor siempre es ~1 dólar. La usamos para medir ganancias/pérdidas en dólares.' },
-  { term: 'Posición abierta', def: 'Tienes cryptos compradas que aún no has vendido. until you sell, you have neither profit nor loss — it's "paper" (teórico).' },
+  { term: 'Posición abierta', def: 'Tienes cryptos compradas que aun no has vendido. Hasta que vendes, no tienes ni ganancia ni perdida - es "papel" (teorico).' },
   { term: 'Ratio Riesgo/Beneficio', def: 'Relación entre lo que puedes ganar y lo que puedes perder. Stop Loss de -3% y Take Profit de +6% da un ratio de 1:2 (por cada $1 que pierdes, intentas ganar $2).' }
 ];
 
@@ -727,9 +727,9 @@ function toggleGlossary(btn) {
   body.classList.toggle('open');
 }
 
-// ─────────────────────────────────────────────────────────────
+// ------------------------------------------------------------
 // LOAD DATA
-// ─────────────────────────────────────────────────────────────
+// ------------------------------------------------------------
 async function loadData() {
   try {
     const resp = await fetch(DATA_FILE + '?t=' + Date.now());
@@ -749,9 +749,9 @@ async function loadData() {
   $('loadingOverlay').classList.add('hidden');
 }
 
-// ─────────────────────────────────────────────────────────────
+// ------------------------------------------------------------
 // RENDER
-// ─────────────────────────────────────────────────────────────
+// ------------------------------------------------------------
 function render() {
   if (!data) return;
 
@@ -965,7 +965,7 @@ function renderHistoryTable() {
       <td><span style="font-size:16px;margin-right:4px">${icon}</span><b>${symbol.split('/')[0]}</b></td>
       <td style="color:var(--text-secondary);font-variant-numeric:tabular-nums">${t.amount.toFixed(4)}</td>
       <td style="font-variant-numeric:tabular-nums">${fmt(t.price, priceDecimals)}</td>
-      <td class="pnl-cell ${hasProfit ? 'pos' : hasLoss ? 'neg' : ''}">${isBuy ? '—' : (t.profit >= 0 ? '+' : '') + fmt(t.profit || 0)}</td>
+      <td class="pnl-cell ${hasProfit ? 'pos' : hasLoss ? 'neg' : ''}">${isBuy ? '-' : (t.profit >= 0 ? '+' : '') + fmt(t.profit || 0)}</td>
       <td><span class="badge ${isBuy ? 'badge-entry' : 'badge-exit'}">${isBuy ? 'ENTRY' : (t.reason || 'SIGNAL')}</span></td>
     </tr>`;
   });
@@ -1089,9 +1089,9 @@ function renderUpdateTime() {
   $('lastUpdate').textContent = 'Actualizado ' + d.toLocaleTimeString('es-ES', {hour:'2-digit', minute:'2-digit'});
 }
 
-// ─────────────────────────────────────────────────────────────
+// ------------------------------------------------------------
 // INIT
-// ─────────────────────────────────────────────────────────────
+// ------------------------------------------------------------
 renderGlossary();
 loadData();
 setInterval(loadData, REFRESH_MS);
