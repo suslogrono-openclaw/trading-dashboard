@@ -640,7 +640,8 @@
 
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js" onerror="window._chartFailed=true"></script>
+<script>window.Chart=window.Chart||null;window._chartFailed=window._chartFailed||!window.Chart;</script>
 <script>
 // ─────────────────────────────────────────────────────────────
 // DATA
@@ -735,9 +736,15 @@ async function loadData() {
     if (resp.ok) {
       data = await resp.json();
       render();
+    } else {
+      console.warn('Fetch failed:', resp.status);
+      $('loadingText').textContent = 'Error cargando datos. Recarga la página.';
+      return;
     }
   } catch(e) {
     console.warn('Could not load data:', e);
+    $('loadingText').textContent = 'Error de conexión. Recarga la página.';
+    return;
   }
   $('loadingOverlay').classList.add('hidden');
 }
@@ -967,6 +974,11 @@ function renderHistoryTable() {
 }
 
 function renderChart() {
+  if (!window.Chart || window._chartFailed) {
+    $('portfolioChart').style.display = 'none';
+    $('portfolioChart').parentElement.innerHTML = '<div style="text-align:center;padding:30px;color:var(--text-muted);font-size:13px">📊 Gráfico no disponible (Chart.js no cargó)</div>';
+    return;
+  }
   const ctx = $('portfolioChart').getContext('2d');
   if (chartInstance) { chartInstance.destroy(); chartInstance = null; }
 

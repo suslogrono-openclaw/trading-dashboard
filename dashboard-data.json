@@ -1,125 +1,148 @@
 {
-  "last_update": "2026-04-19T20:43:59.251916",
-  "initial_capital": 10000,
+  "last_update": "2026-04-19T23:44:25.204279",
   "capital": {
-    "total": 9949.78,
-    "available": 8956.72,
-    "invested": 993.06,
-    "pnl": -50.22,
-    "pnl_pct": -0.50
+    "total": 9943.1689675,
+    "available": 9943.1689675,
+    "invested": 0,
+    "pnl": -56.83103249999999,
+    "pnl_pct": -1.8943677499999998
   },
   "stats": {
-    "total_trades": 11,
-    "completed_trades": 10,
+    "positions_open": 0,
+    "total_trades": 12,
+    "completed_trades": 6,
     "wins": 0,
-    "losses": 5,
-    "win_rate": 0,
-    "avg_profit": -6.86,
-    "avg_loss": -6.86,
-    "best_trade": {
-      "symbol": "SOL/USDT",
-      "profit": -4.91,
-      "profit_pct": -0.61,
-      "date": "2026-04-17"
-    },
-    "worst_trade": {
-      "symbol": "ETH/USDT",
-      "profit": -15.45,
-      "profit_pct": -1.91,
-      "date": "2026-04-19"
-    },
-    "avg_time_in_position_hours": 9.2,
-    "best_symbol": "SOL/USDT",
-    "worst_symbol": "ETH/USDT"
+    "losses": 6,
+    "win_rate": 0.0
   },
-  "positions": {
-    "SOL/USDT": {
-      "symbol": "SOL/USDT",
-      "name": "Solana",
-      "icon": "◎",
-      "entry_price": 85.41,
-      "current_price": 84.72,
-      "amount": 11.685809,
-      "cost": 998.13,
-      "value": 989.62,
-      "entry_time": "2026-04-19T11:42:31",
-      "hours_open": 8.5,
-      "pnl": -8.51,
-      "pnl_pct": -0.85,
-      "stop_loss": -3,
-      "take_profit": 6
-    }
-  },
+  "positions": {},
   "trades": [
-    {"time": "2026-04-17T18:59:45", "symbol": "BTC/USDT", "action": "BUY", "price": 77167.38, "amount": 0.012959, "cost": 999.32},
-    {"time": "2026-04-17T18:59:46", "symbol": "ETH/USDT", "action": "BUY", "price": 2420.55, "amount": 0.371845, "cost": 899.96},
-    {"time": "2026-04-17T18:59:48", "symbol": "SOL/USDT", "action": "BUY", "price": 89.17, "amount": 9.084578, "cost": 810.38},
-    {"time": "2026-04-17T20:36:21", "symbol": "SOL/USDT", "action": "SELL", "price": 88.67, "amount": 9.084578, "cost": 810.38, "revenue": 805.48, "profit": -4.91, "profit_pct": -0.61, "reason": "SIGNAL"},
-    {"time": "2026-04-18T04:01:40", "symbol": "ETH/USDT", "action": "SELL", "price": 2401.27, "amount": 0.371845, "cost": 899.96, "revenue": 893.71, "profit": -6.25, "profit_pct": -0.69, "reason": "SIGNAL"},
-    {"time": "2026-04-18T08:38:11", "symbol": "BTC/USDT", "action": "SELL", "price": 76550.0, "amount": 0.012959, "cost": 999.32, "revenue": 991.32, "profit": -8.0, "profit_pct": -0.8, "reason": "SIGNAL"},
-    {"time": "2026-04-19T11:42:31", "symbol": "SOL/USDT", "action": "BUY", "price": 85.41, "amount": 11.685809, "cost": 998.13},
-    {"time": "2026-04-19T13:05:39", "symbol": "BTC/USDT", "action": "BUY", "price": 75664.66, "amount": 0.011872, "cost": 898.14},
-    {"time": "2026-04-19T13:42:50", "symbol": "ETH/USDT", "action": "BUY", "price": 2340.54, "amount": 0.345415, "cost": 808.43},
-    {"time": "2026-04-19T18:06:21", "symbol": "BTC/USDT", "action": "SELL", "price": 74776.22, "amount": 0.011872, "cost": 898.14, "revenue": 887.59, "profit": -10.55, "profit_pct": -1.17, "reason": "SIGNAL"},
-    {"time": "2026-04-19T18:06:22", "symbol": "ETH/USDT", "action": "SELL", "price": 2295.83, "amount": 0.345415, "cost": 808.43, "revenue": 792.98, "profit": -15.45, "profit_pct": -1.91, "reason": "SIGNAL"}
-  ],
-  "closed_positions": [
-    {"time": "2026-04-17T20:36:21", "symbol": "SOL/USDT", "action": "SELL", "profit": -4.91, "profit_pct": -0.61, "reason": "SIGNAL", "holding_hours": 1.6},
-    {"time": "2026-04-18T04:01:40", "symbol": "ETH/USDT", "action": "SELL", "profit": -6.25, "profit_pct": -0.69, "reason": "SIGNAL", "holding_hours": 9.0},
-    {"time": "2026-04-18T08:38:11", "symbol": "BTC/USDT", "action": "SELL", "profit": -8.0, "profit_pct": -0.8, "reason": "SIGNAL", "holding_hours": 13.6},
-    {"time": "2026-04-19T18:06:21", "symbol": "BTC/USDT", "action": "SELL", "profit": -10.55, "profit_pct": -1.17, "reason": "SIGNAL", "holding_hours": 5.0},
-    {"time": "2026-04-19T18:06:22", "symbol": "ETH/USDT", "action": "SELL", "profit": -15.45, "profit_pct": -1.91, "reason": "SIGNAL", "holding_hours": 4.4}
-  ],
-  "recent_activity": [
-    {"time": "2026-04-19T18:06:22", "symbol": "ETH/USDT", "icon": "Ξ", "action": "SELL", "result": "loss", "profit": -15.45, "profit_pct": -1.91},
-    {"time": "2026-04-19T18:06:21", "symbol": "BTC/USDT", "icon": "₿", "action": "SELL", "result": "loss", "profit": -10.55, "profit_pct": -1.17},
-    {"time": "2026-04-19T13:42:50", "symbol": "ETH/USDT", "icon": "Ξ", "action": "BUY", "result": "open", "cost": 808.43},
-    {"time": "2026-04-19T13:05:39", "symbol": "BTC/USDT", "icon": "₿", "action": "BUY", "result": "open", "cost": 898.14},
-    {"time": "2026-04-19T11:42:31", "symbol": "SOL/USDT", "icon": "◎", "action": "BUY", "result": "open", "cost": 998.13}
-  ],
-  "portfolio_history": [
-    {"time": "2026-04-17T18:59:00", "value": 10000.00},
-    {"time": "2026-04-17T20:36:00", "value": 9995.09},
-    {"time": "2026-04-18T04:01:00", "value": 9988.84},
-    {"time": "2026-04-18T08:38:00", "value": 9980.84},
-    {"time": "2026-04-19T11:42:00", "value": 9980.84},
-    {"time": "2026-04-19T13:05:00", "value": 9979.84},
-    {"time": "2026-04-19T13:42:00", "value": 9971.42},
-    {"time": "2026-04-19T18:06:00", "value": 9950.27},
-    {"time": "2026-04-19T20:00:00", "value": 9949.78}
-  ],
-  "market_comparison": {
-    "buy_and_hold": {
-      "label": "Si hubieras comprado BTC+ETH+SOL y mantenido",
-      "description": "Estrategia HODL pura",
-      "value": 10014.40,
-      "profit": 14.40,
-      "profit_pct": 0.14,
-      "icon": "sloth"
+    {
+      "time": "2026-04-17T18:59:45.180715",
+      "symbol": "BTC/USDT",
+      "action": "BUY",
+      "price": 77167.38,
+      "amount": 0.012959,
+      "cost": 999.317571,
+      "order_id": "6259729"
     },
-    "our_strategy": {
-      "label": "Nuestra estrategia Momentum",
-      "description": "Compra/venta por senales",
-      "value": 9949.78,
-      "profit": -50.22,
-      "profit_pct": -0.50,
-      "icon": "bolt"
+    {
+      "time": "2026-04-17T18:59:46.667885",
+      "symbol": "ETH/USDT",
+      "action": "BUY",
+      "price": 2420.55,
+      "amount": 0.371845,
+      "cost": 899.964208,
+      "order_id": "3293164"
     },
-    "difference": {
-      "value": -64.62,
-      "pct": -0.64
+    {
+      "time": "2026-04-17T18:59:48.142573",
+      "symbol": "SOL/USDT",
+      "action": "BUY",
+      "price": 89.17,
+      "amount": 9.084578,
+      "cost": 810.38364,
+      "order_id": "843744"
+    },
+    {
+      "time": "2026-04-17T20:36:21.119602",
+      "symbol": "SOL/USDT",
+      "action": "SELL",
+      "price": 88.67,
+      "amount": 9.084578,
+      "revenue": 805.47828,
+      "profit": -4.905359999999973,
+      "profit_pct": -0.6053133056832161,
+      "reason": "SIGNAL",
+      "order_id": "848205"
+    },
+    {
+      "time": "2026-04-18T04:01:40.170721",
+      "symbol": "ETH/USDT",
+      "action": "SELL",
+      "price": 2401.27,
+      "amount": 0.371845,
+      "revenue": 893.71425,
+      "profit": -6.249957999999992,
+      "profit_pct": -0.6944673959744844,
+      "reason": "SIGNAL",
+      "order_id": "3367603"
+    },
+    {
+      "time": "2026-04-18T08:38:11.753454",
+      "symbol": "BTC/USDT",
+      "action": "SELL",
+      "price": 76550.0,
+      "amount": 0.012959,
+      "revenue": 991.3225,
+      "profit": -7.995071000000053,
+      "profit_pct": -0.8000530794229428,
+      "reason": "SIGNAL",
+      "order_id": "6415035"
+    },
+    {
+      "time": "2026-04-19T11:42:31.359338",
+      "symbol": "SOL/USDT",
+      "action": "BUY",
+      "price": 85.41,
+      "amount": 11.685809,
+      "cost": 998.1327,
+      "order_id": "1000663"
+    },
+    {
+      "time": "2026-04-19T13:05:39.311925",
+      "symbol": "BTC/USDT",
+      "action": "BUY",
+      "price": 75664.66,
+      "amount": 0.011872,
+      "cost": 898.1395142,
+      "order_id": "6771463"
+    },
+    {
+      "time": "2026-04-19T13:42:50.283422",
+      "symbol": "ETH/USDT",
+      "action": "BUY",
+      "price": 2340.54,
+      "amount": 0.345415,
+      "cost": 808.42597,
+      "order_id": "3654773"
+    },
+    {
+      "time": "2026-04-19T18:06:21.416873",
+      "symbol": "BTC/USDT",
+      "action": "SELL",
+      "price": 74776.22,
+      "amount": 0.011872,
+      "revenue": 887.5936127,
+      "profit": -10.545901500000014,
+      "profit_pct": -1.1741941350162692,
+      "reason": "SIGNAL",
+      "order_id": "6847844"
+    },
+    {
+      "time": "2026-04-19T18:06:22.654102",
+      "symbol": "ETH/USDT",
+      "action": "SELL",
+      "price": 2295.83,
+      "amount": 0.345415,
+      "revenue": 792.976228,
+      "profit": -15.449742000000015,
+      "profit_pct": -1.9110892738886178,
+      "reason": "SIGNAL",
+      "order_id": "3699780"
+    },
+    {
+      "time": "2026-04-19T22:06:54.519196",
+      "symbol": "SOL/USDT",
+      "action": "SELL",
+      "price": 84.43,
+      "amount": 11.685809,
+      "revenue": 986.4477,
+      "profit": -11.684999999999945,
+      "profit_pct": -1.1706860220088917,
+      "reason": "SIGNAL",
+      "order_id": "1029726"
     }
-  },
-  "performance": {
-    "total_return": -0.50,
-    "max_drawdown": -0.65,
-    "sharpe_ratio": -1.2
-  },
-  "info": {
-    "exchange": "Binance Testnet",
-    "strategy": "Momentum Multi-Indicator",
-    "account_type": "PAPER TRADING",
-    "currency": "USDT",
-    "start_date": "2026-04-17"
-  }
+  ],
+  "start_time": "2026-04-17T18:59:45.180715"
 }
