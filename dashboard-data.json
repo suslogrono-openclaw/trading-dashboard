@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-20T07:45:49.170928",
+  "last_update": "2026-04-20T07:45:52.974118",
   "initial_capital": 10000,
   "capital": {
     "total": 9947.51,
@@ -136,7 +136,7 @@
       "drawdown": 0.37
     },
     {
-      "time": "2026-04-20T07:45:48.645705",
+      "time": "2026-04-20T07:45:52.486154",
       "value": 9947.51,
       "positions": 3,
       "drawdown": 0.52
@@ -588,7 +588,7 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -4.58,
+      "profit": -4.57,
       "profit_pct": -0.05,
       "description": "BTC buy and hold since first trade"
     },
