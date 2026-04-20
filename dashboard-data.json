@@ -1,18 +1,18 @@
 {
-  "last_update": "2026-04-20T06:49:17.558933",
+  "last_update": "2026-04-20T06:49:54.473796",
   "initial_capital": 10000,
   "capital": {
-    "total": 9943.17,
-    "available": 9943.17,
-    "invested": 0,
-    "pnl": -56.83,
+    "total": 9943.19,
+    "available": 9147.73,
+    "invested": 795.45,
+    "pnl": -56.81,
     "pnl_pct": -0.57,
     "peak": 10000,
     "drawdown_pct": 0.57
   },
   "stats": {
-    "positions_open": 0,
-    "total_trades": 12,
+    "positions_open": 1,
+    "total_trades": 13,
     "completed_trades": 6,
     "wins": 0,
     "losses": 6,
@@ -68,9 +68,38 @@
       "value": 9943.17,
       "positions": 0,
       "drawdown": 0.57
+    },
+    {
+      "time": "2026-04-20T06:49:53.856048",
+      "value": 9943.19,
+      "positions": 1,
+      "drawdown": 0.57
     }
   ],
-  "positions": {},
+  "positions": {
+    "XRP/USDT": {
+      "symbol": "XRP/USDT",
+      "name": "Ripple",
+      "icon": "✦",
+      "entry_price": 1.4126,
+      "current_price": 1.4126,
+      "amount": 563.113066,
+      "value": 795.45,
+      "cost": 795.44,
+      "pnl": 0,
+      "pnl_pct": 0,
+      "stop_loss": 1.4048428571428573,
+      "take_profit": 1.428114285714286,
+      "entry_time": "2026-04-20T06:49:48.579841",
+      "hours_open": 0.0,
+      "indicators": {
+        "mean_reversion": 0.25,
+        "trend": 1.1,
+        "momentum": 0.45,
+        "volatility": -0.35
+      }
+    }
+  },
   "recent_activity": [
     {
       "time": "2026-04-17T18:59:45.180715",
@@ -227,6 +256,19 @@
       "result": "loss",
       "reason": "SIGNAL",
       "icon": "◎"
+    },
+    {
+      "time": "2026-04-20T06:49:48.579841",
+      "symbol": "XRP/USDT",
+      "action": "BUY",
+      "price": 1.4126,
+      "amount": 563.113066,
+      "cost": 795.43506,
+      "profit": 0,
+      "profit_pct": 0,
+      "result": null,
+      "reason": "SIGNAL",
+      "icon": "✦"
     }
   ],
   "trades": [
@@ -355,22 +397,39 @@
       "profit_pct": -1.1706860220088917,
       "reason": "SIGNAL",
       "order_id": "1029726"
+    },
+    {
+      "time": "2026-04-20T06:49:48.579841",
+      "symbol": "XRP/USDT",
+      "action": "BUY",
+      "price": 1.4126,
+      "amount": 563.113066,
+      "cost": 795.43506,
+      "order_id": "841812",
+      "stop_loss": 1.4048428571428573,
+      "take_profit": 1.428114285714286,
+      "indicators": {
+        "mean_reversion": 0.25,
+        "trend": 1.1,
+        "momentum": 0.45,
+        "volatility": -0.35
+      }
     }
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -14.45,
-      "profit_pct": -0.14,
+      "profit": -17.08,
+      "profit_pct": -0.17,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -56.83,
+      "profit": -56.81,
       "profit_pct": -0.57,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -42.38,
-      "pct": -0.42,
+      "value": -39.73,
+      "pct": -0.4,
       "description": "Our strategy vs HODL"
     }
   }
