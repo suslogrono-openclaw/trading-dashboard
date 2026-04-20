@@ -1,34 +1,34 @@
 {
-  "last_update": "2026-04-20T08:33:30.766811",
+  "last_update": "2026-04-20T08:45:44.625354",
   "initial_capital": 10000,
   "capital": {
-    "total": 9447.28,
-    "available": 7243.21,
-    "invested": 2204.07,
-    "pnl": -552.72,
-    "pnl_pct": -5.53,
+    "total": 8945.7,
+    "available": 8945.7,
+    "invested": 0,
+    "pnl": -1054.3,
+    "pnl_pct": -10.54,
     "peak": 10000,
-    "drawdown_pct": 5.53
+    "drawdown_pct": 10.54
   },
   "stats": {
-    "positions_open": 3,
-    "total_trades": 15,
-    "completed_trades": 6,
-    "wins": 0,
-    "losses": 6,
-    "win_rate": 0.0,
+    "positions_open": 0,
+    "total_trades": 18,
+    "completed_trades": 9,
+    "wins": 2,
+    "losses": 7,
+    "win_rate": 22.2,
     "best_trade": {
-      "symbol": "SOL/USDT",
-      "profit": -4.91,
-      "profit_pct": -0.61
+      "symbol": "DOGE/USDT",
+      "profit": 0.93,
+      "profit_pct": 0.13
     },
     "worst_trade": {
       "symbol": "ETH/USDT",
       "profit": -15.45,
       "profit_pct": -1.91
     },
-    "avg_profit": -9.47,
-    "avg_time_in_position_hours": 0
+    "avg_profit": -6.16,
+    "avg_time_in_position_hours": 1.8
   },
   "portfolio_history": [
     {
@@ -164,76 +164,15 @@
       "value": 9945.24,
       "positions": 3,
       "drawdown": 0.55
+    },
+    {
+      "time": "2026-04-20T08:45:44.149027",
+      "value": 8945.55,
+      "positions": 0,
+      "drawdown": 10.54
     }
   ],
-  "positions": {
-    "XRP/USDT": {
-      "symbol": "XRP/USDT",
-      "name": "Ripple",
-      "icon": "✦",
-      "entry_price": 1.4126,
-      "current_price": 1.4145,
-      "amount": 563.113066,
-      "value": 796.52,
-      "cost": 795.44,
-      "pnl": 1.09,
-      "pnl_pct": 0.13,
-      "stop_loss": 1.4048428571428573,
-      "take_profit": 1.428114285714286,
-      "entry_time": "2026-04-20T06:49:48.579841",
-      "hours_open": 1.7,
-      "indicators": {
-        "mean_reversion": 0.25,
-        "trend": 1.1,
-        "momentum": 0.45,
-        "volatility": -0.35
-      }
-    },
-    "DOGE/USDT": {
-      "symbol": "DOGE/USDT",
-      "name": "Dogecoin",
-      "icon": "Ð",
-      "entry_price": 0.09421,
-      "current_price": 0.09435,
-      "amount": 7767.951519,
-      "value": 732.91,
-      "cost": 731.81,
-      "pnl": 1.1,
-      "pnl_pct": 0.15,
-      "stop_loss": 0.09354857142857143,
-      "take_profit": 0.09553285714285714,
-      "entry_time": "2026-04-20T06:51:23.437379",
-      "hours_open": 1.7,
-      "indicators": {
-        "mean_reversion": 0.25,
-        "trend": 0.6,
-        "momentum": 0.65,
-        "volatility": -0.15
-      }
-    },
-    "ADA/USDT": {
-      "symbol": "ADA/USDT",
-      "name": "Cardano",
-      "icon": "₳",
-      "entry_price": 0.2456,
-      "current_price": 0.2461,
-      "amount": 2741.344354,
-      "value": 674.64,
-      "cost": 673.54,
-      "pnl": 1.11,
-      "pnl_pct": 0.2,
-      "stop_loss": 0.24382857142857145,
-      "take_profit": 0.24914285714285717,
-      "entry_time": "2026-04-20T07:04:33.622691",
-      "hours_open": 1.5,
-      "indicators": {
-        "mean_reversion": 0,
-        "trend": 0.6,
-        "momentum": 0.35,
-        "volatility": 0.55
-      }
-    }
-  },
+  "positions": {},
   "recent_activity": [
     {
       "time": "2026-04-17T18:59:45.180715",
@@ -429,6 +368,45 @@
       "result": null,
       "reason": "SIGNAL",
       "icon": "₳"
+    },
+    {
+      "time": "2026-04-20T08:45:43.197246",
+      "symbol": "XRP/USDT",
+      "action": "SELL",
+      "price": 1.4118,
+      "amount": 563.113066,
+      "cost": 795.0972,
+      "profit": -0.33785999999997784,
+      "profit_pct": -0.04247486903581768,
+      "result": "loss",
+      "reason": "DRAWDOWN_PROTECTION",
+      "icon": "✦"
+    },
+    {
+      "time": "2026-04-20T08:45:43.670755",
+      "symbol": "DOGE/USDT",
+      "action": "SELL",
+      "price": 0.09434,
+      "amount": 7767.951519,
+      "cost": 732.73878,
+      "profit": 0.9320400000000291,
+      "profit_pct": 0.1273614943748713,
+      "result": "profit",
+      "reason": "DRAWDOWN_PROTECTION",
+      "icon": "Ð"
+    },
+    {
+      "time": "2026-04-20T08:45:44.147152",
+      "symbol": "ADA/USDT",
+      "action": "SELL",
+      "price": 0.246,
+      "amount": 2741.344354,
+      "cost": 674.3598,
+      "profit": 0.8223899999999276,
+      "profit_pct": 0.12210012210011134,
+      "result": "profit",
+      "reason": "DRAWDOWN_PROTECTION",
+      "icon": "₳"
     }
   ],
   "trades": [
@@ -608,22 +586,79 @@
         "momentum": 0.35,
         "volatility": 0.55
       }
+    },
+    {
+      "time": "2026-04-20T08:45:43.197246",
+      "symbol": "XRP/USDT",
+      "action": "SELL",
+      "price": 1.4118,
+      "amount": 563.113066,
+      "revenue": 795.0972,
+      "profit": -0.33785999999997784,
+      "profit_pct": -0.04247486903581768,
+      "reason": "DRAWDOWN_PROTECTION",
+      "order_id": "847403",
+      "holding_hours": 1.9,
+      "indicators": {
+        "mean_reversion": 0.25,
+        "trend": 1.1,
+        "momentum": 0.45,
+        "volatility": -0.35
+      }
+    },
+    {
+      "time": "2026-04-20T08:45:43.670755",
+      "symbol": "DOGE/USDT",
+      "action": "SELL",
+      "price": 0.09434,
+      "amount": 7767.951519,
+      "revenue": 732.73878,
+      "profit": 0.9320400000000291,
+      "profit_pct": 0.1273614943748713,
+      "reason": "DRAWDOWN_PROTECTION",
+      "order_id": "774657",
+      "holding_hours": 1.9,
+      "indicators": {
+        "mean_reversion": 0.25,
+        "trend": 0.6,
+        "momentum": 0.65,
+        "volatility": -0.15
+      }
+    },
+    {
+      "time": "2026-04-20T08:45:44.147152",
+      "symbol": "ADA/USDT",
+      "action": "SELL",
+      "price": 0.246,
+      "amount": 2741.344354,
+      "revenue": 674.3598,
+      "profit": 0.8223899999999276,
+      "profit_pct": 0.12210012210011134,
+      "reason": "DRAWDOWN_PROTECTION",
+      "order_id": "267332",
+      "holding_hours": 1.7,
+      "indicators": {
+        "mean_reversion": 0,
+        "trend": 0.6,
+        "momentum": 0.35,
+        "volatility": 0.55
+      }
     }
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -276.36,
-      "profit_pct": -2.76,
-      "description": "BTC buy and hold comparison"
+      "profit": -23.6,
+      "profit_pct": -0.24,
+      "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -552.72,
-      "profit_pct": -5.53,
+      "profit": -1054.3,
+      "profit_pct": -10.54,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -276.36,
-      "pct": -2.76,
+      "value": -1030.7,
+      "pct": -10.31,
       "description": "Our strategy vs HODL"
     }
   }
