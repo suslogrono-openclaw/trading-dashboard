@@ -1,18 +1,18 @@
 {
-  "last_update": "2026-04-20T07:04:27.655397",
+  "last_update": "2026-04-20T07:04:38.056649",
   "initial_capital": 10000,
   "capital": {
-    "total": 9943.8,
-    "available": 8415.93,
-    "invested": 1527.87,
-    "pnl": -56.2,
+    "total": 9943.53,
+    "available": 7742.39,
+    "invested": 2201.14,
+    "pnl": -56.47,
     "pnl_pct": -0.56,
     "peak": 10000,
     "drawdown_pct": 0.56
   },
   "stats": {
-    "positions_open": 2,
-    "total_trades": 14,
+    "positions_open": 3,
+    "total_trades": 15,
     "completed_trades": 6,
     "wins": 0,
     "losses": 6,
@@ -110,6 +110,12 @@
       "value": 9942.71,
       "positions": 2,
       "drawdown": 0.57
+    },
+    {
+      "time": "2026-04-20T07:04:37.560411",
+      "value": 9943.53,
+      "positions": 3,
+      "drawdown": 0.56
     }
   ],
   "positions": {
@@ -122,7 +128,7 @@
       "amount": 563.113066,
       "value": 796.13,
       "cost": 795.44,
-      "pnl": 0.69,
+      "pnl": 0.68,
       "pnl_pct": 0.08,
       "stop_loss": 1.4048428571428573,
       "take_profit": 1.428114285714286,
@@ -144,7 +150,7 @@
       "amount": 7767.951519,
       "value": 731.74,
       "cost": 731.81,
-      "pnl": -0.07,
+      "pnl": -0.08,
       "pnl_pct": -0.01,
       "stop_loss": 0.09354857142857143,
       "take_profit": 0.09553285714285714,
@@ -155,6 +161,28 @@
         "trend": 0.6,
         "momentum": 0.65,
         "volatility": -0.15
+      }
+    },
+    "ADA/USDT": {
+      "symbol": "ADA/USDT",
+      "name": "Cardano",
+      "icon": "₳",
+      "entry_price": 0.2456,
+      "current_price": 0.2456,
+      "amount": 2741.344354,
+      "value": 673.27,
+      "cost": 673.54,
+      "pnl": 0,
+      "pnl_pct": 0,
+      "stop_loss": 0.24382857142857145,
+      "take_profit": 0.24914285714285717,
+      "entry_time": "2026-04-20T07:04:33.622691",
+      "hours_open": 0.0,
+      "indicators": {
+        "mean_reversion": 0,
+        "trend": 0.6,
+        "momentum": 0.35,
+        "volatility": 0.55
       }
     }
   },
@@ -340,6 +368,19 @@
       "result": null,
       "reason": "SIGNAL",
       "icon": "Ð"
+    },
+    {
+      "time": "2026-04-20T07:04:33.622691",
+      "symbol": "ADA/USDT",
+      "action": "BUY",
+      "price": 0.2456,
+      "amount": 2741.344354,
+      "cost": 673.53741,
+      "profit": 0,
+      "profit_pct": 0,
+      "result": null,
+      "reason": "SIGNAL",
+      "icon": "₳"
     }
   ],
   "trades": [
@@ -502,22 +543,39 @@
         "momentum": 0.65,
         "volatility": -0.15
       }
+    },
+    {
+      "time": "2026-04-20T07:04:33.622691",
+      "symbol": "ADA/USDT",
+      "action": "BUY",
+      "price": 0.2456,
+      "amount": 2741.344354,
+      "cost": 673.53741,
+      "order_id": "265418",
+      "stop_loss": 0.24382857142857145,
+      "take_profit": 0.24914285714285717,
+      "indicators": {
+        "mean_reversion": 0,
+        "trend": 0.6,
+        "momentum": 0.35,
+        "volatility": 0.55
+      }
     }
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -28.1,
-      "profit_pct": -0.28,
-      "description": "BTC buy and hold comparison"
+      "profit": -25.26,
+      "profit_pct": -0.25,
+      "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -56.2,
+      "profit": -56.47,
       "profit_pct": -0.56,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -28.1,
-      "pct": -0.28,
+      "value": -31.21,
+      "pct": -0.31,
       "description": "Our strategy vs HODL"
     }
   }
