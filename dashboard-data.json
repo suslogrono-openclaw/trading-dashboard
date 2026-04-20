@@ -1,14 +1,14 @@
 {
-  "last_update": "2026-04-20T07:45:52.974118",
+  "last_update": "2026-04-20T07:45:56.335688",
   "initial_capital": 10000,
   "capital": {
-    "total": 9947.51,
+    "total": 9948.68,
     "available": 7742.39,
-    "invested": 2205.12,
-    "pnl": -52.49,
-    "pnl_pct": -0.52,
+    "invested": 2206.29,
+    "pnl": -51.32,
+    "pnl_pct": -0.51,
     "peak": 10000,
-    "drawdown_pct": 0.52
+    "drawdown_pct": 0.51
   },
   "stats": {
     "positions_open": 3,
@@ -148,12 +148,12 @@
       "name": "Ripple",
       "icon": "✦",
       "entry_price": 1.4126,
-      "current_price": 1.4154,
+      "current_price": 1.4165,
       "amount": 563.113066,
-      "value": 797.03,
+      "value": 797.65,
       "cost": 795.44,
-      "pnl": 1.58,
-      "pnl_pct": 0.2,
+      "pnl": 2.21,
+      "pnl_pct": 0.28,
       "stop_loss": 1.4048428571428573,
       "take_profit": 1.428114285714286,
       "entry_time": "2026-04-20T06:49:48.579841",
@@ -174,7 +174,7 @@
       "amount": 7767.951519,
       "value": 733.99,
       "cost": 731.81,
-      "pnl": 2.18,
+      "pnl": 2.19,
       "pnl_pct": 0.3,
       "stop_loss": 0.09354857142857143,
       "take_profit": 0.09553285714285714,
@@ -192,12 +192,12 @@
       "name": "Cardano",
       "icon": "₳",
       "entry_price": 0.2456,
-      "current_price": 0.2459,
+      "current_price": 0.2461,
       "amount": 2741.344354,
-      "value": 674.1,
+      "value": 674.64,
       "cost": 673.54,
-      "pnl": 0.82,
-      "pnl_pct": 0.12,
+      "pnl": 1.11,
+      "pnl_pct": 0.2,
       "stop_loss": 0.24382857142857145,
       "take_profit": 0.24914285714285717,
       "entry_time": "2026-04-20T07:04:33.622691",
@@ -588,18 +588,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -4.57,
-      "profit_pct": -0.05,
-      "description": "BTC buy and hold since first trade"
+      "profit": -25.66,
+      "profit_pct": -0.26,
+      "description": "BTC buy and hold comparison"
     },
     "our_strategy": {
-      "profit": -52.49,
-      "profit_pct": -0.52,
+      "profit": -51.32,
+      "profit_pct": -0.51,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -47.91,
-      "pct": -0.48,
+      "value": -25.66,
+      "pct": -0.26,
       "description": "Our strategy vs HODL"
     }
   }
