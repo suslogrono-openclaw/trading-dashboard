@@ -1,19 +1,30 @@
 {
   "last_update": "2026-04-19T23:44:25.204279",
+  "initial_capital": 10000.0,
+  "start_time": "2026-04-17T18:59:45.180715",
   "capital": {
-    "total": 9943.1689675,
-    "available": 9943.1689675,
+    "total": 9943.17,
+    "available": 9943.17,
     "invested": 0,
-    "pnl": -56.83103249999999,
-    "pnl_pct": -1.8943677499999998
+    "pnl": -56.83,
+    "pnl_pct": -0.57
   },
   "stats": {
-    "positions_open": 0,
     "total_trades": 12,
     "completed_trades": 6,
     "wins": 0,
     "losses": 6,
-    "win_rate": 0.0
+    "win_rate": 0.0,
+    "avg_profit": -9.47,
+    "avg_time_in_position_hours": -13.6,
+    "best_trade": {
+      "symbol": "SOL/USDT",
+      "profit": -4.91
+    },
+    "worst_trade": {
+      "symbol": "ETH/USDT",
+      "profit": -15.45
+    }
   },
   "positions": {},
   "trades": [
@@ -144,5 +155,72 @@
       "order_id": "1029726"
     }
   ],
-  "start_time": "2026-04-17T18:59:45.180715"
+  "portfolio_history": [
+    {
+      "time": "2026-04-17T18:59:45.180715",
+      "value": 10000.0
+    },
+    {
+      "time": "2026-04-17T18:59:45.180715",
+      "value": 10000.0
+    },
+    {
+      "time": "2026-04-17T18:59:46.667885",
+      "value": 10000.0
+    },
+    {
+      "time": "2026-04-17T18:59:48.142573",
+      "value": 10000.0
+    },
+    {
+      "time": "2026-04-17T20:36:21.119602",
+      "value": 9995.09
+    },
+    {
+      "time": "2026-04-18T04:01:40.170721",
+      "value": 9988.84
+    },
+    {
+      "time": "2026-04-18T08:38:11.753454",
+      "value": 9980.85
+    },
+    {
+      "time": "2026-04-19T11:42:31.359338",
+      "value": 9980.85
+    },
+    {
+      "time": "2026-04-19T13:05:39.311925",
+      "value": 9980.85
+    },
+    {
+      "time": "2026-04-19T13:42:50.283422",
+      "value": 9980.85
+    },
+    {
+      "time": "2026-04-19T18:06:21.416873",
+      "value": 9970.3
+    },
+    {
+      "time": "2026-04-19T18:06:22.654102",
+      "value": 9954.85
+    },
+    {
+      "time": "2026-04-19T22:06:54.519196",
+      "value": 9943.17
+    }
+  ],
+  "market_comparison": {
+    "buy_and_hold": {
+      "profit": -9989.06,
+      "profit_pct": -99.89
+    },
+    "our_strategy": {
+      "profit": -56.83,
+      "profit_pct": -0.57
+    },
+    "difference": {
+      "value": 9932.23,
+      "pct": 99.32
+    }
+  }
 }
