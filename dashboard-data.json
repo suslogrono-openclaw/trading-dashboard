@@ -1,22 +1,22 @@
 {
-  "last_update": "2026-04-21T14:34:36.452302",
+  "last_update": "2026-04-21T14:45:54.893818",
   "initial_capital": 10000,
   "capital": {
-    "total": 8944.05,
-    "available": 8944.05,
+    "total": 8943.34,
+    "available": 8943.34,
     "invested": 0,
-    "pnl": -1055.95,
-    "pnl_pct": -10.56,
+    "pnl": -1056.66,
+    "pnl_pct": -10.57,
     "peak": 10000,
-    "drawdown_pct": 10.56
+    "drawdown_pct": 10.57
   },
   "stats": {
     "positions_open": 0,
-    "total_trades": 28,
-    "completed_trades": 14,
+    "total_trades": 32,
+    "completed_trades": 16,
     "wins": 3,
-    "losses": 11,
-    "win_rate": 21.4,
+    "losses": 13,
+    "win_rate": 18.8,
     "best_trade": {
       "symbol": "DOGE/USDT",
       "profit": 0.93,
@@ -27,16 +27,10 @@
       "profit": -15.45,
       "profit_pct": -1.91
     },
-    "avg_profit": -4.08,
-    "avg_time_in_position_hours": 0.7
+    "avg_profit": -3.61,
+    "avg_time_in_position_hours": 0.6
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-20T21:34:09.190251",
-      "value": 8945.57,
-      "positions": 0,
-      "drawdown": 10.54
-    },
     {
       "time": "2026-04-20T21:45:42.746312",
       "value": 8945.57,
@@ -630,62 +624,16 @@
       "value": 8944.05,
       "positions": 0,
       "drawdown": 10.56
+    },
+    {
+      "time": "2026-04-21T14:45:54.398402",
+      "value": 8944.7,
+      "positions": 0,
+      "drawdown": 10.55
     }
   ],
   "positions": {},
   "recent_activity": [
-    {
-      "time": "2026-04-19T13:42:50.283422",
-      "symbol": "ETH/USDT",
-      "action": "BUY",
-      "price": 2340.54,
-      "amount": 0.345415,
-      "cost": 808.42597,
-      "profit": 0,
-      "profit_pct": 0,
-      "result": null,
-      "reason": "SIGNAL",
-      "icon": "Ξ"
-    },
-    {
-      "time": "2026-04-19T18:06:21.416873",
-      "symbol": "BTC/USDT",
-      "action": "SELL",
-      "price": 74776.22,
-      "amount": 0.011872,
-      "cost": 887.5936127,
-      "profit": -10.545901500000014,
-      "profit_pct": -1.1741941350162692,
-      "result": "loss",
-      "reason": "SIGNAL",
-      "icon": "₿"
-    },
-    {
-      "time": "2026-04-19T18:06:22.654102",
-      "symbol": "ETH/USDT",
-      "action": "SELL",
-      "price": 2295.83,
-      "amount": 0.345415,
-      "cost": 792.976228,
-      "profit": -15.449742000000015,
-      "profit_pct": -1.9110892738886178,
-      "result": "loss",
-      "reason": "SIGNAL",
-      "icon": "Ξ"
-    },
-    {
-      "time": "2026-04-19T22:06:54.519196",
-      "symbol": "SOL/USDT",
-      "action": "SELL",
-      "price": 84.43,
-      "amount": 11.685809,
-      "cost": 986.4477,
-      "profit": -11.684999999999945,
-      "profit_pct": -1.1706860220088917,
-      "result": "loss",
-      "reason": "SIGNAL",
-      "icon": "◎"
-    },
     {
       "time": "2026-04-20T06:49:48.579841",
       "symbol": "XRP/USDT",
@@ -853,7 +801,7 @@
       "profit_pct": 0,
       "result": null,
       "reason": "SIGNAL",
-      "icon": "?"
+      "icon": "◆"
     },
     {
       "time": "2026-04-21T08:30:58.037706",
@@ -866,7 +814,7 @@
       "profit_pct": -0.10775862068965289,
       "result": "loss",
       "reason": "DRAWDOWN_PROTECTION",
-      "icon": "?"
+      "icon": "◆"
     },
     {
       "time": "2026-04-21T08:31:24.882175",
@@ -879,7 +827,7 @@
       "profit_pct": 0,
       "result": null,
       "reason": "SIGNAL",
-      "icon": "?"
+      "icon": "◆"
     },
     {
       "time": "2026-04-21T08:31:25.902853",
@@ -892,7 +840,59 @@
       "profit_pct": -0.10775862068965482,
       "result": "loss",
       "reason": "DRAWDOWN_PROTECTION",
-      "icon": "?"
+      "icon": "◆"
+    },
+    {
+      "time": "2026-04-21T14:45:44.219951",
+      "symbol": "BTC/USDT",
+      "action": "BUY",
+      "price": 76463.59,
+      "amount": 0.009358,
+      "cost": 714.93466,
+      "profit": 0,
+      "profit_pct": 0,
+      "result": null,
+      "reason": "SIGNAL",
+      "icon": "₿"
+    },
+    {
+      "time": "2026-04-21T14:45:49.586007",
+      "symbol": "AVAX/USDT",
+      "action": "BUY",
+      "price": 9.45,
+      "amount": 69.664441,
+      "cost": 658.287,
+      "profit": 0,
+      "profit_pct": 0,
+      "result": null,
+      "reason": "SIGNAL",
+      "icon": "▲"
+    },
+    {
+      "time": "2026-04-21T14:45:53.920181",
+      "symbol": "BTC/USDT",
+      "action": "SELL",
+      "price": 76462.01,
+      "amount": 0.009358,
+      "cost": 714.9197935,
+      "profit": -0.014866500000039196,
+      "profit_pct": -0.002079420796305944,
+      "result": "loss",
+      "reason": "DRAWDOWN_PROTECTION",
+      "icon": "₿"
+    },
+    {
+      "time": "2026-04-21T14:45:54.396822",
+      "symbol": "AVAX/USDT",
+      "action": "SELL",
+      "price": 9.45,
+      "amount": 69.664441,
+      "cost": 657.5904,
+      "profit": -0.6965999999999894,
+      "profit_pct": -0.10582010582010422,
+      "result": "loss",
+      "reason": "DRAWDOWN_PROTECTION",
+      "icon": "▲"
     }
   ],
   "trades": [
@@ -1309,22 +1309,94 @@
         "momentum": 0.5,
         "volatility": 0.25
       }
+    },
+    {
+      "time": "2026-04-21T14:45:44.219951",
+      "symbol": "BTC/USDT",
+      "action": "BUY",
+      "price": 76463.59,
+      "amount": 0.009358,
+      "cost": 714.93466,
+      "order_id": "7631072",
+      "stop_loss": 74409.12999999999,
+      "take_profit": 80572.51,
+      "indicators": {
+        "mean_reversion": 0,
+        "trend": 0.7,
+        "momentum": 0.65,
+        "volatility": 0
+      }
+    },
+    {
+      "time": "2026-04-21T14:45:49.586007",
+      "symbol": "AVAX/USDT",
+      "action": "BUY",
+      "price": 9.45,
+      "amount": 69.664441,
+      "cost": 658.287,
+      "order_id": "206415",
+      "stop_loss": 9.337142857142856,
+      "take_profit": 9.675714285714287,
+      "indicators": {
+        "mean_reversion": 0,
+        "trend": 0.6,
+        "momentum": 0.65,
+        "volatility": 0.35
+      }
+    },
+    {
+      "time": "2026-04-21T14:45:53.920181",
+      "symbol": "BTC/USDT",
+      "action": "SELL",
+      "price": 76462.01,
+      "amount": 0.009358,
+      "revenue": 714.9197935,
+      "profit": -0.014866500000039196,
+      "profit_pct": -0.002079420796305944,
+      "reason": "DRAWDOWN_PROTECTION",
+      "order_id": "7631119",
+      "holding_hours": 0,
+      "indicators": {
+        "mean_reversion": 0,
+        "trend": 0.7,
+        "momentum": 0.65,
+        "volatility": 0
+      }
+    },
+    {
+      "time": "2026-04-21T14:45:54.396822",
+      "symbol": "AVAX/USDT",
+      "action": "SELL",
+      "price": 9.45,
+      "amount": 69.664441,
+      "revenue": 657.5904,
+      "profit": -0.6965999999999894,
+      "profit_pct": -0.10582010582010422,
+      "reason": "DRAWDOWN_PROTECTION",
+      "order_id": "206418",
+      "holding_hours": 0,
+      "indicators": {
+        "mean_reversion": 0,
+        "trend": 0.6,
+        "momentum": 0.65,
+        "volatility": 0.35
+      }
     }
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -527.98,
-      "profit_pct": -5.28,
-      "description": "BTC buy and hold comparison"
+      "profit": 114.67,
+      "profit_pct": 1.15,
+      "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1055.95,
-      "profit_pct": -10.56,
+      "profit": -1056.66,
+      "profit_pct": -10.57,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -527.98,
-      "pct": -5.28,
+      "value": -1171.34,
+      "pct": -11.71,
       "description": "Our strategy vs HODL"
     }
   }
