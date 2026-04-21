@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-21T20:02:11.990581",
+  "last_update": "2026-04-21T20:02:25.693157",
   "initial_capital": 10000,
   "capital": {
     "total": 8943.34,
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 0.6
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-21T12:32:54.188272",
-      "value": 8944.05,
-      "positions": 0,
-      "drawdown": 10.56
-    },
     {
       "time": "2026-04-21T12:33:05.824528",
       "value": 8944.05,
@@ -627,6 +621,12 @@
     },
     {
       "time": "2026-04-21T20:02:11.501103",
+      "value": 8943.34,
+      "positions": 0,
+      "drawdown": 10.57
+    },
+    {
+      "time": "2026-04-21T20:02:25.200416",
       "value": 8943.34,
       "positions": 0,
       "drawdown": 10.57
@@ -1385,7 +1385,7 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -305.23,
+      "profit": -305.24,
       "profit_pct": -3.05,
       "description": "BTC buy and hold since first trade"
     },
