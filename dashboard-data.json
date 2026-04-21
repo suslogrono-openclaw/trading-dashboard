@@ -1,11 +1,11 @@
 {
-  "last_update": "2026-04-21T20:17:19.853714",
+  "last_update": "2026-04-21T20:31:20.345075",
   "initial_capital": 10000,
   "capital": {
-    "total": 8943.79,
+    "total": 8944.45,
     "available": 8227.88,
-    "invested": 715.91,
-    "pnl": -1056.21,
+    "invested": 716.57,
+    "pnl": -1055.55,
     "pnl_pct": -10.56,
     "peak": 10000,
     "drawdown_pct": 10.56
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 0.6
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-21T12:36:25.390630",
-      "value": 8944.05,
-      "positions": 0,
-      "drawdown": 10.56
-    },
     {
       "time": "2026-04-21T12:45:41.918879",
       "value": 8944.05,
@@ -630,6 +624,12 @@
       "value": 8943.79,
       "positions": 1,
       "drawdown": 10.56
+    },
+    {
+      "time": "2026-04-21T20:31:19.850724",
+      "value": 8944.45,
+      "positions": 1,
+      "drawdown": 10.56
     }
   ],
   "positions": {
@@ -638,16 +638,16 @@
       "name": "Ethereum",
       "icon": "Ξ",
       "entry_price": 2319.9,
-      "current_price": 2321.35,
+      "current_price": 2323.49,
       "amount": 0.308404,
-      "value": 715.91,
+      "value": 716.57,
       "cost": 715.46,
-      "pnl": 0.45,
-      "pnl_pct": 0.06,
+      "pnl": 1.11,
+      "pnl_pct": 0.15,
       "stop_loss": 2190.4,
       "take_profit": 2578.8999999999996,
       "entry_time": "2026-04-21T20:16:18.884654",
-      "hours_open": 0.0,
+      "hours_open": 0.2,
       "indicators": {
         "mean_reversion": 0.25,
         "trend": 1.1,
@@ -1425,18 +1425,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -255.39,
-      "profit_pct": -2.55,
+      "profit": -232.74,
+      "profit_pct": -2.33,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1056.21,
+      "profit": -1055.55,
       "profit_pct": -10.56,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -800.82,
-      "pct": -8.01,
+      "value": -822.81,
+      "pct": -8.23,
       "description": "Our strategy vs HODL"
     }
   }
