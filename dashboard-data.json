@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-21T13:46:05.297617",
+  "last_update": "2026-04-21T14:01:06.335676",
   "initial_capital": 10000,
   "capital": {
     "total": 8944.05,
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 0.7
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-20T19:45:52.480161",
-      "value": 8945.57,
-      "positions": 0,
-      "drawdown": 10.54
-    },
     {
       "time": "2026-04-20T20:04:15.872253",
       "value": 8945.57,
@@ -630,6 +624,12 @@
       "value": 8944.05,
       "positions": 0,
       "drawdown": 10.56
+    },
+    {
+      "time": "2026-04-21T14:01:05.845129",
+      "value": 8944.05,
+      "positions": 0,
+      "drawdown": 10.56
     }
   ],
   "positions": {},
@@ -853,7 +853,7 @@
       "profit_pct": 0,
       "result": null,
       "reason": "SIGNAL",
-      "icon": "?"
+      "icon": "◆"
     },
     {
       "time": "2026-04-21T08:30:58.037706",
@@ -866,7 +866,7 @@
       "profit_pct": -0.10775862068965289,
       "result": "loss",
       "reason": "DRAWDOWN_PROTECTION",
-      "icon": "?"
+      "icon": "◆"
     },
     {
       "time": "2026-04-21T08:31:24.882175",
@@ -879,7 +879,7 @@
       "profit_pct": 0,
       "result": null,
       "reason": "SIGNAL",
-      "icon": "?"
+      "icon": "◆"
     },
     {
       "time": "2026-04-21T08:31:25.902853",
@@ -892,7 +892,7 @@
       "profit_pct": -0.10775862068965482,
       "result": "loss",
       "reason": "DRAWDOWN_PROTECTION",
-      "icon": "?"
+      "icon": "◆"
     }
   ],
   "trades": [
@@ -1313,9 +1313,9 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -527.98,
-      "profit_pct": -5.28,
-      "description": "BTC buy and hold comparison"
+      "profit": 39.42,
+      "profit_pct": 0.39,
+      "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
       "profit": -1055.95,
@@ -1323,8 +1323,8 @@
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -527.98,
-      "pct": -5.28,
+      "value": -1095.37,
+      "pct": -10.95,
       "description": "Our strategy vs HODL"
     }
   }
