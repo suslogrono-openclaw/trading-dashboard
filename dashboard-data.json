@@ -1,14 +1,14 @@
 {
-  "last_update": "2026-04-21T22:15:50.490949",
+  "last_update": "2026-04-21T22:15:57.796895",
   "initial_capital": 10000,
   "capital": {
-    "total": 8225.43,
+    "total": 8224.99,
     "available": 6812.79,
-    "invested": 1412.64,
-    "pnl": -1774.57,
+    "invested": 1412.21,
+    "pnl": -1775.01,
     "pnl_pct": -17.75,
     "peak": 8227.88,
-    "drawdown_pct": 0.03
+    "drawdown_pct": 0.04
   },
   "stats": {
     "positions_open": 2,
@@ -16,7 +16,7 @@
     "completed_trades": 0,
     "wins": 0,
     "losses": 0,
-    "win_rate": 0.0,
+    "win_rate": 0,
     "best_trade": {
       "symbol": "-",
       "profit": 0,
@@ -638,12 +638,12 @@
       "name": "Ethereum",
       "icon": "Ξ",
       "entry_price": 2318.03,
-      "current_price": 2314.72,
+      "current_price": 2314.07,
       "amount": 0.3549511904720819,
-      "value": 821.61,
+      "value": 821.38,
       "cost": 822.79,
-      "pnl": -1.17,
-      "pnl_pct": -0.14,
+      "pnl": -1.41,
+      "pnl_pct": -0.17,
       "stop_loss": 2202.1285000000003,
       "take_profit": 2665.7345,
       "entry_time": "2026-04-21T20:59:44.673467",
@@ -660,12 +660,12 @@
       "name": "Solana",
       "icon": "◎",
       "entry_price": 85.55,
-      "current_price": 85.35,
+      "current_price": 85.32,
       "amount": 6.924798,
-      "value": 591.03,
+      "value": 590.82,
       "cost": 592.42,
-      "pnl": -1.38,
-      "pnl_pct": -0.23,
+      "pnl": -1.59,
+      "pnl_pct": -0.27,
       "stop_loss": 83.49642857142857,
       "take_profit": 89.65714285714284,
       "entry_time": "2026-04-21T21:01:05.967123",
@@ -714,18 +714,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -253.27,
-      "profit_pct": -2.53,
-      "description": "BTC buy and hold since first trade"
+      "profit": -887.5,
+      "profit_pct": -8.88,
+      "description": "BTC buy and hold comparison"
     },
     "our_strategy": {
-      "profit": -1774.57,
+      "profit": -1775.01,
       "profit_pct": -17.75,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1521.3,
-      "pct": -15.21,
+      "value": -887.5,
+      "pct": -8.88,
       "description": "Our strategy vs HODL"
     }
   }
