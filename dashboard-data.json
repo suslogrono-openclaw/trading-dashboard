@@ -1,18 +1,18 @@
 {
-  "last_update": "2026-04-21T20:15:53.762591",
+  "last_update": "2026-04-21T20:16:26.429890",
   "initial_capital": 10000,
   "capital": {
     "total": 8943.34,
-    "available": 8943.34,
-    "invested": 0,
+    "available": 8227.88,
+    "invested": 715.47,
     "pnl": -1056.66,
     "pnl_pct": -10.57,
     "peak": 10000,
     "drawdown_pct": 10.57
   },
   "stats": {
-    "positions_open": 0,
-    "total_trades": 32,
+    "positions_open": 1,
+    "total_trades": 33,
     "completed_trades": 16,
     "wins": 3,
     "losses": 13,
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 0.6
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-21T12:35:27.136433",
-      "value": 8944.05,
-      "positions": 0,
-      "drawdown": 10.56
-    },
     {
       "time": "2026-04-21T12:35:40.733648",
       "value": 8944.05,
@@ -630,23 +624,39 @@
       "value": 8943.34,
       "positions": 0,
       "drawdown": 10.57
+    },
+    {
+      "time": "2026-04-21T20:16:25.871627",
+      "value": 8943.34,
+      "positions": 1,
+      "drawdown": 10.57
     }
   ],
-  "positions": {},
+  "positions": {
+    "ETH/USDT": {
+      "symbol": "ETH/USDT",
+      "name": "Ethereum",
+      "icon": "Ξ",
+      "entry_price": 2319.9,
+      "current_price": 2319.9,
+      "amount": 0.308404,
+      "value": 715.47,
+      "cost": 715.46,
+      "pnl": 0,
+      "pnl_pct": 0,
+      "stop_loss": 2190.4,
+      "take_profit": 2578.8999999999996,
+      "entry_time": "2026-04-21T20:16:18.884654",
+      "hours_open": 0.0,
+      "indicators": {
+        "mean_reversion": 0.25,
+        "trend": 1.1,
+        "momentum": 0.35,
+        "volatility": -0.35
+      }
+    }
+  },
   "recent_activity": [
-    {
-      "time": "2026-04-20T06:49:48.579841",
-      "symbol": "XRP/USDT",
-      "action": "BUY",
-      "price": 1.4126,
-      "amount": 563.113066,
-      "cost": 795.43506,
-      "profit": 0,
-      "profit_pct": 0,
-      "result": null,
-      "reason": "SIGNAL",
-      "icon": "✦"
-    },
     {
       "time": "2026-04-20T06:51:23.437379",
       "symbol": "DOGE/USDT",
@@ -801,7 +811,7 @@
       "profit_pct": 0,
       "result": null,
       "reason": "SIGNAL",
-      "icon": "?"
+      "icon": "◆"
     },
     {
       "time": "2026-04-21T08:30:58.037706",
@@ -814,7 +824,7 @@
       "profit_pct": -0.10775862068965289,
       "result": "loss",
       "reason": "DRAWDOWN_PROTECTION",
-      "icon": "?"
+      "icon": "◆"
     },
     {
       "time": "2026-04-21T08:31:24.882175",
@@ -827,7 +837,7 @@
       "profit_pct": 0,
       "result": null,
       "reason": "SIGNAL",
-      "icon": "?"
+      "icon": "◆"
     },
     {
       "time": "2026-04-21T08:31:25.902853",
@@ -840,7 +850,7 @@
       "profit_pct": -0.10775862068965482,
       "result": "loss",
       "reason": "DRAWDOWN_PROTECTION",
-      "icon": "?"
+      "icon": "◆"
     },
     {
       "time": "2026-04-21T14:45:44.219951",
@@ -893,6 +903,19 @@
       "result": "loss",
       "reason": "DRAWDOWN_PROTECTION",
       "icon": "▲"
+    },
+    {
+      "time": "2026-04-21T20:16:18.884654",
+      "symbol": "ETH/USDT",
+      "action": "BUY",
+      "price": 2319.9,
+      "amount": 0.308404,
+      "cost": 715.460244,
+      "profit": 0,
+      "profit_pct": 0,
+      "result": null,
+      "reason": "SIGNAL",
+      "icon": "Ξ"
     }
   ],
   "trades": [
@@ -1381,13 +1404,30 @@
         "momentum": 0.65,
         "volatility": 0.35
       }
+    },
+    {
+      "time": "2026-04-21T20:16:18.884654",
+      "symbol": "ETH/USDT",
+      "action": "BUY",
+      "price": 2319.9,
+      "amount": 0.308404,
+      "cost": 715.460244,
+      "order_id": "4206080",
+      "stop_loss": 2190.4,
+      "take_profit": 2578.8999999999996,
+      "indicators": {
+        "mean_reversion": 0.25,
+        "trend": 1.1,
+        "momentum": 0.35,
+        "volatility": -0.35
+      }
     }
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -528.33,
-      "profit_pct": -5.28,
-      "description": "BTC buy and hold comparison"
+      "profit": -265.31,
+      "profit_pct": -2.65,
+      "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
       "profit": -1056.66,
@@ -1395,8 +1435,8 @@
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -528.33,
-      "pct": -5.28,
+      "value": -791.35,
+      "pct": -7.91,
       "description": "Our strategy vs HODL"
     }
   }
