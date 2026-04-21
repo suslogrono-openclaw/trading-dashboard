@@ -1,14 +1,14 @@
 {
-  "last_update": "2026-04-21T22:01:35.858700",
+  "last_update": "2026-04-21T22:15:50.490949",
   "initial_capital": 10000,
   "capital": {
-    "total": 8223.94,
+    "total": 8225.43,
     "available": 6812.79,
-    "invested": 1411.15,
-    "pnl": -1776.06,
-    "pnl_pct": -17.76,
+    "invested": 1412.64,
+    "pnl": -1774.57,
+    "pnl_pct": -17.75,
     "peak": 8227.88,
-    "drawdown_pct": 0.05
+    "drawdown_pct": 0.03
   },
   "stats": {
     "positions_open": 2,
@@ -16,7 +16,7 @@
     "completed_trades": 0,
     "wins": 0,
     "losses": 0,
-    "win_rate": 0,
+    "win_rate": 0.0,
     "best_trade": {
       "symbol": "-",
       "profit": 0,
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 0
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-21T13:17:32.904059",
-      "value": 8944.05,
-      "positions": 0,
-      "drawdown": 10.56
-    },
     {
       "time": "2026-04-21T13:30:46.499622",
       "value": 8944.05,
@@ -630,6 +624,12 @@
       "value": 8222.96,
       "positions": 2,
       "drawdown": 0.06
+    },
+    {
+      "time": "2026-04-21T22:15:50.003262",
+      "value": 8225.43,
+      "positions": 2,
+      "drawdown": 0.03
     }
   ],
   "positions": {
@@ -638,16 +638,16 @@
       "name": "Ethereum",
       "icon": "Ξ",
       "entry_price": 2318.03,
-      "current_price": 2313.84,
+      "current_price": 2314.72,
       "amount": 0.3549511904720819,
-      "value": 821.3,
+      "value": 821.61,
       "cost": 822.79,
-      "pnl": -1.49,
-      "pnl_pct": -0.18,
+      "pnl": -1.17,
+      "pnl_pct": -0.14,
       "stop_loss": 2202.1285000000003,
       "take_profit": 2665.7345,
       "entry_time": "2026-04-21T20:59:44.673467",
-      "hours_open": 1.0,
+      "hours_open": 1.3,
       "indicators": {
         "momentum_breakout": 2.0,
         "rsi_mean_reversion": 2.0,
@@ -660,16 +660,16 @@
       "name": "Solana",
       "icon": "◎",
       "entry_price": 85.55,
-      "current_price": 85.18,
+      "current_price": 85.35,
       "amount": 6.924798,
-      "value": 589.85,
+      "value": 591.03,
       "cost": 592.42,
-      "pnl": -2.56,
-      "pnl_pct": -0.43,
+      "pnl": -1.38,
+      "pnl_pct": -0.23,
       "stop_loss": 83.49642857142857,
       "take_profit": 89.65714285714284,
       "entry_time": "2026-04-21T21:01:05.967123",
-      "hours_open": 1.0,
+      "hours_open": 1.2,
       "indicators": {
         "mean_reversion": 0,
         "trend": 0.6,
@@ -714,18 +714,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -888.03,
-      "profit_pct": -8.88,
-      "description": "BTC buy and hold comparison"
+      "profit": -253.27,
+      "profit_pct": -2.53,
+      "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1776.06,
-      "profit_pct": -17.76,
+      "profit": -1774.57,
+      "profit_pct": -17.75,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -888.03,
-      "pct": -8.88,
+      "value": -1521.3,
+      "pct": -15.21,
       "description": "Our strategy vs HODL"
     }
   }
