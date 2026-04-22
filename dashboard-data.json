@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-22T16:02:37.283020",
+  "last_update": "2026-04-22T16:02:50.376614",
   "initial_capital": 10000,
   "capital": {
     "total": 8304.61,
@@ -647,7 +647,7 @@
       "stop_loss": 2202.1285000000003,
       "take_profit": 2665.7345,
       "entry_time": "2026-04-21T20:59:44.673467",
-      "hours_open": 19.0,
+      "hours_open": 19.1,
       "indicators": {
         "momentum_breakout": 2.0,
         "rsi_mean_reversion": 2.0,
@@ -682,7 +682,7 @@
       "name": "Bitcoin",
       "icon": "₿",
       "entry_price": 75846.7,
-      "current_price": 79309.54,
+      "current_price": 79310.06,
       "amount": 0.007186,
       "value": 569.92,
       "cost": 544.58,
@@ -766,7 +766,7 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -847.7,
+      "profit": -847.69,
       "profit_pct": -8.48,
       "description": "BTC buy and hold comparison"
     },
@@ -776,7 +776,7 @@
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -847.7,
+      "value": -847.69,
       "pct": -8.48,
       "description": "Our strategy vs HODL"
     }
