@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-22T20:15:22.832994",
+  "last_update": "2026-04-22T20:30:47.844213",
   "initial_capital": 10000,
   "capital": {
     "total": 8230.48,
@@ -647,7 +647,7 @@
       "stop_loss": 2202.1285000000003,
       "take_profit": 2665.7345,
       "entry_time": "2026-04-21T20:59:44.673467",
-      "hours_open": 23.3,
+      "hours_open": 23.5,
       "indicators": {
         "momentum_breakout": 2.0,
         "rsi_mean_reversion": 2.0,
@@ -669,7 +669,7 @@
       "stop_loss": 83.49642857142857,
       "take_profit": 89.65714285714284,
       "entry_time": "2026-04-21T21:01:05.967123",
-      "hours_open": 23.2,
+      "hours_open": 23.5,
       "indicators": {
         "mean_reversion": 0,
         "trend": 0.6,
@@ -691,7 +691,7 @@
       "stop_loss": 66430.14642857143,
       "take_profit": 94679.80714285713,
       "entry_time": "2026-04-21T23:06:09.973074",
-      "hours_open": 21.2,
+      "hours_open": 21.4,
       "indicators": {
         "mean_reversion": -0.3,
         "trend": 1.1,
