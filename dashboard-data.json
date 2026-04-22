@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-22T12:15:46.820172",
+  "last_update": "2026-04-22T12:15:54.268405",
   "initial_capital": 10000,
   "capital": {
     "total": 8296.62,
@@ -7,8 +7,8 @@
     "invested": 2028.41,
     "pnl": -1703.38,
     "pnl_pct": -17.03,
-    "peak": 8227.88,
-    "drawdown_pct": -0.84
+    "peak": 8296.62,
+    "drawdown_pct": 0.0
   },
   "stats": {
     "positions_open": 3,
@@ -16,7 +16,7 @@
     "completed_trades": 0,
     "wins": 0,
     "losses": 0,
-    "win_rate": 0,
+    "win_rate": 0.0,
     "best_trade": {
       "symbol": "-",
       "profit": 0,
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 0
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-22T00:18:08.037961",
-      "value": 8239.73,
-      "positions": 3,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-22T00:18:34.297935",
       "value": 8239.76,
@@ -630,6 +624,12 @@
       "value": 8293.85,
       "positions": 3,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-22T12:15:53.686669",
+      "value": 8296.62,
+      "positions": 3,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,7 +638,7 @@
       "name": "Ethereum",
       "icon": "Ξ",
       "entry_price": 2318.03,
-      "current_price": 2402.77,
+      "current_price": 2402.78,
       "amount": 0.3549511904720819,
       "value": 852.87,
       "cost": 822.79,
@@ -682,11 +682,11 @@
       "name": "Bitcoin",
       "icon": "₿",
       "entry_price": 75846.7,
-      "current_price": 78420.0,
+      "current_price": 78419.99,
       "amount": 0.007186,
       "value": 563.53,
       "cost": 544.58,
-      "pnl": 18.95,
+      "pnl": 18.49,
       "pnl_pct": 3.39,
       "stop_loss": 66430.14642857143,
       "take_profit": 94679.80714285713,
@@ -766,9 +766,9 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -851.69,
-      "profit_pct": -8.52,
-      "description": "BTC buy and hold comparison"
+      "profit": 237.61,
+      "profit_pct": 2.38,
+      "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
       "profit": -1703.38,
@@ -776,8 +776,8 @@
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -851.69,
-      "pct": -8.52,
+      "value": -1940.99,
+      "pct": -19.41,
       "description": "Our strategy vs HODL"
     }
   }
