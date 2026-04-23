@@ -1,18 +1,18 @@
 {
-  "last_update": "2026-04-23T20:15:34.387588",
+  "last_update": "2026-04-23T20:15:44.603827",
   "initial_capital": 10000,
   "capital": {
-    "total": 8243.13,
-    "available": 6826.87,
-    "invested": 1416.26,
-    "pnl": -1756.87,
+    "total": 8243.22,
+    "available": 6280.82,
+    "invested": 1962.41,
+    "pnl": -1756.78,
     "pnl_pct": -17.57,
-    "peak": 8227.88,
-    "drawdown_pct": -0.19
+    "peak": 8243.22,
+    "drawdown_pct": 0.0
   },
   "stats": {
-    "positions_open": 2,
-    "total_trades": 3,
+    "positions_open": 3,
+    "total_trades": 4,
     "completed_trades": 1,
     "wins": 1,
     "losses": 0,
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 42.2
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-23T11:46:10.852834",
-      "value": 8244.74,
-      "positions": 3,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-23T12:03:49.427327",
       "value": 8249.02,
@@ -630,6 +624,12 @@
       "value": 8242.07,
       "positions": 2,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-23T20:15:44.109077",
+      "value": 8243.22,
+      "positions": 3,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -676,6 +676,28 @@
         "momentum": 0.45,
         "volatility": 0.35
       }
+    },
+    "BNB/USDT": {
+      "symbol": "BNB/USDT",
+      "name": "BNB",
+      "icon": "◈",
+      "entry_price": 636.98,
+      "current_price": 636.98,
+      "amount": 0.857405,
+      "value": 546.15,
+      "cost": 546.05,
+      "pnl": 0,
+      "pnl_pct": 0,
+      "stop_loss": 590.9621428571429,
+      "take_profit": 729.0157142857142,
+      "entry_time": "2026-04-23T20:15:38.578448",
+      "hours_open": 0.0,
+      "indicators": {
+        "mean_reversion": 0.25,
+        "trend": 0.7,
+        "momentum": 0.65,
+        "volatility": 0.25
+      }
     }
   },
   "recent_activity": [
@@ -717,6 +739,19 @@
       "result": "profit",
       "reason": "SIGNAL",
       "icon": "₿"
+    },
+    {
+      "time": "2026-04-23T20:15:38.578448",
+      "symbol": "BNB/USDT",
+      "action": "BUY",
+      "price": 636.98,
+      "amount": 0.857405,
+      "cost": 546.05469,
+      "profit": 0,
+      "profit_pct": 0,
+      "result": null,
+      "reason": "SIGNAL",
+      "icon": "◈"
     }
   ],
   "trades": [
@@ -772,22 +807,39 @@
         "momentum": 0.35,
         "volatility": 0.25
       }
+    },
+    {
+      "time": "2026-04-23T20:15:38.578448",
+      "symbol": "BNB/USDT",
+      "action": "BUY",
+      "price": 636.98,
+      "amount": 0.857405,
+      "cost": 546.05469,
+      "order_id": "2966846",
+      "stop_loss": 590.9621428571429,
+      "take_profit": 729.0157142857142,
+      "indicators": {
+        "mean_reversion": 0.25,
+        "trend": 0.7,
+        "momentum": 0.65,
+        "volatility": 0.25
+      }
     }
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -878.44,
-      "profit_pct": -8.78,
-      "description": "BTC buy and hold comparison"
+      "profit": 405.7,
+      "profit_pct": 4.06,
+      "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1756.87,
+      "profit": -1756.78,
       "profit_pct": -17.57,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -878.44,
-      "pct": -8.78,
+      "value": -2162.48,
+      "pct": -21.62,
       "description": "Our strategy vs HODL"
     }
   }
