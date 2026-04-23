@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-23T19:15:31.849634",
+  "last_update": "2026-04-23T19:15:56.066193",
   "initial_capital": 10000,
   "capital": {
     "total": 8237.46,
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 42.2
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-23T10:03:03.212617",
-      "value": 8241.62,
-      "positions": 3,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-23T10:03:22.500996",
       "value": 8241.97,
@@ -630,6 +624,12 @@
       "value": 8237.46,
       "positions": 2,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-23T19:15:55.489422",
+      "value": 8237.46,
+      "positions": 2,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,7 +638,7 @@
       "name": "Ethereum",
       "icon": "Ξ",
       "entry_price": 2318.03,
-      "current_price": 2308.53,
+      "current_price": 2308.54,
       "amount": 0.3549511904720819,
       "value": 819.42,
       "cost": 822.79,
