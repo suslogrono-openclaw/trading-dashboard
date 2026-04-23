@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-23T13:01:33.834865",
+  "last_update": "2026-04-23T13:01:43.747473",
   "initial_capital": 10000,
   "capital": {
     "total": 8248.72,
@@ -7,8 +7,8 @@
     "invested": 1980.51,
     "pnl": -1751.28,
     "pnl_pct": -17.51,
-    "peak": 8227.88,
-    "drawdown_pct": -0.25
+    "peak": 8248.72,
+    "drawdown_pct": 0.0
   },
   "stats": {
     "positions_open": 3,
@@ -16,7 +16,7 @@
     "completed_trades": 0,
     "wins": 0,
     "losses": 0,
-    "win_rate": 0,
+    "win_rate": 0.0,
     "best_trade": {
       "symbol": "-",
       "profit": 0,
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 0
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-23T04:05:45.648406",
-      "value": 8249.6,
-      "positions": 3,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-23T04:15:28.228992",
       "value": 8253.58,
@@ -630,6 +624,12 @@
       "value": 8249.9,
       "positions": 3,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-23T13:01:43.222610",
+      "value": 8248.72,
+      "positions": 3,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -682,11 +682,11 @@
       "name": "Bitcoin",
       "icon": "₿",
       "entry_price": 75846.7,
-      "current_price": 77800.0,
+      "current_price": 77800.01,
       "amount": 0.007186,
       "value": 559.07,
       "cost": 544.58,
-      "pnl": 14.49,
+      "pnl": 14.04,
       "pnl_pct": 2.58,
       "stop_loss": 66430.14642857143,
       "take_profit": 94679.80714285713,
@@ -766,9 +766,9 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -875.64,
-      "profit_pct": -8.76,
-      "description": "BTC buy and hold comparison"
+      "profit": 342.66,
+      "profit_pct": 3.43,
+      "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
       "profit": -1751.28,
@@ -776,8 +776,8 @@
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -875.64,
-      "pct": -8.76,
+      "value": -2093.94,
+      "pct": -20.94,
       "description": "Our strategy vs HODL"
     }
   }
