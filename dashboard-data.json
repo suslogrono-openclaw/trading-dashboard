@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-23T21:00:48.954810",
+  "last_update": "2026-04-23T21:00:59.298224",
   "initial_capital": 10000,
   "capital": {
     "total": 8243.82,
@@ -7,8 +7,8 @@
     "invested": 2465.94,
     "pnl": -1756.18,
     "pnl_pct": -17.56,
-    "peak": 8227.88,
-    "drawdown_pct": -0.19
+    "peak": 8243.82,
+    "drawdown_pct": 0.0
   },
   "stats": {
     "positions_open": 4,
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 42.2
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-23T12:45:47.857179",
-      "value": 8249.9,
-      "positions": 3,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-23T13:01:43.222610",
       "value": 8248.72,
@@ -630,6 +624,12 @@
       "value": 8248.81,
       "positions": 4,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-23T21:00:58.682343",
+      "value": 8243.82,
+      "positions": 4,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -686,7 +686,7 @@
       "amount": 0.857405,
       "value": 546.85,
       "cost": 546.05,
-      "pnl": 0.8,
+      "pnl": 0.7,
       "pnl_pct": 0.13,
       "stop_loss": 590.9621428571429,
       "take_profit": 729.0157142857142,
@@ -708,7 +708,7 @@
       "amount": 53.797141,
       "value": 500.85,
       "cost": 502.94,
-      "pnl": -2.09,
+      "pnl": -1.61,
       "pnl_pct": -0.32,
       "stop_loss": 8.28642857142857,
       "take_profit": 11.447142857142861,
@@ -880,9 +880,9 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -878.09,
-      "profit_pct": -8.78,
-      "description": "BTC buy and hold comparison"
+      "profit": 412.52,
+      "profit_pct": 4.13,
+      "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
       "profit": -1756.18,
@@ -890,8 +890,8 @@
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -878.09,
-      "pct": -8.78,
+      "value": -2168.7,
+      "pct": -21.69,
       "description": "Our strategy vs HODL"
     }
   }
