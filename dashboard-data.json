@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-23T05:16:23.699254",
+  "last_update": "2026-04-23T05:16:41.391433",
   "initial_capital": 10000,
   "capital": {
-    "total": 8257.99,
+    "total": 8257.92,
     "available": 6268.21,
-    "invested": 1989.79,
-    "pnl": -1742.01,
+    "invested": 1989.71,
+    "pnl": -1742.08,
     "pnl_pct": -17.42,
-    "peak": 8257.99,
+    "peak": 8257.92,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 0
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-22T14:31:37.565980",
-      "value": 8302.42,
-      "positions": 3,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-22T14:31:50.659218",
       "value": 8301.03,
@@ -630,6 +624,12 @@
       "value": 8257.99,
       "positions": 3,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-23T05:16:40.717996",
+      "value": 8257.92,
+      "positions": 3,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,9 +638,9 @@
       "name": "Ethereum",
       "icon": "Ξ",
       "entry_price": 2318.03,
-      "current_price": 2350.4,
+      "current_price": 2350.39,
       "amount": 0.3549511904720819,
-      "value": 834.28,
+      "value": 834.27,
       "cost": 822.79,
       "pnl": 11.49,
       "pnl_pct": 1.4,
@@ -660,12 +660,12 @@
       "name": "Solana",
       "icon": "◎",
       "entry_price": 85.55,
-      "current_price": 85.96,
+      "current_price": 85.95,
       "amount": 6.924798,
-      "value": 595.26,
+      "value": 595.19,
       "cost": 592.42,
-      "pnl": 2.84,
-      "pnl_pct": 0.48,
+      "pnl": 2.77,
+      "pnl_pct": 0.47,
       "stop_loss": 83.49642857142857,
       "take_profit": 89.65714285714284,
       "entry_time": "2026-04-21T21:01:05.967123",
@@ -771,12 +771,12 @@
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1742.01,
+      "profit": -1742.08,
       "profit_pct": -17.42,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -2067.12,
+      "value": -2067.2,
       "pct": -20.67,
       "description": "Our strategy vs HODL"
     }
