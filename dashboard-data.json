@@ -1,14 +1,14 @@
 {
-  "last_update": "2026-04-23T17:35:48.966734",
+  "last_update": "2026-04-23T17:36:00.641930",
   "initial_capital": 10000,
   "capital": {
-    "total": 8237.14,
+    "total": 8236.6,
     "available": 6826.87,
-    "invested": 1410.27,
-    "pnl": -1762.86,
+    "invested": 1409.73,
+    "pnl": -1763.4,
     "pnl_pct": -17.63,
-    "peak": 8237.14,
-    "drawdown_pct": 0.0
+    "peak": 8227.88,
+    "drawdown_pct": -0.11
   },
   "stats": {
     "positions_open": 2,
@@ -638,12 +638,12 @@
       "name": "Ethereum",
       "icon": "Ξ",
       "entry_price": 2318.03,
-      "current_price": 2311.16,
+      "current_price": 2310.4,
       "amount": 0.3549511904720819,
-      "value": 820.35,
+      "value": 820.08,
       "cost": 822.79,
-      "pnl": -2.44,
-      "pnl_pct": -0.3,
+      "pnl": -2.71,
+      "pnl_pct": -0.33,
       "stop_loss": 2202.1285000000003,
       "take_profit": 2665.7345,
       "entry_time": "2026-04-21T20:59:44.673467",
@@ -660,12 +660,12 @@
       "name": "Solana",
       "icon": "◎",
       "entry_price": 85.55,
-      "current_price": 85.19,
+      "current_price": 85.15,
       "amount": 6.924798,
-      "value": 589.92,
+      "value": 589.65,
       "cost": 592.42,
-      "pnl": -2.49,
-      "pnl_pct": -0.42,
+      "pnl": -2.77,
+      "pnl_pct": -0.47,
       "stop_loss": 83.49642857142857,
       "take_profit": 89.65714285714284,
       "entry_time": "2026-04-21T21:01:05.967123",
@@ -776,18 +776,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 215.15,
-      "profit_pct": 2.15,
-      "description": "BTC buy and hold since first trade"
+      "profit": -881.7,
+      "profit_pct": -8.82,
+      "description": "BTC buy and hold comparison"
     },
     "our_strategy": {
-      "profit": -1762.86,
+      "profit": -1763.4,
       "profit_pct": -17.63,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1978.01,
-      "pct": -19.78,
+      "value": -881.7,
+      "pct": -8.82,
       "description": "Our strategy vs HODL"
     }
   }
