@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-23T13:35:02.452285",
+  "last_update": "2026-04-23T13:35:15.690182",
   "initial_capital": 10000,
   "capital": {
-    "total": 8244.12,
+    "total": 8244.13,
     "available": 6268.21,
-    "invested": 1975.91,
-    "pnl": -1755.88,
+    "invested": 1975.92,
+    "pnl": -1755.87,
     "pnl_pct": -17.56,
-    "peak": 8244.12,
+    "peak": 8244.13,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 0
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-23T04:46:37.889248",
-      "value": 8255.42,
-      "positions": 3,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-23T04:47:24.962770",
       "value": 8255.25,
@@ -630,6 +624,12 @@
       "value": 8244.12,
       "positions": 3,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-23T13:35:15.167459",
+      "value": 8244.13,
+      "positions": 3,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,7 +638,7 @@
       "name": "Ethereum",
       "icon": "Ξ",
       "entry_price": 2318.03,
-      "current_price": 2322.79,
+      "current_price": 2322.8,
       "amount": 0.3549511904720819,
       "value": 824.48,
       "cost": 822.79,
@@ -682,7 +682,7 @@
       "name": "Bitcoin",
       "icon": "₿",
       "entry_price": 75846.7,
-      "current_price": 77600.24,
+      "current_price": 77600.23,
       "amount": 0.007186,
       "value": 557.64,
       "cost": 544.58,
@@ -766,18 +766,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 316.1,
-      "profit_pct": 3.16,
+      "profit": 317.68,
+      "profit_pct": 3.18,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1755.88,
+      "profit": -1755.87,
       "profit_pct": -17.56,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -2071.98,
-      "pct": -20.72,
+      "value": -2073.56,
+      "pct": -20.74,
       "description": "Our strategy vs HODL"
     }
   }
