@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-23T08:16:31.624676",
+  "last_update": "2026-04-23T08:17:05.267469",
   "initial_capital": 10000,
   "capital": {
-    "total": 8255.1,
+    "total": 8255.56,
     "available": 6268.21,
-    "invested": 1986.89,
-    "pnl": -1744.9,
-    "pnl_pct": -17.45,
-    "peak": 8255.1,
+    "invested": 1987.35,
+    "pnl": -1744.44,
+    "pnl_pct": -17.44,
+    "peak": 8255.56,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 0
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-22T17:38:12.937199",
-      "value": 8293.39,
-      "positions": 3,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-22T17:38:26.252994",
       "value": 8293.48,
@@ -630,6 +624,12 @@
       "value": 8255.1,
       "positions": 3,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-23T08:17:04.515846",
+      "value": 8255.56,
+      "positions": 3,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,12 +638,12 @@
       "name": "Ethereum",
       "icon": "Ξ",
       "entry_price": 2318.03,
-      "current_price": 2341.48,
+      "current_price": 2342.77,
       "amount": 0.3549511904720819,
-      "value": 831.11,
+      "value": 831.57,
       "cost": 822.79,
-      "pnl": 8.32,
-      "pnl_pct": 1.01,
+      "pnl": 8.78,
+      "pnl_pct": 1.07,
       "stop_loss": 2202.1285000000003,
       "take_profit": 2665.7345,
       "entry_time": "2026-04-21T20:59:44.673467",
@@ -682,7 +682,7 @@
       "name": "Bitcoin",
       "icon": "₿",
       "entry_price": 75846.7,
-      "current_price": 78089.46,
+      "current_price": 78089.63,
       "amount": 0.007186,
       "value": 561.15,
       "cost": 544.58,
@@ -766,18 +766,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 336.73,
+      "profit": 336.76,
       "profit_pct": 3.37,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1744.9,
-      "profit_pct": -17.45,
+      "profit": -1744.44,
+      "profit_pct": -17.44,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -2081.63,
-      "pct": -20.82,
+      "value": -2081.19,
+      "pct": -20.81,
       "description": "Our strategy vs HODL"
     }
   }
