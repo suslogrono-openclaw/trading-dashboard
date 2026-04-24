@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-24T22:02:34.011994",
+  "last_update": "2026-04-24T22:02:46.917055",
   "initial_capital": 10000,
   "capital": {
-    "total": 8242.08,
+    "total": 8242.07,
     "available": 7161.76,
     "invested": 1080.32,
-    "pnl": -1757.92,
+    "pnl": -1757.93,
     "pnl_pct": -17.58,
-    "peak": 8242.08,
+    "peak": 8242.07,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 34.0
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-24T13:15:29.889665",
-      "value": 8255.23,
-      "positions": 4,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-24T13:16:03.550825",
       "value": 8254.78,
@@ -630,6 +624,12 @@
       "value": 8242.08,
       "positions": 2,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-24T22:02:46.420889",
+      "value": 8242.07,
+      "positions": 2,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -660,9 +660,9 @@
       "name": "Ethereum",
       "icon": "Ξ",
       "entry_price": 2328.3,
-      "current_price": 2314.8,
+      "current_price": 2314.79,
       "amount": 0.247078,
-      "value": 571.94,
+      "value": 571.93,
       "cost": 575.09,
       "pnl": -3.34,
       "pnl_pct": -0.58,
@@ -1086,17 +1086,17 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 165.0,
+      "profit": 164.78,
       "profit_pct": 1.65,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1757.92,
+      "profit": -1757.93,
       "profit_pct": -17.58,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1922.93,
+      "value": -1922.71,
       "pct": -19.23,
       "description": "Our strategy vs HODL"
     }
