@@ -1,14 +1,14 @@
 {
-  "last_update": "2026-04-24T19:04:16.801878",
+  "last_update": "2026-04-24T19:04:28.399048",
   "initial_capital": 10000,
   "capital": {
-    "total": 8244.94,
+    "total": 8244.4,
     "available": 6615.81,
-    "invested": 1629.13,
-    "pnl": -1755.06,
-    "pnl_pct": -17.55,
-    "peak": 8244.94,
-    "drawdown_pct": 0.0
+    "invested": 1628.59,
+    "pnl": -1755.6,
+    "pnl_pct": -17.56,
+    "peak": 8227.88,
+    "drawdown_pct": -0.2
   },
   "stats": {
     "positions_open": 3,
@@ -642,7 +642,7 @@
       "amount": 0.857405,
       "value": 547.04,
       "cost": 546.05,
-      "pnl": 0.89,
+      "pnl": 0.99,
       "pnl_pct": 0.16,
       "stop_loss": 590.9621428571429,
       "take_profit": 729.0157142857142,
@@ -660,12 +660,12 @@
       "name": "Avalanche",
       "icon": "▲",
       "entry_price": 9.34,
-      "current_price": 9.45,
+      "current_price": 9.44,
       "amount": 53.797141,
-      "value": 508.38,
+      "value": 507.85,
       "cost": 502.94,
-      "pnl": 5.92,
-      "pnl_pct": 1.18,
+      "pnl": 4.91,
+      "pnl_pct": 1.07,
       "stop_loss": 8.28642857142857,
       "take_profit": 11.447142857142861,
       "entry_time": "2026-04-23T20:45:46.566665",
@@ -686,7 +686,7 @@
       "amount": 0.247078,
       "value": 573.71,
       "cost": 575.09,
-      "pnl": -1.57,
+      "pnl": -1.39,
       "pnl_pct": -0.27,
       "stop_loss": 1985.446428571429,
       "take_profit": 3014.0071428571428,
@@ -1076,18 +1076,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 309.99,
-      "profit_pct": 3.1,
-      "description": "BTC buy and hold since first trade"
+      "profit": -877.8,
+      "profit_pct": -8.78,
+      "description": "BTC buy and hold comparison"
     },
     "our_strategy": {
-      "profit": -1755.06,
-      "profit_pct": -17.55,
+      "profit": -1755.6,
+      "profit_pct": -17.56,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -2065.05,
-      "pct": -20.65,
+      "value": -877.8,
+      "pct": -8.78,
       "description": "Our strategy vs HODL"
     }
   }
