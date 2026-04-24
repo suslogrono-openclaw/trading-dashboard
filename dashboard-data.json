@@ -1,20 +1,20 @@
 {
-  "last_update": "2026-04-24T01:45:42.705795",
+  "last_update": "2026-04-24T01:45:52.937655",
   "initial_capital": 10000,
   "capital": {
-    "total": 8248.45,
-    "available": 5315.74,
-    "invested": 2932.71,
-    "pnl": -1751.55,
+    "total": 8248.33,
+    "available": 6139.72,
+    "invested": 2108.61,
+    "pnl": -1751.67,
     "pnl_pct": -17.52,
-    "peak": 8227.88,
-    "drawdown_pct": -0.25
+    "peak": 8248.33,
+    "drawdown_pct": 0.0
   },
   "stats": {
-    "positions_open": 5,
-    "total_trades": 6,
-    "completed_trades": 1,
-    "wins": 1,
+    "positions_open": 4,
+    "total_trades": 7,
+    "completed_trades": 2,
+    "wins": 2,
     "losses": 0,
     "win_rate": 100.0,
     "best_trade": {
@@ -23,20 +23,14 @@
       "profit_pct": 2.59
     },
     "worst_trade": {
-      "symbol": "BTC/USDT",
-      "profit": 14.08,
-      "profit_pct": 2.59
+      "symbol": "ETH/USDT",
+      "profit": 1.19,
+      "profit_pct": 0.14
     },
-    "avg_profit": 14.08,
-    "avg_time_in_position_hours": 42.2
+    "avg_profit": 7.64,
+    "avg_time_in_position_hours": 47.5
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-23T17:16:06.443158",
-      "value": 8239.72,
-      "positions": 2,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-23T17:16:46.268577",
       "value": 8239.44,
@@ -630,31 +624,15 @@
       "value": 8245.39,
       "positions": 5,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-24T01:45:52.414308",
+      "value": 8248.33,
+      "positions": 4,
+      "drawdown": 0.0
     }
   ],
   "positions": {
-    "ETH/USDT": {
-      "symbol": "ETH/USDT",
-      "name": "Ethereum",
-      "icon": "Ξ",
-      "entry_price": 2318.03,
-      "current_price": 2321.72,
-      "amount": 0.3549511904720819,
-      "value": 824.1,
-      "cost": 822.79,
-      "pnl": 1.31,
-      "pnl_pct": 0.16,
-      "stop_loss": 2202.1285000000003,
-      "take_profit": 2665.7345,
-      "entry_time": "2026-04-21T20:59:44.673467",
-      "hours_open": 52.8,
-      "indicators": {
-        "momentum_breakout": 2.0,
-        "rsi_mean_reversion": 2.0,
-        "trend_following": 2.0,
-        "wyckoff_accumulation": 0.0
-      }
-    },
     "SOL/USDT": {
       "symbol": "SOL/USDT",
       "name": "Solana",
@@ -686,7 +664,7 @@
       "amount": 0.857405,
       "value": 546.72,
       "cost": 546.05,
-      "pnl": 0.66,
+      "pnl": 0.57,
       "pnl_pct": 0.1,
       "stop_loss": 590.9621428571429,
       "take_profit": 729.0157142857142,
@@ -708,7 +686,7 @@
       "amount": 53.797141,
       "value": 505.69,
       "cost": 502.94,
-      "pnl": 2.76,
+      "pnl": 3.23,
       "pnl_pct": 0.64,
       "stop_loss": 8.28642857142857,
       "take_profit": 11.447142857142861,
@@ -730,7 +708,7 @@
       "amount": 321.283362,
       "value": 461.36,
       "cost": 462.14,
-      "pnl": -0.78,
+      "pnl": -0.87,
       "pnl_pct": -0.19,
       "stop_loss": 1.4252000000000002,
       "take_profit": 1.4657,
@@ -822,6 +800,19 @@
       "result": null,
       "reason": "SIGNAL",
       "icon": "✦"
+    },
+    {
+      "time": "2026-04-24T01:45:45.146220",
+      "symbol": "ETH/USDT",
+      "action": "SELL",
+      "price": 2321.72,
+      "amount": 0.3549511904720819,
+      "cost": 823.978428,
+      "profit": 1.1909199499999659,
+      "profit_pct": 0.14474210392698314,
+      "result": "profit",
+      "reason": "SIGNAL",
+      "icon": "Ξ"
     }
   ],
   "trades": [
@@ -928,22 +919,41 @@
         "momentum": 0.65,
         "volatility": -0.15
       }
+    },
+    {
+      "time": "2026-04-24T01:45:45.146220",
+      "symbol": "ETH/USDT",
+      "action": "SELL",
+      "price": 2321.72,
+      "amount": 0.3549511904720819,
+      "revenue": 823.978428,
+      "profit": 1.1909199499999659,
+      "profit_pct": 0.14474210392698314,
+      "reason": "SIGNAL",
+      "order_id": "4719848",
+      "holding_hours": 52.8,
+      "indicators": {
+        "momentum_breakout": 2.0,
+        "rsi_mean_reversion": 2.0,
+        "trend_following": 2.0,
+        "wyckoff_accumulation": 0.0
+      }
     }
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -875.78,
-      "profit_pct": -8.76,
-      "description": "BTC buy and hold comparison"
+      "profit": 534.2,
+      "profit_pct": 5.34,
+      "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1751.55,
+      "profit": -1751.67,
       "profit_pct": -17.52,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -875.78,
-      "pct": -8.76,
+      "value": -2285.87,
+      "pct": -22.86,
       "description": "Our strategy vs HODL"
     }
   }
