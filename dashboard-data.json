@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-24T07:03:52.642220",
+  "last_update": "2026-04-24T07:04:06.860219",
   "initial_capital": 10000,
   "capital": {
-    "total": 8239.65,
+    "total": 8239.63,
     "available": 5648.64,
-    "invested": 2591.01,
-    "pnl": -1760.35,
+    "invested": 2590.99,
+    "pnl": -1760.37,
     "pnl_pct": -17.6,
-    "peak": 8239.65,
+    "peak": 8239.63,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 47.5
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-23T21:32:35.169877",
-      "value": 8246.36,
-      "positions": 4,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-23T21:45:47.068594",
       "value": 8249.98,
@@ -630,6 +624,12 @@
       "value": 8239.65,
       "positions": 5,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-24T07:04:06.219177",
+      "value": 8239.63,
+      "positions": 5,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -726,11 +726,11 @@
       "name": "Bitcoin",
       "icon": "₿",
       "entry_price": 77948.06,
-      "current_price": 77785.44,
+      "current_price": 77782.75,
       "amount": 0.006301,
-      "value": 490.13,
+      "value": 490.11,
       "cost": 491.07,
-      "pnl": -1.02,
+      "pnl": -1.04,
       "pnl_pct": -0.21,
       "stop_loss": 76958.29571428572,
       "take_profit": 79927.58857142855,
@@ -994,18 +994,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 431.57,
-      "profit_pct": 4.32,
+      "profit": 431.08,
+      "profit_pct": 4.31,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1760.35,
+      "profit": -1760.37,
       "profit_pct": -17.6,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -2191.92,
-      "pct": -21.92,
+      "value": -2191.44,
+      "pct": -21.91,
       "description": "Our strategy vs HODL"
     }
   }
