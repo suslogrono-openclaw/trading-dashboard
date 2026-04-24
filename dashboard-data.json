@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-24T05:33:38.562006",
+  "last_update": "2026-04-24T05:33:50.052017",
   "initial_capital": 10000,
   "capital": {
-    "total": 8235.32,
+    "total": 8234.99,
     "available": 6139.72,
-    "invested": 2095.6,
-    "pnl": -1764.68,
+    "invested": 2095.27,
+    "pnl": -1765.01,
     "pnl_pct": -17.65,
-    "peak": 8235.32,
+    "peak": 8234.99,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 47.5
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-23T19:46:00.047110",
-      "value": 8238.23,
-      "positions": 2,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-23T19:46:35.202346",
       "value": 8238.74,
@@ -630,6 +624,12 @@
       "value": 8235.32,
       "positions": 4,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-24T05:33:49.551847",
+      "value": 8234.99,
+      "positions": 4,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,12 +638,12 @@
       "name": "Solana",
       "icon": "◎",
       "entry_price": 85.55,
-      "current_price": 85.31,
+      "current_price": 85.34,
       "amount": 6.924798,
-      "value": 590.75,
+      "value": 590.96,
       "cost": 592.42,
-      "pnl": -1.66,
-      "pnl_pct": -0.28,
+      "pnl": -1.45,
+      "pnl_pct": -0.25,
       "stop_loss": 83.49642857142857,
       "take_profit": 89.65714285714284,
       "entry_time": "2026-04-21T21:01:05.967123",
@@ -682,12 +682,12 @@
       "name": "Avalanche",
       "icon": "▲",
       "entry_price": 9.34,
-      "current_price": 9.35,
+      "current_price": 9.34,
       "amount": 53.797141,
-      "value": 503.0,
+      "value": 502.47,
       "cost": 502.94,
-      "pnl": 0.54,
-      "pnl_pct": 0.11,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
       "stop_loss": 8.28642857142857,
       "take_profit": 11.447142857142861,
       "entry_time": "2026-04-23T20:45:46.566665",
@@ -942,18 +942,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 443.45,
-      "profit_pct": 4.43,
+      "profit": 443.76,
+      "profit_pct": 4.44,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1764.68,
+      "profit": -1765.01,
       "profit_pct": -17.65,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -2208.13,
-      "pct": -22.08,
+      "value": -2208.77,
+      "pct": -22.09,
       "description": "Our strategy vs HODL"
     }
   }
