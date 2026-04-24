@@ -1,14 +1,14 @@
 {
-  "last_update": "2026-04-24T11:02:48.097254",
+  "last_update": "2026-04-24T11:02:52.498079",
   "initial_capital": 10000,
   "capital": {
-    "total": 8242.51,
+    "total": 8242.44,
     "available": 6106.32,
-    "invested": 2136.18,
-    "pnl": -1757.49,
-    "pnl_pct": -17.57,
-    "peak": 8242.51,
-    "drawdown_pct": 0.0
+    "invested": 2136.12,
+    "pnl": -1757.56,
+    "pnl_pct": -17.58,
+    "peak": 8227.88,
+    "drawdown_pct": -0.18
   },
   "stats": {
     "positions_open": 4,
@@ -638,12 +638,12 @@
       "name": "Solana",
       "icon": "◎",
       "entry_price": 85.55,
-      "current_price": 85.81,
+      "current_price": 85.8,
       "amount": 6.924798,
-      "value": 594.22,
+      "value": 594.15,
       "cost": 592.42,
-      "pnl": 1.8,
-      "pnl_pct": 0.3,
+      "pnl": 1.73,
+      "pnl_pct": 0.29,
       "stop_loss": 83.49642857142857,
       "take_profit": 89.65714285714284,
       "entry_time": "2026-04-21T21:01:05.967123",
@@ -664,7 +664,7 @@
       "amount": 0.857405,
       "value": 544.75,
       "cost": 546.05,
-      "pnl": -1.4,
+      "pnl": -1.3,
       "pnl_pct": -0.26,
       "stop_loss": 590.9621428571429,
       "take_profit": 729.0157142857142,
@@ -686,7 +686,7 @@
       "amount": 53.797141,
       "value": 506.23,
       "cost": 502.94,
-      "pnl": 3.77,
+      "pnl": 3.29,
       "pnl_pct": 0.75,
       "stop_loss": 8.28642857142857,
       "take_profit": 11.447142857142861,
@@ -708,7 +708,7 @@
       "amount": 0.006301,
       "value": 490.98,
       "cost": 491.07,
-      "pnl": -0.17,
+      "pnl": -0.09,
       "pnl_pct": -0.03,
       "stop_loss": 76958.29571428572,
       "take_profit": 79927.58857142855,
@@ -1004,18 +1004,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 426.46,
-      "profit_pct": 4.26,
-      "description": "BTC buy and hold since first trade"
+      "profit": -878.78,
+      "profit_pct": -8.79,
+      "description": "BTC buy and hold comparison"
     },
     "our_strategy": {
-      "profit": -1757.49,
-      "profit_pct": -17.57,
+      "profit": -1757.56,
+      "profit_pct": -17.58,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -2183.96,
-      "pct": -21.84,
+      "value": -878.78,
+      "pct": -8.79,
       "description": "Our strategy vs HODL"
     }
   }
