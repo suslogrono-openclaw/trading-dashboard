@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-24T10:02:59.302131",
+  "last_update": "2026-04-24T10:03:35.159065",
   "initial_capital": 10000,
   "capital": {
-    "total": 8231.8,
+    "total": 8231.9,
     "available": 6106.32,
-    "invested": 2125.48,
-    "pnl": -1768.2,
+    "invested": 2125.58,
+    "pnl": -1768.1,
     "pnl_pct": -17.68,
-    "peak": 8231.8,
+    "peak": 8231.9,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 34.8
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-24T00:45:44.547717",
-      "value": 8255.65,
-      "positions": 5,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-24T00:45:57.648981",
       "value": 8255.73,
@@ -630,6 +624,12 @@
       "value": 8231.8,
       "positions": 4,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-24T10:03:34.661252",
+      "value": 8231.9,
+      "positions": 4,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -704,12 +704,12 @@
       "name": "Bitcoin",
       "icon": "₿",
       "entry_price": 77948.06,
-      "current_price": 77462.45,
+      "current_price": 77479.28,
       "amount": 0.006301,
-      "value": 488.09,
+      "value": 488.2,
       "cost": 491.07,
-      "pnl": -3.06,
-      "pnl_pct": -0.62,
+      "pnl": -2.95,
+      "pnl_pct": -0.6,
       "stop_loss": 76958.29571428572,
       "take_profit": 79927.58857142855,
       "entry_time": "2026-04-24T06:05:03.451293",
@@ -1004,18 +1004,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 355.3,
-      "profit_pct": 3.55,
+      "profit": 357.39,
+      "profit_pct": 3.57,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1768.2,
+      "profit": -1768.1,
       "profit_pct": -17.68,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -2123.51,
-      "pct": -21.24,
+      "value": -2125.49,
+      "pct": -21.25,
       "description": "Our strategy vs HODL"
     }
   }
