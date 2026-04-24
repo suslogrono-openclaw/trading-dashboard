@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-24T19:15:41.934780",
+  "last_update": "2026-04-24T19:16:10.306822",
   "initial_capital": 10000,
   "capital": {
-    "total": 8243.7,
+    "total": 8243.58,
     "available": 6615.81,
-    "invested": 1627.89,
-    "pnl": -1756.3,
+    "invested": 1627.76,
+    "pnl": -1756.42,
     "pnl_pct": -17.56,
-    "peak": 8243.7,
+    "peak": 8243.58,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 35.8
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-24T10:35:12.378978",
-      "value": 8236.14,
-      "positions": 4,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-24T10:45:40.140046",
       "value": 8237.01,
@@ -630,6 +624,12 @@
       "value": 8243.7,
       "positions": 3,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-24T19:16:09.801094",
+      "value": 8243.58,
+      "positions": 3,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,12 +638,12 @@
       "name": "BNB",
       "icon": "◈",
       "entry_price": 636.98,
-      "current_price": 637.44,
+      "current_price": 637.38,
       "amount": 0.857405,
-      "value": 546.54,
+      "value": 546.49,
       "cost": 546.05,
-      "pnl": 0.39,
-      "pnl_pct": 0.07,
+      "pnl": 0.34,
+      "pnl_pct": 0.06,
       "stop_loss": 590.9621428571429,
       "take_profit": 729.0157142857142,
       "entry_time": "2026-04-23T20:15:38.578448",
@@ -682,12 +682,12 @@
       "name": "Ethereum",
       "icon": "Ξ",
       "entry_price": 2328.3,
-      "current_price": 2323.3,
+      "current_price": 2323.01,
       "amount": 0.247078,
-      "value": 574.04,
+      "value": 573.96,
       "cost": 575.09,
-      "pnl": -1.24,
-      "pnl_pct": -0.21,
+      "pnl": -1.31,
+      "pnl_pct": -0.23,
       "stop_loss": 1985.446428571429,
       "take_profit": 3014.0071428571428,
       "entry_time": "2026-04-24T15:45:35.911490",
@@ -1076,18 +1076,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 308.07,
+      "profit": 308.16,
       "profit_pct": 3.08,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1756.3,
+      "profit": -1756.42,
       "profit_pct": -17.56,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -2064.37,
-      "pct": -20.64,
+      "value": -2064.58,
+      "pct": -20.65,
       "description": "Our strategy vs HODL"
     }
   }
