@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-24T00:46:10.820827",
+  "last_update": "2026-04-24T00:46:26.518597",
   "initial_capital": 10000,
   "capital": {
-    "total": 8255.73,
+    "total": 8257.54,
     "available": 5315.74,
-    "invested": 2939.99,
-    "pnl": -1744.27,
-    "pnl_pct": -17.44,
-    "peak": 8255.73,
+    "invested": 2941.8,
+    "pnl": -1742.46,
+    "pnl_pct": -17.42,
+    "peak": 8257.54,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 42.2
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-23T16:46:14.698909",
-      "value": 8255.19,
-      "positions": 3,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-23T16:46:31.562774",
       "value": 8255.21,
@@ -630,6 +624,12 @@
       "value": 8255.73,
       "positions": 5,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-24T00:46:25.924946",
+      "value": 8257.54,
+      "positions": 5,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,12 +638,12 @@
       "name": "Ethereum",
       "icon": "Ξ",
       "entry_price": 2318.03,
-      "current_price": 2332.72,
+      "current_price": 2334.64,
       "amount": 0.3549511904720819,
-      "value": 828.0,
+      "value": 828.68,
       "cost": 822.79,
-      "pnl": 5.21,
-      "pnl_pct": 0.63,
+      "pnl": 5.9,
+      "pnl_pct": 0.72,
       "stop_loss": 2202.1285000000003,
       "take_profit": 2665.7345,
       "entry_time": "2026-04-21T20:59:44.673467",
@@ -660,16 +660,16 @@
       "name": "Solana",
       "icon": "◎",
       "entry_price": 85.55,
-      "current_price": 86.16,
+      "current_price": 86.2,
       "amount": 6.924798,
-      "value": 596.64,
+      "value": 596.92,
       "cost": 592.42,
-      "pnl": 4.22,
-      "pnl_pct": 0.71,
+      "pnl": 4.5,
+      "pnl_pct": 0.76,
       "stop_loss": 83.49642857142857,
       "take_profit": 89.65714285714284,
       "entry_time": "2026-04-21T21:01:05.967123",
-      "hours_open": 51.7,
+      "hours_open": 51.8,
       "indicators": {
         "mean_reversion": 0,
         "trend": 0.6,
@@ -682,12 +682,12 @@
       "name": "BNB",
       "icon": "◈",
       "entry_price": 636.98,
-      "current_price": 639.61,
+      "current_price": 639.79,
       "amount": 0.857405,
-      "value": 548.4,
+      "value": 548.56,
       "cost": 546.05,
-      "pnl": 2.25,
-      "pnl_pct": 0.41,
+      "pnl": 2.41,
+      "pnl_pct": 0.44,
       "stop_loss": 590.9621428571429,
       "take_profit": 729.0157142857142,
       "entry_time": "2026-04-23T20:15:38.578448",
@@ -704,12 +704,12 @@
       "name": "Avalanche",
       "icon": "▲",
       "entry_price": 9.34,
-      "current_price": 9.38,
+      "current_price": 9.39,
       "amount": 53.797141,
-      "value": 504.62,
+      "value": 505.16,
       "cost": 502.94,
-      "pnl": 2.15,
-      "pnl_pct": 0.43,
+      "pnl": 2.69,
+      "pnl_pct": 0.54,
       "stop_loss": 8.28642857142857,
       "take_profit": 11.447142857142861,
       "entry_time": "2026-04-23T20:45:46.566665",
@@ -726,12 +726,12 @@
       "name": "Ripple",
       "icon": "✦",
       "entry_price": 1.4387,
-      "current_price": 1.439,
+      "current_price": 1.4395,
       "amount": 321.283362,
-      "value": 462.33,
+      "value": 462.49,
       "cost": 462.14,
-      "pnl": 0.1,
-      "pnl_pct": 0.02,
+      "pnl": 0.26,
+      "pnl_pct": 0.06,
       "stop_loss": 1.4252000000000002,
       "take_profit": 1.4657,
       "entry_time": "2026-04-24T00:34:11.014436",
@@ -932,17 +932,17 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 533.56,
-      "profit_pct": 5.34,
+      "profit": 535.8,
+      "profit_pct": 5.36,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1744.27,
-      "profit_pct": -17.44,
+      "profit": -1742.46,
+      "profit_pct": -17.42,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -2277.83,
+      "value": -2278.26,
       "pct": -22.78,
       "description": "Our strategy vs HODL"
     }
