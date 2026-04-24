@@ -1,14 +1,14 @@
 {
-  "last_update": "2026-04-24T01:03:19.728050",
+  "last_update": "2026-04-24T01:03:30.160883",
   "initial_capital": 10000,
   "capital": {
-    "total": 8253.89,
+    "total": 8254.1,
     "available": 5315.74,
-    "invested": 2938.15,
-    "pnl": -1746.11,
+    "invested": 2938.36,
+    "pnl": -1745.9,
     "pnl_pct": -17.46,
-    "peak": 8253.89,
-    "drawdown_pct": 0.0
+    "peak": 8227.88,
+    "drawdown_pct": -0.32
   },
   "stats": {
     "positions_open": 5,
@@ -638,12 +638,12 @@
       "name": "Ethereum",
       "icon": "Ξ",
       "entry_price": 2318.03,
-      "current_price": 2328.89,
+      "current_price": 2329.29,
       "amount": 0.3549511904720819,
-      "value": 826.64,
+      "value": 826.78,
       "cost": 822.79,
-      "pnl": 3.85,
-      "pnl_pct": 0.47,
+      "pnl": 4.0,
+      "pnl_pct": 0.49,
       "stop_loss": 2202.1285000000003,
       "take_profit": 2665.7345,
       "entry_time": "2026-04-21T20:59:44.673467",
@@ -660,12 +660,12 @@
       "name": "Solana",
       "icon": "◎",
       "entry_price": 85.55,
-      "current_price": 86.08,
+      "current_price": 86.09,
       "amount": 6.924798,
-      "value": 596.09,
+      "value": 596.16,
       "cost": 592.42,
-      "pnl": 3.67,
-      "pnl_pct": 0.62,
+      "pnl": 3.74,
+      "pnl_pct": 0.63,
       "stop_loss": 83.49642857142857,
       "take_profit": 89.65714285714284,
       "entry_time": "2026-04-21T21:01:05.967123",
@@ -686,7 +686,7 @@
       "amount": 0.857405,
       "value": 548.29,
       "cost": 546.05,
-      "pnl": 2.14,
+      "pnl": 2.24,
       "pnl_pct": 0.39,
       "stop_loss": 590.9621428571429,
       "take_profit": 729.0157142857142,
@@ -708,7 +708,7 @@
       "amount": 53.797141,
       "value": 505.16,
       "cost": 502.94,
-      "pnl": 2.69,
+      "pnl": 2.22,
       "pnl_pct": 0.54,
       "stop_loss": 8.28642857142857,
       "take_profit": 11.447142857142861,
@@ -730,7 +730,7 @@
       "amount": 321.283362,
       "value": 461.97,
       "cost": 462.14,
-      "pnl": -0.26,
+      "pnl": -0.17,
       "pnl_pct": -0.06,
       "stop_loss": 1.4252000000000002,
       "take_profit": 1.4657,
@@ -932,18 +932,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 569.99,
-      "profit_pct": 5.7,
-      "description": "BTC buy and hold since first trade"
+      "profit": -872.95,
+      "profit_pct": -8.73,
+      "description": "BTC buy and hold comparison"
     },
     "our_strategy": {
-      "profit": -1746.11,
+      "profit": -1745.9,
       "profit_pct": -17.46,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -2316.1,
-      "pct": -23.16,
+      "value": -872.95,
+      "pct": -8.73,
       "description": "Our strategy vs HODL"
     }
   }
