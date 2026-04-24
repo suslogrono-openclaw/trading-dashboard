@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-24T14:03:20.067344",
+  "last_update": "2026-04-24T14:03:34.329472",
   "initial_capital": 10000,
   "capital": {
-    "total": 8245.94,
+    "total": 8244.44,
     "available": 6106.32,
-    "invested": 2139.62,
-    "pnl": -1754.06,
-    "pnl_pct": -17.54,
-    "peak": 8245.94,
+    "invested": 2138.12,
+    "pnl": -1755.56,
+    "pnl_pct": -17.56,
+    "peak": 8244.44,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 34.8
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-24T06:07:18.783483",
-      "value": 8239.1,
-      "positions": 5,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-24T06:07:48.172469",
       "value": 8239.01,
@@ -630,6 +624,12 @@
       "value": 8245.94,
       "positions": 4,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-24T14:03:33.827458",
+      "value": 8244.44,
+      "positions": 4,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,12 +638,12 @@
       "name": "Solana",
       "icon": "◎",
       "entry_price": 85.55,
-      "current_price": 85.98,
+      "current_price": 85.93,
       "amount": 6.924798,
-      "value": 595.39,
+      "value": 595.05,
       "cost": 592.42,
-      "pnl": 2.98,
-      "pnl_pct": 0.5,
+      "pnl": 2.63,
+      "pnl_pct": 0.44,
       "stop_loss": 83.49642857142857,
       "take_profit": 89.65714285714284,
       "entry_time": "2026-04-21T21:01:05.967123",
@@ -660,12 +660,12 @@
       "name": "BNB",
       "icon": "◈",
       "entry_price": 636.98,
-      "current_price": 638.3,
+      "current_price": 637.96,
       "amount": 0.857405,
-      "value": 547.28,
+      "value": 546.99,
       "cost": 546.05,
-      "pnl": 1.13,
-      "pnl_pct": 0.21,
+      "pnl": 0.84,
+      "pnl_pct": 0.15,
       "stop_loss": 590.9621428571429,
       "take_profit": 729.0157142857142,
       "entry_time": "2026-04-23T20:15:38.578448",
@@ -682,12 +682,12 @@
       "name": "Avalanche",
       "icon": "▲",
       "entry_price": 9.34,
-      "current_price": 9.41,
+      "current_price": 9.4,
       "amount": 53.797141,
-      "value": 506.23,
+      "value": 505.69,
       "cost": 502.94,
-      "pnl": 3.77,
-      "pnl_pct": 0.75,
+      "pnl": 3.23,
+      "pnl_pct": 0.64,
       "stop_loss": 8.28642857142857,
       "take_profit": 11.447142857142861,
       "entry_time": "2026-04-23T20:45:46.566665",
@@ -704,12 +704,12 @@
       "name": "Bitcoin",
       "icon": "₿",
       "entry_price": 77948.06,
-      "current_price": 77879.08,
+      "current_price": 77826.64,
       "amount": 0.006301,
-      "value": 490.72,
+      "value": 490.39,
       "cost": 491.07,
-      "pnl": -0.43,
-      "pnl_pct": -0.09,
+      "pnl": -0.77,
+      "pnl_pct": -0.16,
       "stop_loss": 76958.29571428572,
       "take_profit": 79927.58857142855,
       "entry_time": "2026-04-24T06:05:03.451293",
@@ -1004,18 +1004,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 349.29,
-      "profit_pct": 3.49,
+      "profit": 353.74,
+      "profit_pct": 3.54,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1754.06,
-      "profit_pct": -17.54,
+      "profit": -1755.56,
+      "profit_pct": -17.56,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -2103.35,
-      "pct": -21.03,
+      "value": -2109.3,
+      "pct": -21.09,
       "description": "Our strategy vs HODL"
     }
   }
