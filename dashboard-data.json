@@ -1,14 +1,14 @@
 {
-  "last_update": "2026-04-25T21:47:08.139625",
+  "last_update": "2026-04-25T22:00:29.677485",
   "initial_capital": 10000,
   "capital": {
-    "total": 8793.37,
+    "total": 8792.83,
     "available": 8291.44,
-    "invested": 501.93,
-    "pnl": -1206.63,
+    "invested": 501.39,
+    "pnl": -1207.17,
     "pnl_pct": -12.07,
-    "peak": 8793.37,
-    "drawdown_pct": 0.0
+    "peak": 8227.88,
+    "drawdown_pct": -6.87
   },
   "stats": {
     "positions_open": 1,
@@ -638,16 +638,16 @@
       "name": "Avalanche",
       "icon": "▲",
       "entry_price": 9.34,
-      "current_price": 9.33,
+      "current_price": 9.32,
       "amount": 53.797141,
-      "value": 501.93,
+      "value": 501.39,
       "cost": 502.94,
-      "pnl": -0.54,
-      "pnl_pct": -0.11,
+      "pnl": -1.55,
+      "pnl_pct": -0.21,
       "stop_loss": 8.28642857142857,
       "take_profit": 11.447142857142861,
       "entry_time": "2026-04-23T20:45:46.566665",
-      "hours_open": 49.0,
+      "hours_open": 49.2,
       "indicators": {
         "mean_reversion": 0.25,
         "trend": 1.1,
@@ -1282,18 +1282,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 248.05,
-      "profit_pct": 2.48,
-      "description": "BTC buy and hold since first trade"
+      "profit": -603.58,
+      "profit_pct": -6.04,
+      "description": "BTC buy and hold comparison"
     },
     "our_strategy": {
-      "profit": -1206.63,
+      "profit": -1207.17,
       "profit_pct": -12.07,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1454.68,
-      "pct": -14.55,
+      "value": -603.58,
+      "pct": -6.04,
       "description": "Our strategy vs HODL"
     }
   }
