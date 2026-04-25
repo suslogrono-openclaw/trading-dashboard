@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-25T17:15:25.732337",
+  "last_update": "2026-04-25T17:15:46.432641",
   "initial_capital": 10000,
   "capital": {
-    "total": 8798.25,
+    "total": 8798.78,
     "available": 7292.59,
-    "invested": 1505.66,
-    "pnl": -1201.75,
-    "pnl_pct": -12.02,
-    "peak": 8798.25,
+    "invested": 1506.19,
+    "pnl": -1201.22,
+    "pnl_pct": -12.01,
+    "peak": 8798.78,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 29.9
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-25T04:35:11.220316",
-      "value": 8247.68,
-      "positions": 5,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-25T04:35:23.357227",
       "value": 8247.41,
@@ -630,6 +624,12 @@
       "value": 8798.25,
       "positions": 3,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-25T17:15:45.915974",
+      "value": 8798.78,
+      "positions": 3,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,12 +638,12 @@
       "name": "Avalanche",
       "icon": "▲",
       "entry_price": 9.34,
-      "current_price": 9.31,
+      "current_price": 9.32,
       "amount": 53.797141,
-      "value": 500.85,
+      "value": 501.39,
       "cost": 502.94,
-      "pnl": -1.61,
-      "pnl_pct": -0.32,
+      "pnl": -1.08,
+      "pnl_pct": -0.21,
       "stop_loss": 8.28642857142857,
       "take_profit": 11.447142857142861,
       "entry_time": "2026-04-23T20:45:46.566665",
@@ -1267,13 +1267,13 @@
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1201.75,
-      "profit_pct": -12.02,
+      "profit": -1201.22,
+      "profit_pct": -12.01,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1422.63,
-      "pct": -14.23,
+      "value": -1422.09,
+      "pct": -14.22,
       "description": "Our strategy vs HODL"
     }
   }
