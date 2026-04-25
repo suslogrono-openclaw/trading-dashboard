@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-25T20:32:57.441163",
+  "last_update": "2026-04-25T20:33:20.625961",
   "initial_capital": 10000,
   "capital": {
     "total": 8792.3,
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 27.3
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-25T08:45:42.890151",
-      "value": 8249.88,
-      "positions": 5,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-25T08:45:58.054345",
       "value": 8249.88,
@@ -627,6 +621,12 @@
     },
     {
       "time": "2026-04-25T20:32:56.932035",
+      "value": 8792.3,
+      "positions": 1,
+      "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-25T20:33:20.116345",
       "value": 8792.3,
       "positions": 1,
       "drawdown": 0.0
@@ -1292,7 +1292,7 @@
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1452.31,
+      "value": -1452.3,
       "pct": -14.52,
       "description": "Our strategy vs HODL"
     }
