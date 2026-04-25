@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-25T13:34:15.620617",
+  "last_update": "2026-04-25T13:45:17.197530",
   "initial_capital": 10000,
   "capital": {
     "total": 8822.72,
@@ -647,7 +647,7 @@
       "stop_loss": 8.28642857142857,
       "take_profit": 11.447142857142861,
       "entry_time": "2026-04-23T20:45:46.566665",
-      "hours_open": 40.8,
+      "hours_open": 41.0,
       "indicators": {
         "mean_reversion": 0.25,
         "trend": 1.1,
@@ -669,7 +669,7 @@
       "stop_loss": 0.09718,
       "take_profit": 0.10093,
       "entry_time": "2026-04-25T00:00:37.918220",
-      "hours_open": 13.6,
+      "hours_open": 13.7,
       "indicators": {
         "mean_reversion": 0,
         "trend": 1.1,
@@ -691,7 +691,7 @@
       "stop_loss": 1.2409285714285714,
       "take_profit": 1.289142857142857,
       "entry_time": "2026-04-25T01:15:24.164955",
-      "hours_open": 12.3,
+      "hours_open": 12.5,
       "indicators": {
         "mean_reversion": 0,
         "trend": 0.7,
@@ -713,7 +713,7 @@
       "stop_loss": 0.2485571428571428,
       "take_profit": 0.2564857142857143,
       "entry_time": "2026-04-25T02:05:23.653447",
-      "hours_open": 11.5,
+      "hours_open": 11.7,
       "indicators": {
         "mean_reversion": 0.25,
         "trend": 1.1,
