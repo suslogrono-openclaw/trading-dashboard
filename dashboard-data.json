@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-25T07:15:27.077307",
+  "last_update": "2026-04-25T07:15:38.206792",
   "initial_capital": 10000,
   "capital": {
     "total": 8244.21,
@@ -626,7 +626,7 @@
       "drawdown": 0.0
     },
     {
-      "time": "2026-04-25T07:15:26.586979",
+      "time": "2026-04-25T07:15:37.710241",
       "value": 8244.21,
       "positions": 5,
       "drawdown": 0.0
@@ -660,7 +660,7 @@
       "name": "Ethereum",
       "icon": "Ξ",
       "entry_price": 2328.3,
-      "current_price": 2314.53,
+      "current_price": 2314.52,
       "amount": 0.247078,
       "value": 571.87,
       "cost": 575.09,
