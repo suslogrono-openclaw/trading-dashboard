@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-25T09:15:42.252073",
+  "last_update": "2026-04-25T09:15:54.437496",
   "initial_capital": 10000,
   "capital": {
-    "total": 8250.82,
+    "total": 8252.1,
     "available": 5576.47,
-    "invested": 2674.35,
-    "pnl": -1749.18,
-    "pnl_pct": -17.49,
-    "peak": 8250.82,
+    "invested": 2675.62,
+    "pnl": -1747.9,
+    "pnl_pct": -17.48,
+    "peak": 8252.1,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 34.0
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-24T22:45:48.321392",
-      "value": 8238.37,
-      "positions": 2,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-24T22:46:01.936662",
       "value": 8238.37,
@@ -630,6 +624,12 @@
       "value": 8250.82,
       "positions": 5,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-25T09:15:53.939973",
+      "value": 8252.1,
+      "positions": 5,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -660,11 +660,11 @@
       "name": "Ethereum",
       "icon": "Ξ",
       "entry_price": 2328.3,
-      "current_price": 2319.18,
+      "current_price": 2319.25,
       "amount": 0.247078,
-      "value": 573.02,
+      "value": 573.04,
       "cost": 575.09,
-      "pnl": -2.25,
+      "pnl": -2.24,
       "pnl_pct": -0.39,
       "stop_loss": 1985.446428571429,
       "take_profit": 3014.0071428571428,
@@ -691,7 +691,7 @@
       "stop_loss": 0.09718,
       "take_profit": 0.10093,
       "entry_time": "2026-04-25T00:00:37.918220",
-      "hours_open": 9.2,
+      "hours_open": 9.3,
       "indicators": {
         "mean_reversion": 0,
         "trend": 1.1,
@@ -704,12 +704,12 @@
       "name": "Polkadot",
       "icon": "●",
       "entry_price": 1.257,
-      "current_price": 1.268,
+      "current_price": 1.271,
       "amount": 419.340865,
-      "value": 531.72,
+      "value": 532.98,
       "cost": 527.53,
-      "pnl": 4.61,
-      "pnl_pct": 0.88,
+      "pnl": 5.87,
+      "pnl_pct": 1.11,
       "stop_loss": 1.2409285714285714,
       "take_profit": 1.289142857142857,
       "entry_time": "2026-04-25T01:15:24.164955",
@@ -1247,13 +1247,13 @@
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1749.18,
-      "profit_pct": -17.49,
+      "profit": -1747.9,
+      "profit_pct": -17.48,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1965.88,
-      "pct": -19.66,
+      "value": -1964.61,
+      "pct": -19.65,
       "description": "Our strategy vs HODL"
     }
   }
