@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-25T04:03:46.118513",
+  "last_update": "2026-04-25T04:03:59.600773",
   "initial_capital": 10000,
   "capital": {
-    "total": 8248.73,
+    "total": 8248.5,
     "available": 5576.47,
-    "invested": 2672.26,
-    "pnl": -1751.27,
-    "pnl_pct": -17.51,
-    "peak": 8248.73,
+    "invested": 2672.03,
+    "pnl": -1751.5,
+    "pnl_pct": -17.52,
+    "peak": 8248.5,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 34.0
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-24T18:03:31.407925",
-      "value": 8243.03,
-      "positions": 3,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-24T18:15:24.445892",
       "value": 8240.08,
@@ -630,6 +624,12 @@
       "value": 8248.73,
       "positions": 5,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-25T04:03:59.091464",
+      "value": 8248.5,
+      "positions": 5,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -682,16 +682,16 @@
       "name": "Dogecoin",
       "icon": "Ð",
       "entry_price": 0.09843,
-      "current_price": 0.09881,
+      "current_price": 0.09877,
       "amount": 5820.791178,
-      "value": 575.15,
+      "value": 574.92,
       "cost": 572.86,
-      "pnl": 2.21,
-      "pnl_pct": 0.39,
+      "pnl": 1.98,
+      "pnl_pct": 0.35,
       "stop_loss": 0.09718,
       "take_profit": 0.10093,
       "entry_time": "2026-04-25T00:00:37.918220",
-      "hours_open": 4.0,
+      "hours_open": 4.1,
       "indicators": {
         "mean_reversion": 0,
         "trend": 1.1,
@@ -1247,13 +1247,13 @@
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1751.27,
-      "profit_pct": -17.51,
+      "profit": -1751.5,
+      "profit_pct": -17.52,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1978.27,
-      "pct": -19.78,
+      "value": -1978.5,
+      "pct": -19.79,
       "description": "Our strategy vs HODL"
     }
   }
