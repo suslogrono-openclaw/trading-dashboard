@@ -1,18 +1,18 @@
 {
-  "last_update": "2026-04-25T01:04:01.854623",
+  "last_update": "2026-04-25T01:15:26.023452",
   "initial_capital": 10000,
   "capital": {
-    "total": 8241.27,
-    "available": 6588.89,
-    "invested": 1652.38,
-    "pnl": -1758.73,
-    "pnl_pct": -17.59,
-    "peak": 8227.88,
-    "drawdown_pct": -0.16
+    "total": 8241.56,
+    "available": 6061.36,
+    "invested": 2180.2,
+    "pnl": -1758.44,
+    "pnl_pct": -17.58,
+    "peak": 8241.56,
+    "drawdown_pct": 0.0
   },
   "stats": {
-    "positions_open": 3,
-    "total_trades": 14,
+    "positions_open": 4,
+    "total_trades": 15,
     "completed_trades": 6,
     "wins": 3,
     "losses": 3,
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 34.0
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-24T16:03:55.405731",
-      "value": 8246.61,
-      "positions": 3,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-24T16:04:09.076753",
       "value": 8246.57,
@@ -630,6 +624,12 @@
       "value": 8241.53,
       "positions": 3,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-25T01:15:25.513497",
+      "value": 8241.56,
+      "positions": 4,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -642,12 +642,12 @@
       "amount": 53.797141,
       "value": 506.77,
       "cost": 502.94,
-      "pnl": 3.83,
+      "pnl": 4.3,
       "pnl_pct": 0.86,
       "stop_loss": 8.28642857142857,
       "take_profit": 11.447142857142861,
       "entry_time": "2026-04-23T20:45:46.566665",
-      "hours_open": 28.3,
+      "hours_open": 28.5,
       "indicators": {
         "mean_reversion": 0.25,
         "trend": 1.1,
@@ -660,16 +660,16 @@
       "name": "Ethereum",
       "icon": "Ξ",
       "entry_price": 2328.3,
-      "current_price": 2316.81,
+      "current_price": 2318.05,
       "amount": 0.247078,
-      "value": 572.43,
+      "value": 572.74,
       "cost": 575.09,
-      "pnl": -2.66,
-      "pnl_pct": -0.49,
+      "pnl": -2.53,
+      "pnl_pct": -0.44,
       "stop_loss": 1985.446428571429,
       "take_profit": 3014.0071428571428,
       "entry_time": "2026-04-24T15:45:35.911490",
-      "hours_open": 9.3,
+      "hours_open": 9.5,
       "indicators": {
         "mean_reversion": 0,
         "trend": 1.1,
@@ -682,20 +682,42 @@
       "name": "Dogecoin",
       "icon": "Ð",
       "entry_price": 0.09843,
-      "current_price": 0.09847,
+      "current_price": 0.09854,
       "amount": 5820.791178,
-      "value": 573.17,
+      "value": 573.58,
       "cost": 572.86,
-      "pnl": 0.31,
-      "pnl_pct": 0.04,
+      "pnl": 0.64,
+      "pnl_pct": 0.11,
       "stop_loss": 0.09718,
       "take_profit": 0.10093,
       "entry_time": "2026-04-25T00:00:37.918220",
-      "hours_open": 1.1,
+      "hours_open": 1.2,
       "indicators": {
         "mean_reversion": 0,
         "trend": 1.1,
         "momentum": 0,
+        "volatility": 0.35
+      }
+    },
+    "DOT/USDT": {
+      "symbol": "DOT/USDT",
+      "name": "Polkadot",
+      "icon": "●",
+      "entry_price": 1.257,
+      "current_price": 1.257,
+      "amount": 419.340865,
+      "value": 527.11,
+      "cost": 527.53,
+      "pnl": 0,
+      "pnl_pct": 0,
+      "stop_loss": 1.2409285714285714,
+      "take_profit": 1.289142857142857,
+      "entry_time": "2026-04-25T01:15:24.164955",
+      "hours_open": 0.0,
+      "indicators": {
+        "mean_reversion": 0,
+        "trend": 0.7,
+        "momentum": 0.35,
         "volatility": 0.35
       }
     }
@@ -882,6 +904,19 @@
       "result": null,
       "reason": "SIGNAL",
       "icon": "Ð"
+    },
+    {
+      "time": "2026-04-25T01:15:24.164955",
+      "symbol": "DOT/USDT",
+      "action": "BUY",
+      "price": 1.257,
+      "amount": 419.340865,
+      "cost": 527.52972,
+      "profit": 0,
+      "profit_pct": 0,
+      "result": null,
+      "reason": "SIGNAL",
+      "icon": "●"
     }
   ],
   "trades": [
@@ -1134,22 +1169,39 @@
         "momentum": 0,
         "volatility": 0.35
       }
+    },
+    {
+      "time": "2026-04-25T01:15:24.164955",
+      "symbol": "DOT/USDT",
+      "action": "BUY",
+      "price": 1.257,
+      "amount": 419.340865,
+      "cost": 527.52972,
+      "order_id": "188251",
+      "stop_loss": 1.2409285714285714,
+      "take_profit": 1.289142857142857,
+      "indicators": {
+        "mean_reversion": 0,
+        "trend": 0.7,
+        "momentum": 0.35,
+        "volatility": 0.35
+      }
     }
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -879.37,
-      "profit_pct": -8.79,
-      "description": "BTC buy and hold comparison"
+      "profit": 202.69,
+      "profit_pct": 2.03,
+      "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1758.73,
-      "profit_pct": -17.59,
+      "profit": -1758.44,
+      "profit_pct": -17.58,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -879.37,
-      "pct": -8.79,
+      "value": -1961.13,
+      "pct": -19.61,
       "description": "Our strategy vs HODL"
     }
   }
