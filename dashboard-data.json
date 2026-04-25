@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-25T19:15:14.723918",
+  "last_update": "2026-04-25T19:15:26.719758",
   "initial_capital": 10000,
   "capital": {
     "total": 8794.51,
@@ -7,8 +7,8 @@
     "invested": 1022.63,
     "pnl": -1205.49,
     "pnl_pct": -12.05,
-    "peak": 8227.88,
-    "drawdown_pct": -6.89
+    "peak": 8794.51,
+    "drawdown_pct": 0.0
   },
   "stats": {
     "positions_open": 2,
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 28.3
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-25T07:17:04.222722",
-      "value": 8244.36,
-      "positions": 5,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-25T07:17:45.593011",
       "value": 8244.36,
@@ -630,6 +624,12 @@
       "value": 8793.67,
       "positions": 2,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-25T19:15:26.223971",
+      "value": 8794.51,
+      "positions": 2,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -642,7 +642,7 @@
       "amount": 53.797141,
       "value": 501.39,
       "cost": 502.94,
-      "pnl": -1.55,
+      "pnl": -1.08,
       "pnl_pct": -0.21,
       "stop_loss": 8.28642857142857,
       "take_profit": 11.447142857142861,
@@ -664,7 +664,7 @@
       "amount": 419.340865,
       "value": 521.24,
       "cost": 527.53,
-      "pnl": -6.29,
+      "pnl": -5.87,
       "pnl_pct": -1.11,
       "stop_loss": 1.2409285714285714,
       "take_profit": 1.289142857142857,
@@ -1272,9 +1272,9 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -602.74,
-      "profit_pct": -6.03,
-      "description": "BTC buy and hold comparison"
+      "profit": 202.01,
+      "profit_pct": 2.02,
+      "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
       "profit": -1205.49,
@@ -1282,8 +1282,8 @@
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -602.74,
-      "pct": -6.03,
+      "value": -1407.5,
+      "pct": -14.08,
       "description": "Our strategy vs HODL"
     }
   }
