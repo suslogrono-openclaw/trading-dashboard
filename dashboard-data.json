@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-25T07:32:46.504297",
+  "last_update": "2026-04-25T07:33:18.119729",
   "initial_capital": 10000,
   "capital": {
-    "total": 8247.39,
+    "total": 8247.57,
     "available": 5576.47,
-    "invested": 2670.92,
-    "pnl": -1752.61,
-    "pnl_pct": -17.53,
-    "peak": 8247.39,
+    "invested": 2671.09,
+    "pnl": -1752.43,
+    "pnl_pct": -17.52,
+    "peak": 8247.57,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 34.0
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-24T21:17:07.711791",
-      "value": 8241.1,
-      "positions": 2,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-24T21:30:39.359531",
       "value": 8242.08,
@@ -630,6 +624,12 @@
       "value": 8247.39,
       "positions": 5,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-25T07:33:17.621628",
+      "value": 8247.57,
+      "positions": 5,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -682,12 +682,12 @@
       "name": "Dogecoin",
       "icon": "Ð",
       "entry_price": 0.09843,
-      "current_price": 0.09879,
+      "current_price": 0.09882,
       "amount": 5820.791178,
-      "value": 575.04,
+      "value": 575.21,
       "cost": 572.86,
-      "pnl": 2.1,
-      "pnl_pct": 0.37,
+      "pnl": 2.27,
+      "pnl_pct": 0.4,
       "stop_loss": 0.09718,
       "take_profit": 0.10093,
       "entry_time": "2026-04-25T00:00:37.918220",
@@ -1242,18 +1242,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 224.92,
-      "profit_pct": 2.25,
+      "profit": 223.53,
+      "profit_pct": 2.24,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1752.61,
-      "profit_pct": -17.53,
+      "profit": -1752.43,
+      "profit_pct": -17.52,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1977.53,
-      "pct": -19.78,
+      "value": -1975.96,
+      "pct": -19.76,
       "description": "Our strategy vs HODL"
     }
   }
