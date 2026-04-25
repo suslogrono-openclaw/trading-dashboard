@@ -1,22 +1,22 @@
 {
-  "last_update": "2026-04-25T16:04:18.447183",
+  "last_update": "2026-04-25T16:15:29.153978",
   "initial_capital": 10000,
   "capital": {
-    "total": 8807.64,
-    "available": 6721.3,
-    "invested": 2086.35,
-    "pnl": -1192.36,
-    "pnl_pct": -11.92,
-    "peak": 8807.64,
+    "total": 8806.03,
+    "available": 7292.59,
+    "invested": 1513.44,
+    "pnl": -1193.97,
+    "pnl_pct": -11.94,
+    "peak": 8806.03,
     "drawdown_pct": 0.0
   },
   "stats": {
-    "positions_open": 4,
-    "total_trades": 17,
-    "completed_trades": 7,
+    "positions_open": 3,
+    "total_trades": 18,
+    "completed_trades": 8,
     "wins": 3,
-    "losses": 4,
-    "win_rate": 42.9,
+    "losses": 5,
+    "win_rate": 37.5,
     "best_trade": {
       "symbol": "BTC/USDT",
       "profit": 14.08,
@@ -27,16 +27,10 @@
       "profit": -4.46,
       "profit_pct": -0.97
     },
-    "avg_profit": 1.3,
-    "avg_time_in_position_hours": 31.9
+    "avg_profit": 0.94,
+    "avg_time_in_position_hours": 29.9
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-25T03:17:32.645582",
-      "value": 8242.57,
-      "positions": 5,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-25T03:32:23.812622",
       "value": 8242.8,
@@ -630,6 +624,12 @@
       "value": 8807.64,
       "positions": 4,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-25T16:15:28.649168",
+      "value": 8806.03,
+      "positions": 3,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,16 +638,16 @@
       "name": "Avalanche",
       "icon": "▲",
       "entry_price": 9.34,
-      "current_price": 9.35,
+      "current_price": 9.36,
       "amount": 53.797141,
-      "value": 503.0,
+      "value": 503.54,
       "cost": 502.94,
-      "pnl": 0.54,
-      "pnl_pct": 0.11,
+      "pnl": 1.08,
+      "pnl_pct": 0.21,
       "stop_loss": 8.28642857142857,
       "take_profit": 11.447142857142861,
       "entry_time": "2026-04-23T20:45:46.566665",
-      "hours_open": 43.3,
+      "hours_open": 43.5,
       "indicators": {
         "mean_reversion": 0.25,
         "trend": 1.1,
@@ -655,43 +655,21 @@
         "volatility": 0.25
       }
     },
-    "DOGE/USDT": {
-      "symbol": "DOGE/USDT",
-      "name": "Dogecoin",
-      "icon": "Ð",
-      "entry_price": 0.09843,
-      "current_price": 0.09824,
-      "amount": 5820.791178,
-      "value": 571.83,
-      "cost": 572.86,
-      "pnl": -1.11,
-      "pnl_pct": -0.19,
-      "stop_loss": 0.09718,
-      "take_profit": 0.10093,
-      "entry_time": "2026-04-25T00:00:37.918220",
-      "hours_open": 16.1,
-      "indicators": {
-        "mean_reversion": 0,
-        "trend": 1.1,
-        "momentum": 0,
-        "volatility": 0.35
-      }
-    },
     "DOT/USDT": {
       "symbol": "DOT/USDT",
       "name": "Polkadot",
       "icon": "●",
       "entry_price": 1.257,
-      "current_price": 1.259,
+      "current_price": 1.257,
       "amount": 419.340865,
-      "value": 527.95,
+      "value": 527.11,
       "cost": 527.53,
-      "pnl": 0.84,
-      "pnl_pct": 0.16,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
       "stop_loss": 1.2409285714285714,
       "take_profit": 1.289142857142857,
       "entry_time": "2026-04-25T01:15:24.164955",
-      "hours_open": 14.8,
+      "hours_open": 15.0,
       "indicators": {
         "mean_reversion": 0,
         "trend": 0.7,
@@ -704,16 +682,16 @@
       "name": "Cardano",
       "icon": "₳",
       "entry_price": 0.2512,
-      "current_price": 0.2505,
+      "current_price": 0.2501,
       "amount": 1930.370581,
-      "value": 483.56,
+      "value": 482.79,
       "cost": 484.89,
-      "pnl": -1.35,
-      "pnl_pct": -0.28,
+      "pnl": -2.12,
+      "pnl_pct": -0.44,
       "stop_loss": 0.2485571428571428,
       "take_profit": 0.2564857142857143,
       "entry_time": "2026-04-25T02:05:23.653447",
-      "hours_open": 14.0,
+      "hours_open": 14.2,
       "indicators": {
         "mean_reversion": 0.25,
         "trend": 1.1,
@@ -943,6 +921,19 @@
       "result": "loss",
       "reason": "SIGNAL",
       "icon": "Ξ"
+    },
+    {
+      "time": "2026-04-25T16:15:26.334327",
+      "symbol": "DOGE/USDT",
+      "action": "SELL",
+      "price": 0.09816,
+      "amount": 5820.791178,
+      "cost": 571.2912,
+      "profit": -1.5714000000000397,
+      "profit_pct": -0.27430661383725163,
+      "result": "loss",
+      "reason": "SIGNAL",
+      "icon": "Ð"
     }
   ],
   "trades": [
@@ -1248,22 +1239,41 @@
         "momentum": 0.65,
         "volatility": 0.6
       }
+    },
+    {
+      "time": "2026-04-25T16:15:26.334327",
+      "symbol": "DOGE/USDT",
+      "action": "SELL",
+      "price": 0.09816,
+      "amount": 5820.791178,
+      "revenue": 571.2912,
+      "profit": -1.5714000000000397,
+      "profit_pct": -0.27430661383725163,
+      "reason": "SIGNAL",
+      "order_id": "995751",
+      "holding_hours": 16.2,
+      "indicators": {
+        "mean_reversion": 0,
+        "trend": 1.1,
+        "momentum": 0,
+        "volatility": 0.35
+      }
     }
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 204.76,
-      "profit_pct": 2.05,
+      "profit": 210.71,
+      "profit_pct": 2.11,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1192.36,
-      "profit_pct": -11.92,
+      "profit": -1193.97,
+      "profit_pct": -11.94,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1397.12,
-      "pct": -13.97,
+      "value": -1404.68,
+      "pct": -14.05,
       "description": "Our strategy vs HODL"
     }
   }
