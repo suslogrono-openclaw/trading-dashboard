@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-25T17:45:15.761158",
+  "last_update": "2026-04-25T17:45:25.193366",
   "initial_capital": 10000,
   "capital": {
     "total": 8794.81,
@@ -7,8 +7,8 @@
     "invested": 1022.93,
     "pnl": -1205.19,
     "pnl_pct": -12.05,
-    "peak": 8227.88,
-    "drawdown_pct": -6.89
+    "peak": 8794.81,
+    "drawdown_pct": 0.0
   },
   "stats": {
     "positions_open": 2,
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 28.3
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-25T04:47:44.293229",
-      "value": 8245.35,
-      "positions": 5,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-25T05:07:51.594423",
       "value": 8238.83,
@@ -630,6 +624,12 @@
       "value": 8794.69,
       "positions": 2,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-25T17:45:24.691802",
+      "value": 8794.81,
+      "positions": 2,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -642,7 +642,7 @@
       "amount": 53.797141,
       "value": 500.85,
       "cost": 502.94,
-      "pnl": -2.09,
+      "pnl": -1.61,
       "pnl_pct": -0.32,
       "stop_loss": 8.28642857142857,
       "take_profit": 11.447142857142861,
@@ -664,7 +664,7 @@
       "amount": 419.340865,
       "value": 522.08,
       "cost": 527.53,
-      "pnl": -5.45,
+      "pnl": -5.03,
       "pnl_pct": -0.95,
       "stop_loss": 1.2409285714285714,
       "take_profit": 1.289142857142857,
@@ -1272,9 +1272,9 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -602.59,
-      "profit_pct": -6.03,
-      "description": "BTC buy and hold comparison"
+      "profit": 216.15,
+      "profit_pct": 2.16,
+      "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
       "profit": -1205.19,
@@ -1282,8 +1282,8 @@
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -602.59,
-      "pct": -6.03,
+      "value": -1421.34,
+      "pct": -14.21,
       "description": "Our strategy vs HODL"
     }
   }
