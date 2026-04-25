@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-25T17:45:38.435649",
+  "last_update": "2026-04-25T17:45:53.368226",
   "initial_capital": 10000,
   "capital": {
-    "total": 8794.27,
+    "total": 8793.86,
     "available": 7771.88,
-    "invested": 1022.39,
-    "pnl": -1205.73,
+    "invested": 1021.97,
+    "pnl": -1206.14,
     "pnl_pct": -12.06,
-    "peak": 8794.27,
+    "peak": 8793.86,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 28.3
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-25T05:08:16.947398",
-      "value": 8238.83,
-      "positions": 5,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-25T05:15:22.496523",
       "value": 8240.8,
@@ -630,6 +624,12 @@
       "value": 8794.27,
       "positions": 2,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-25T17:45:52.854030",
+      "value": 8793.86,
+      "positions": 2,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -660,12 +660,12 @@
       "name": "Polkadot",
       "icon": "●",
       "entry_price": 1.257,
-      "current_price": 1.245,
+      "current_price": 1.244,
       "amount": 419.340865,
-      "value": 522.08,
+      "value": 521.66,
       "cost": 527.53,
-      "pnl": -5.03,
-      "pnl_pct": -0.95,
+      "pnl": -5.45,
+      "pnl_pct": -1.03,
       "stop_loss": 1.2409285714285714,
       "take_profit": 1.289142857142857,
       "entry_time": "2026-04-25T01:15:24.164955",
@@ -1277,12 +1277,12 @@
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1205.73,
+      "profit": -1206.14,
       "profit_pct": -12.06,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1421.88,
+      "value": -1422.3,
       "pct": -14.22,
       "description": "Our strategy vs HODL"
     }
