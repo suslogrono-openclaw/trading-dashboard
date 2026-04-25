@@ -1,14 +1,14 @@
 {
-  "last_update": "2026-04-25T12:17:11.390227",
+  "last_update": "2026-04-25T12:18:10.552431",
   "initial_capital": 10000,
   "capital": {
-    "total": 8810.33,
+    "total": 8811.16,
     "available": 6721.3,
-    "invested": 2089.03,
-    "pnl": -1189.67,
-    "pnl_pct": -11.9,
-    "peak": 8227.88,
-    "drawdown_pct": -7.08
+    "invested": 2089.86,
+    "pnl": -1188.84,
+    "pnl_pct": -11.89,
+    "peak": 8811.16,
+    "drawdown_pct": 0.0
   },
   "stats": {
     "positions_open": 4,
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 31.9
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-25T00:34:32.711034",
-      "value": 8235.71,
-      "positions": 3,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-25T00:45:22.916506",
       "value": 8236.15,
@@ -630,6 +624,12 @@
       "value": 8810.33,
       "positions": 4,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-25T12:18:10.042142",
+      "value": 8811.16,
+      "positions": 4,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,12 +638,12 @@
       "name": "Avalanche",
       "icon": "▲",
       "entry_price": 9.34,
-      "current_price": 9.39,
+      "current_price": 9.4,
       "amount": 53.797141,
-      "value": 505.16,
+      "value": 505.69,
       "cost": 502.94,
-      "pnl": 2.22,
-      "pnl_pct": 0.54,
+      "pnl": 3.23,
+      "pnl_pct": 0.64,
       "stop_loss": 8.28642857142857,
       "take_profit": 11.447142857142861,
       "entry_time": "2026-04-23T20:45:46.566665",
@@ -660,12 +660,12 @@
       "name": "Dogecoin",
       "icon": "Ð",
       "entry_price": 0.09843,
-      "current_price": 0.09794,
+      "current_price": 0.09799,
       "amount": 5820.791178,
-      "value": 570.09,
+      "value": 570.38,
       "cost": 572.86,
-      "pnl": -2.77,
-      "pnl_pct": -0.5,
+      "pnl": -2.56,
+      "pnl_pct": -0.45,
       "stop_loss": 0.09718,
       "take_profit": 0.10093,
       "entry_time": "2026-04-25T00:00:37.918220",
@@ -686,7 +686,7 @@
       "amount": 419.340865,
       "value": 527.53,
       "cost": 527.53,
-      "pnl": 0.0,
+      "pnl": 0.42,
       "pnl_pct": 0.08,
       "stop_loss": 1.2409285714285714,
       "take_profit": 1.289142857142857,
@@ -708,7 +708,7 @@
       "amount": 1930.370581,
       "value": 486.26,
       "cost": 484.89,
-      "pnl": 1.37,
+      "pnl": 1.35,
       "pnl_pct": 0.28,
       "stop_loss": 0.2485571428571428,
       "take_profit": 0.2564857142857143,
@@ -1252,18 +1252,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -594.83,
-      "profit_pct": -5.95,
-      "description": "BTC buy and hold comparison"
+      "profit": 175.8,
+      "profit_pct": 1.76,
+      "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1189.67,
-      "profit_pct": -11.9,
+      "profit": -1188.84,
+      "profit_pct": -11.89,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -594.83,
-      "pct": -5.95,
+      "value": -1364.64,
+      "pct": -13.65,
       "description": "Our strategy vs HODL"
     }
   }
