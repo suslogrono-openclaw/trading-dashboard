@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-25T04:04:19.076568",
+  "last_update": "2026-04-25T04:04:32.616588",
   "initial_capital": 10000,
   "capital": {
     "total": 8248.98,
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 34.0
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-24T18:15:45.499287",
-      "value": 8239.98,
-      "positions": 3,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-24T18:33:23.553831",
       "value": 8240.51,
@@ -627,6 +621,12 @@
     },
     {
       "time": "2026-04-25T04:04:18.583413",
+      "value": 8248.98,
+      "positions": 5,
+      "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-25T04:04:32.119153",
       "value": 8248.98,
       "positions": 5,
       "drawdown": 0.0
