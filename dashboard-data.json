@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-25T02:34:24.126680",
+  "last_update": "2026-04-25T02:34:33.776477",
   "initial_capital": 10000,
   "capital": {
     "total": 8243.2,
@@ -626,7 +626,7 @@
       "drawdown": 0.0
     },
     {
-      "time": "2026-04-25T02:34:23.630330",
+      "time": "2026-04-25T02:34:33.271249",
       "value": 8243.2,
       "positions": 5,
       "drawdown": 0.0
@@ -1242,8 +1242,8 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 237.53,
-      "profit_pct": 2.38,
+      "profit": 236.69,
+      "profit_pct": 2.37,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
@@ -1252,8 +1252,8 @@
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1994.33,
-      "pct": -19.94,
+      "value": -1993.49,
+      "pct": -19.93,
       "description": "Our strategy vs HODL"
     }
   }
