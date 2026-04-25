@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-25T16:45:34.924785",
+  "last_update": "2026-04-25T17:02:53.557446",
   "initial_capital": 10000,
   "capital": {
-    "total": 8799.29,
+    "total": 8799.13,
     "available": 7292.59,
-    "invested": 1506.7,
-    "pnl": -1200.71,
+    "invested": 1506.54,
+    "pnl": -1200.87,
     "pnl_pct": -12.01,
-    "peak": 8799.29,
+    "peak": 8799.13,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 29.9
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-25T04:04:18.583413",
-      "value": 8248.98,
-      "positions": 5,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-25T04:04:32.119153",
       "value": 8248.98,
@@ -630,6 +624,12 @@
       "value": 8799.29,
       "positions": 3,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-25T17:02:53.049358",
+      "value": 8799.13,
+      "positions": 3,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -647,7 +647,7 @@
       "stop_loss": 8.28642857142857,
       "take_profit": 11.447142857142861,
       "entry_time": "2026-04-23T20:45:46.566665",
-      "hours_open": 44.0,
+      "hours_open": 44.3,
       "indicators": {
         "mean_reversion": 0.25,
         "trend": 1.1,
@@ -660,16 +660,16 @@
       "name": "Polkadot",
       "icon": "●",
       "entry_price": 1.257,
-      "current_price": 1.248,
+      "current_price": 1.249,
       "amount": 419.340865,
-      "value": 523.34,
+      "value": 523.76,
       "cost": 527.53,
-      "pnl": -3.77,
-      "pnl_pct": -0.72,
+      "pnl": -3.35,
+      "pnl_pct": -0.64,
       "stop_loss": 1.2409285714285714,
       "take_profit": 1.289142857142857,
       "entry_time": "2026-04-25T01:15:24.164955",
-      "hours_open": 15.5,
+      "hours_open": 15.8,
       "indicators": {
         "mean_reversion": 0,
         "trend": 0.7,
@@ -682,16 +682,16 @@
       "name": "Cardano",
       "icon": "₳",
       "entry_price": 0.2512,
-      "current_price": 0.2494,
+      "current_price": 0.2491,
       "amount": 1930.370581,
-      "value": 481.43,
+      "value": 480.86,
       "cost": 484.89,
-      "pnl": -3.47,
-      "pnl_pct": -0.72,
+      "pnl": -4.05,
+      "pnl_pct": -0.84,
       "stop_loss": 0.2485571428571428,
       "take_profit": 0.2564857142857143,
       "entry_time": "2026-04-25T02:05:23.653447",
-      "hours_open": 14.7,
+      "hours_open": 15.0,
       "indicators": {
         "mean_reversion": 0.25,
         "trend": 1.1,
@@ -1262,18 +1262,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 203.84,
-      "profit_pct": 2.04,
+      "profit": 222.85,
+      "profit_pct": 2.23,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1200.71,
+      "profit": -1200.87,
       "profit_pct": -12.01,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1404.56,
-      "pct": -14.05,
+      "value": -1423.72,
+      "pct": -14.24,
       "description": "Our strategy vs HODL"
     }
   }
