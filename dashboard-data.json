@@ -1,14 +1,14 @@
 {
-  "last_update": "2026-04-25T18:00:26.002852",
+  "last_update": "2026-04-25T18:03:10.787340",
   "initial_capital": 10000,
   "capital": {
-    "total": 8793.14,
+    "total": 8795.77,
     "available": 7771.88,
-    "invested": 1021.25,
-    "pnl": -1206.86,
-    "pnl_pct": -12.07,
-    "peak": 8793.14,
-    "drawdown_pct": 0.0
+    "invested": 1023.89,
+    "pnl": -1204.23,
+    "pnl_pct": -12.04,
+    "peak": 8227.88,
+    "drawdown_pct": -6.9
   },
   "stats": {
     "positions_open": 2,
@@ -638,16 +638,16 @@
       "name": "Avalanche",
       "icon": "▲",
       "entry_price": 9.34,
-      "current_price": 9.31,
+      "current_price": 9.32,
       "amount": 53.797141,
-      "value": 500.85,
+      "value": 501.39,
       "cost": 502.94,
-      "pnl": -1.61,
-      "pnl_pct": -0.32,
+      "pnl": -1.55,
+      "pnl_pct": -0.21,
       "stop_loss": 8.28642857142857,
       "take_profit": 11.447142857142861,
       "entry_time": "2026-04-23T20:45:46.566665",
-      "hours_open": 45.2,
+      "hours_open": 45.3,
       "indicators": {
         "mean_reversion": 0.25,
         "trend": 1.1,
@@ -660,16 +660,16 @@
       "name": "Polkadot",
       "icon": "●",
       "entry_price": 1.257,
-      "current_price": 1.241,
+      "current_price": 1.246,
       "amount": 419.340865,
-      "value": 520.4,
+      "value": 522.5,
       "cost": 527.53,
-      "pnl": -6.71,
-      "pnl_pct": -1.27,
+      "pnl": -5.03,
+      "pnl_pct": -0.88,
       "stop_loss": 1.2409285714285714,
       "take_profit": 1.289142857142857,
       "entry_time": "2026-04-25T01:15:24.164955",
-      "hours_open": 16.7,
+      "hours_open": 16.8,
       "indicators": {
         "mean_reversion": 0,
         "trend": 0.7,
@@ -1272,18 +1272,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 188.52,
-      "profit_pct": 1.89,
-      "description": "BTC buy and hold since first trade"
+      "profit": -602.11,
+      "profit_pct": -6.02,
+      "description": "BTC buy and hold comparison"
     },
     "our_strategy": {
-      "profit": -1206.86,
-      "profit_pct": -12.07,
+      "profit": -1204.23,
+      "profit_pct": -12.04,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1395.39,
-      "pct": -13.95,
+      "value": -602.11,
+      "pct": -6.02,
       "description": "Our strategy vs HODL"
     }
   }
