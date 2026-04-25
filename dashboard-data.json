@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-25T11:18:05.353704",
+  "last_update": "2026-04-25T11:18:09.285017",
   "initial_capital": 10000,
   "capital": {
     "total": 8822.72,
@@ -626,7 +626,7 @@
       "drawdown": 0.0
     },
     {
-      "time": "2026-04-25T11:18:04.862248",
+      "time": "2026-04-25T11:18:08.790655",
       "value": 8822.72,
       "positions": 4,
       "drawdown": 0.0
@@ -932,10 +932,10 @@
       "icon": "₳"
     },
     {
-      "time": "2026-04-25T11:17:57.689458",
+      "time": "2026-04-25T11:18:01.610056",
       "symbol": "ETH/USDT",
       "action": "SELL",
-      "price": 2317.47,
+      "price": 2317.46,
       "amount": 0.247078,
       "cost": 572.41262,
       "profit": -2.679950000000076,
@@ -1231,16 +1231,16 @@
       }
     },
     {
-      "time": "2026-04-25T11:17:57.689458",
+      "time": "2026-04-25T11:18:01.610056",
       "symbol": "ETH/USDT",
       "action": "SELL",
-      "price": 2317.47,
+      "price": 2317.46,
       "amount": 0.247078,
       "revenue": 572.41262,
       "profit": -2.679950000000076,
       "profit_pct": -0.46600323840039803,
       "reason": "SIGNAL",
-      "order_id": "4970636",
+      "order_id": "4970637",
       "holding_hours": 19.5,
       "indicators": {
         "mean_reversion": 0,
@@ -1262,7 +1262,7 @@
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1339.98,
+      "value": -1339.99,
       "pct": -13.4,
       "description": "Our strategy vs HODL"
     }
