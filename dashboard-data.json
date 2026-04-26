@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-26T07:45:25.212666",
+  "last_update": "2026-04-26T07:45:58.880108",
   "initial_capital": 10000,
   "capital": {
-    "total": 8799.1,
+    "total": 8799.18,
     "available": 7442.23,
-    "invested": 1356.88,
-    "pnl": -1200.9,
+    "invested": 1356.95,
+    "pnl": -1200.82,
     "pnl_pct": -12.01,
-    "peak": 8799.1,
+    "peak": 8799.18,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 29.6
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-25T23:45:26.733096",
-      "value": 8794.99,
-      "positions": 1,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-25T23:45:40.531696",
       "value": 8794.99,
@@ -630,6 +624,12 @@
       "value": 8799.1,
       "positions": 2,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-26T07:45:58.336610",
+      "value": 8799.18,
+      "positions": 2,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,12 +638,12 @@
       "name": "Dogecoin",
       "icon": "Ð",
       "entry_price": 0.09802,
-      "current_price": 0.09843,
+      "current_price": 0.09844,
       "amount": 7176.304636,
-      "value": 706.36,
+      "value": 706.44,
       "cost": 703.39,
-      "pnl": 2.94,
-      "pnl_pct": 0.42,
+      "pnl": 3.01,
+      "pnl_pct": 0.43,
       "stop_loss": 0.09719857142857143,
       "take_profit": 0.09966285714285714,
       "entry_time": "2026-04-26T01:45:54.927636",
@@ -1362,12 +1362,12 @@
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1200.9,
+      "profit": -1200.82,
       "profit_pct": -12.01,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1266.23,
+      "value": -1266.16,
       "pct": -12.66,
       "description": "Our strategy vs HODL"
     }
