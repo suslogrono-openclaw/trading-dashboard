@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-26T05:06:00.376772",
+  "last_update": "2026-04-26T05:06:10.674851",
   "initial_capital": 10000,
   "capital": {
     "total": 8793.04,
@@ -7,8 +7,8 @@
     "invested": 1350.81,
     "pnl": -1206.96,
     "pnl_pct": -12.07,
-    "peak": 8227.88,
-    "drawdown_pct": -6.87
+    "peak": 8793.04,
+    "drawdown_pct": 0.0
   },
   "stats": {
     "positions_open": 2,
@@ -31,18 +31,6 @@
     "avg_time_in_position_hours": 29.6
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-25T21:00:26.780644",
-      "value": 8793.37,
-      "positions": 1,
-      "drawdown": 0.0
-    },
-    {
-      "time": "2026-04-25T21:02:47.892344",
-      "value": 8793.37,
-      "positions": 1,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-25T21:15:24.768230",
       "value": 8793.37,
@@ -630,6 +618,18 @@
       "value": 8792.21,
       "positions": 2,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-26T05:05:57.219904",
+      "value": 8793.04,
+      "positions": 2,
+      "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-26T05:06:10.184278",
+      "value": 8793.04,
+      "positions": 2,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -642,7 +642,7 @@
       "amount": 7176.304636,
       "value": 703.92,
       "cost": 703.39,
-      "pnl": 0.53,
+      "pnl": 0.5,
       "pnl_pct": 0.07,
       "stop_loss": 0.09719857142857143,
       "take_profit": 0.09966285714285714,
@@ -1357,9 +1357,9 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -603.48,
-      "profit_pct": -6.03,
-      "description": "BTC buy and hold comparison"
+      "profit": 14.38,
+      "profit_pct": 0.14,
+      "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
       "profit": -1206.96,
@@ -1367,8 +1367,8 @@
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -603.48,
-      "pct": -6.03,
+      "value": -1221.34,
+      "pct": -12.21,
       "description": "Our strategy vs HODL"
     }
   }
