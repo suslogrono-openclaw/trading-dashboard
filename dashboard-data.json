@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-26T17:33:36.790850",
+  "last_update": "2026-04-26T17:45:32.881008",
   "initial_capital": 10000,
   "capital": {
-    "total": 8800.75,
+    "total": 8802.51,
     "available": 5795.46,
-    "invested": 3005.28,
-    "pnl": -1199.25,
-    "pnl_pct": -11.99,
-    "peak": 8800.75,
+    "invested": 3007.05,
+    "pnl": -1197.49,
+    "pnl_pct": -11.97,
+    "peak": 8802.51,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -36,6 +36,12 @@
       "value": 8800.75,
       "positions": 5,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-26T17:45:32.365469",
+      "value": 8802.51,
+      "positions": 5,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -44,16 +50,16 @@
       "name": "Dogecoin",
       "icon": "Ð",
       "entry_price": 0.09802,
-      "current_price": 0.09873,
+      "current_price": 0.09884,
       "amount": 7176.304636,
-      "value": 708.52,
+      "value": 709.31,
       "cost": 703.39,
-      "pnl": 5.1,
-      "pnl_pct": 0.72,
+      "pnl": 5.88,
+      "pnl_pct": 0.84,
       "stop_loss": 0.09719857142857143,
       "take_profit": 0.09966285714285714,
       "entry_time": "2026-04-26T01:45:54.927636",
-      "hours_open": 15.8,
+      "hours_open": 16.0,
       "indicators": {
         "mean_reversion": 0,
         "trend": 0.6,
@@ -75,7 +81,7 @@
       "stop_loss": 0.24725,
       "take_profit": 0.2555,
       "entry_time": "2026-04-26T03:15:20.960305",
-      "hours_open": 14.3,
+      "hours_open": 14.5,
       "indicators": {
         "mean_reversion": 0,
         "trend": 0.7,
@@ -88,16 +94,16 @@
       "name": "BNB",
       "icon": "◈",
       "entry_price": 631.63,
-      "current_price": 631.39,
+      "current_price": 631.79,
       "amount": 0.942606,
-      "value": 595.15,
+      "value": 595.53,
       "cost": 595.03,
-      "pnl": -0.23,
-      "pnl_pct": -0.04,
+      "pnl": 0.15,
+      "pnl_pct": 0.03,
       "stop_loss": 627.7871428571428,
       "take_profit": 639.3157142857143,
       "entry_time": "2026-04-26T10:45:20.272807",
-      "hours_open": 6.8,
+      "hours_open": 7.0,
       "indicators": {
         "mean_reversion": 0,
         "trend": 0.6,
@@ -110,16 +116,16 @@
       "name": "Ripple",
       "icon": "✦",
       "entry_price": 1.4287,
-      "current_price": 1.4245,
+      "current_price": 1.4253,
       "amount": 383.408279,
-      "value": 546.17,
+      "value": 546.47,
       "cost": 547.73,
-      "pnl": -1.61,
-      "pnl_pct": -0.29,
+      "pnl": -1.3,
+      "pnl_pct": -0.24,
       "stop_loss": 1.4193785714285714,
       "take_profit": 1.4473428571428575,
       "entry_time": "2026-04-26T14:45:27.435961",
-      "hours_open": 2.8,
+      "hours_open": 3.0,
       "indicators": {
         "mean_reversion": 0,
         "trend": 0.45,
@@ -132,16 +138,16 @@
       "name": "Solana",
       "icon": "◎",
       "entry_price": 86.44,
-      "current_price": 86.43,
+      "current_price": 86.48,
       "amount": 5.830141,
-      "value": 503.9,
+      "value": 504.19,
       "cost": 504.0,
-      "pnl": -0.06,
-      "pnl_pct": -0.01,
+      "pnl": 0.23,
+      "pnl_pct": 0.05,
       "stop_loss": 85.65785714285715,
       "take_profit": 88.0042857142857,
       "entry_time": "2026-04-26T15:15:23.000084",
-      "hours_open": 2.3,
+      "hours_open": 2.5,
       "indicators": {
         "mean_reversion": 0,
         "trend": 0.7,
@@ -880,18 +886,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -135.5,
-      "profit_pct": -1.35,
+      "profit": -130.91,
+      "profit_pct": -1.31,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1199.25,
-      "profit_pct": -11.99,
+      "profit": -1197.49,
+      "profit_pct": -11.97,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1063.75,
-      "pct": -10.64,
+      "value": -1066.57,
+      "pct": -10.67,
       "description": "Our strategy vs HODL"
     }
   }
