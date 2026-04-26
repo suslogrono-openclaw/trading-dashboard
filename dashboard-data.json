@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-25T23:46:08.942195",
+  "last_update": "2026-04-26T00:00:29.021253",
   "initial_capital": 10000,
   "capital": {
-    "total": 8794.99,
+    "total": 8795.52,
     "available": 8291.44,
-    "invested": 503.54,
-    "pnl": -1205.01,
-    "pnl_pct": -12.05,
-    "peak": 8794.99,
+    "invested": 504.08,
+    "pnl": -1204.48,
+    "pnl_pct": -12.04,
+    "peak": 8795.52,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 27.3
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-25T15:34:52.099259",
-      "value": 8814.09,
-      "positions": 4,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-25T15:45:24.379852",
       "value": 8813.35,
@@ -630,6 +624,12 @@
       "value": 8794.99,
       "positions": 1,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-26T00:00:28.530452",
+      "value": 8795.52,
+      "positions": 1,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,16 +638,16 @@
       "name": "Avalanche",
       "icon": "▲",
       "entry_price": 9.34,
-      "current_price": 9.36,
+      "current_price": 9.37,
       "amount": 53.797141,
-      "value": 503.54,
+      "value": 504.08,
       "cost": 502.94,
-      "pnl": 1.08,
-      "pnl_pct": 0.21,
+      "pnl": 1.61,
+      "pnl_pct": 0.32,
       "stop_loss": 8.28642857142857,
       "take_profit": 11.447142857142861,
       "entry_time": "2026-04-23T20:45:46.566665",
-      "hours_open": 51.0,
+      "hours_open": 51.2,
       "indicators": {
         "mean_reversion": 0.25,
         "trend": 1.1,
@@ -1282,18 +1282,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 248.85,
-      "profit_pct": 2.49,
+      "profit": 272.42,
+      "profit_pct": 2.72,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1205.01,
-      "profit_pct": -12.05,
+      "profit": -1204.48,
+      "profit_pct": -12.04,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1453.86,
-      "pct": -14.54,
+      "value": -1476.89,
+      "pct": -14.77,
       "description": "Our strategy vs HODL"
     }
   }
