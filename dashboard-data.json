@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-26T21:32:55.331524",
+  "last_update": "2026-04-26T21:33:07.098293",
   "initial_capital": 10000,
   "capital": {
-    "total": 8816.53,
+    "total": 8816.03,
     "available": 6511.49,
-    "invested": 2305.04,
-    "pnl": -1183.47,
-    "pnl_pct": -11.83,
-    "peak": 8816.53,
+    "invested": 2304.55,
+    "pnl": -1183.97,
+    "pnl_pct": -11.84,
+    "peak": 8816.03,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -224,8 +224,8 @@
       "drawdown": 0.0
     },
     {
-      "time": "2026-04-26T21:32:54.820031",
-      "value": 8816.53,
+      "time": "2026-04-26T21:33:06.580471",
+      "value": 8816.03,
       "positions": 4,
       "drawdown": 0.0
     }
@@ -236,12 +236,12 @@
       "name": "Cardano",
       "icon": "₳",
       "entry_price": 0.25,
-      "current_price": 0.2524,
+      "current_price": 0.2523,
       "amount": 2588.600235,
-      "value": 653.36,
+      "value": 653.1,
       "cost": 647.15,
-      "pnl": 6.21,
-      "pnl_pct": 0.96,
+      "pnl": 5.95,
+      "pnl_pct": 0.92,
       "stop_loss": 0.24725,
       "take_profit": 0.2555,
       "entry_time": "2026-04-26T03:15:20.960305",
@@ -302,12 +302,12 @@
       "name": "Solana",
       "icon": "◎",
       "entry_price": 86.44,
-      "current_price": 86.72,
+      "current_price": 86.68,
       "amount": 5.830141,
-      "value": 505.59,
+      "value": 505.36,
       "cost": 504.0,
-      "pnl": 1.63,
-      "pnl_pct": 0.32,
+      "pnl": 1.4,
+      "pnl_pct": 0.28,
       "stop_loss": 85.65785714285715,
       "take_profit": 88.0042857142857,
       "entry_time": "2026-04-26T15:15:23.000084",
@@ -1069,18 +1069,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -117.32,
+      "profit": -116.66,
       "profit_pct": -1.17,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1183.47,
-      "profit_pct": -11.83,
+      "profit": -1183.97,
+      "profit_pct": -11.84,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1066.15,
-      "pct": -10.66,
+      "value": -1067.31,
+      "pct": -10.67,
       "description": "Our strategy vs HODL"
     }
   }
