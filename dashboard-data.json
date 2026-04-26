@@ -1,14 +1,14 @@
 {
-  "last_update": "2026-04-26T04:35:35.835736",
+  "last_update": "2026-04-26T04:45:14.459281",
   "initial_capital": 10000,
   "capital": {
-    "total": 8786.76,
+    "total": 8792.28,
     "available": 7442.23,
-    "invested": 1344.54,
-    "pnl": -1213.24,
-    "pnl_pct": -12.13,
-    "peak": 8786.76,
-    "drawdown_pct": 0.0
+    "invested": 1350.05,
+    "pnl": -1207.72,
+    "pnl_pct": -12.08,
+    "peak": 8227.88,
+    "drawdown_pct": -6.86
   },
   "stats": {
     "positions_open": 2,
@@ -638,16 +638,16 @@
       "name": "Dogecoin",
       "icon": "Ð",
       "entry_price": 0.09802,
-      "current_price": 0.09754,
+      "current_price": 0.09802,
       "amount": 7176.304636,
-      "value": 699.98,
+      "value": 703.42,
       "cost": 703.39,
-      "pnl": -3.44,
-      "pnl_pct": -0.49,
+      "pnl": 0.03,
+      "pnl_pct": 0.0,
       "stop_loss": 0.09719857142857143,
       "take_profit": 0.09966285714285714,
       "entry_time": "2026-04-26T01:45:54.927636",
-      "hours_open": 2.8,
+      "hours_open": 3.0,
       "indicators": {
         "mean_reversion": 0,
         "trend": 0.6,
@@ -660,16 +660,16 @@
       "name": "Cardano",
       "icon": "₳",
       "entry_price": 0.25,
-      "current_price": 0.249,
+      "current_price": 0.2498,
       "amount": 2588.600235,
-      "value": 644.56,
+      "value": 646.63,
       "cost": 647.15,
-      "pnl": -2.59,
-      "pnl_pct": -0.4,
+      "pnl": -0.52,
+      "pnl_pct": -0.08,
       "stop_loss": 0.24725,
       "take_profit": 0.2555,
       "entry_time": "2026-04-26T03:15:20.960305",
-      "hours_open": 1.3,
+      "hours_open": 1.5,
       "indicators": {
         "mean_reversion": 0,
         "trend": 0.7,
@@ -1357,18 +1357,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 150.69,
-      "profit_pct": 1.51,
-      "description": "BTC buy and hold since first trade"
+      "profit": -603.86,
+      "profit_pct": -6.04,
+      "description": "BTC buy and hold comparison"
     },
     "our_strategy": {
-      "profit": -1213.24,
-      "profit_pct": -12.13,
+      "profit": -1207.72,
+      "profit_pct": -12.08,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1363.93,
-      "pct": -13.64,
+      "value": -603.86,
+      "pct": -6.04,
       "description": "Our strategy vs HODL"
     }
   }
