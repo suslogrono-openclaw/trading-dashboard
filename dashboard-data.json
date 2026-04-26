@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-26T17:15:49.563044",
+  "last_update": "2026-04-26T17:16:18.423912",
   "initial_capital": 10000,
   "capital": {
-    "total": 8801.26,
+    "total": 8801.13,
     "available": 5795.46,
-    "invested": 3005.79,
-    "pnl": -1198.74,
+    "invested": 3005.67,
+    "pnl": -1198.87,
     "pnl_pct": -11.99,
-    "peak": 8801.26,
+    "peak": 8801.13,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 29.6
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-26T08:04:05.370999",
-      "value": 8800.08,
-      "positions": 2,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-26T08:04:33.315472",
       "value": 8800.01,
@@ -630,6 +624,12 @@
       "value": 8801.26,
       "positions": 5,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-26T17:16:17.901503",
+      "value": 8801.13,
+      "positions": 5,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -682,12 +682,12 @@
       "name": "BNB",
       "icon": "◈",
       "entry_price": 631.63,
-      "current_price": 631.1,
+      "current_price": 631.09,
       "amount": 0.942606,
-      "value": 594.88,
+      "value": 594.87,
       "cost": 595.03,
-      "pnl": -0.5,
-      "pnl_pct": -0.08,
+      "pnl": -0.51,
+      "pnl_pct": -0.09,
       "stop_loss": 627.7871428571428,
       "take_profit": 639.3157142857143,
       "entry_time": "2026-04-26T10:45:20.272807",
@@ -726,12 +726,12 @@
       "name": "Solana",
       "icon": "◎",
       "entry_price": 86.44,
-      "current_price": 86.46,
+      "current_price": 86.44,
       "amount": 5.830141,
-      "value": 504.07,
+      "value": 503.96,
       "cost": 504.0,
-      "pnl": 0.12,
-      "pnl_pct": 0.02,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
       "stop_loss": 85.65785714285715,
       "take_profit": 88.0042857142857,
       "entry_time": "2026-04-26T15:15:23.000084",
@@ -1479,12 +1479,12 @@
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1198.74,
+      "profit": -1198.87,
       "profit_pct": -11.99,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1066.02,
+      "value": -1066.14,
       "pct": -10.66,
       "description": "Our strategy vs HODL"
     }
