@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-26T13:16:02.138472",
+  "last_update": "2026-04-26T13:16:27.950322",
   "initial_capital": 10000,
   "capital": {
-    "total": 8804.31,
+    "total": 8803.92,
     "available": 6847.19,
-    "invested": 1957.12,
-    "pnl": -1195.69,
+    "invested": 1956.73,
+    "pnl": -1196.08,
     "pnl_pct": -11.96,
-    "peak": 8804.31,
+    "peak": 8803.92,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 29.6
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-26T05:15:47.366637",
-      "value": 8800.11,
-      "positions": 2,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-26T05:32:26.303894",
       "value": 8798.5,
@@ -630,6 +624,12 @@
       "value": 8804.31,
       "positions": 3,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-26T13:16:27.418835",
+      "value": 8803.92,
+      "positions": 3,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,12 +638,12 @@
       "name": "Dogecoin",
       "icon": "Ð",
       "entry_price": 0.09802,
-      "current_price": 0.09854,
+      "current_price": 0.09852,
       "amount": 7176.304636,
-      "value": 707.15,
+      "value": 707.01,
       "cost": 703.39,
-      "pnl": 3.73,
-      "pnl_pct": 0.53,
+      "pnl": 3.59,
+      "pnl_pct": 0.51,
       "stop_loss": 0.09719857142857143,
       "take_profit": 0.09966285714285714,
       "entry_time": "2026-04-26T01:45:54.927636",
@@ -660,12 +660,12 @@
       "name": "Cardano",
       "icon": "₳",
       "entry_price": 0.25,
-      "current_price": 0.2529,
+      "current_price": 0.2528,
       "amount": 2588.600235,
-      "value": 654.66,
+      "value": 654.4,
       "cost": 647.15,
-      "pnl": 7.51,
-      "pnl_pct": 1.16,
+      "pnl": 7.25,
+      "pnl_pct": 1.12,
       "stop_loss": 0.24725,
       "take_profit": 0.2555,
       "entry_time": "2026-04-26T03:15:20.960305",
@@ -682,11 +682,11 @@
       "name": "BNB",
       "icon": "◈",
       "entry_price": 631.63,
-      "current_price": 631.56,
+      "current_price": 631.57,
       "amount": 0.942606,
-      "value": 595.31,
+      "value": 595.32,
       "cost": 595.03,
-      "pnl": -0.07,
+      "pnl": -0.06,
       "pnl_pct": -0.01,
       "stop_loss": 627.7871428571428,
       "take_profit": 639.3157142857143,
@@ -1396,18 +1396,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -29.66,
-      "profit_pct": -0.3,
+      "profit": -28.46,
+      "profit_pct": -0.28,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1195.69,
+      "profit": -1196.08,
       "profit_pct": -11.96,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1166.02,
-      "pct": -11.66,
+      "value": -1167.62,
+      "pct": -11.68,
       "description": "Our strategy vs HODL"
     }
   }
