@@ -1,18 +1,18 @@
 {
-  "last_update": "2026-04-26T10:38:00.953396",
+  "last_update": "2026-04-26T10:45:26.638889",
   "initial_capital": 10000,
   "capital": {
-    "total": 8804.16,
-    "available": 7442.23,
-    "invested": 1361.94,
-    "pnl": -1195.84,
+    "total": 8803.7,
+    "available": 6847.19,
+    "invested": 1956.51,
+    "pnl": -1196.3,
     "pnl_pct": -11.96,
-    "peak": 8804.16,
+    "peak": 8803.7,
     "drawdown_pct": 0.0
   },
   "stats": {
-    "positions_open": 2,
-    "total_trades": 23,
+    "positions_open": 3,
+    "total_trades": 24,
     "completed_trades": 11,
     "wins": 3,
     "losses": 8,
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 29.6
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-26T02:34:28.192870",
-      "value": 8791.86,
-      "positions": 1,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-26T02:34:41.766867",
       "value": 8791.86,
@@ -630,6 +624,12 @@
       "value": 8804.16,
       "positions": 2,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-26T10:45:26.099783",
+      "value": 8803.7,
+      "positions": 3,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,16 +638,16 @@
       "name": "Dogecoin",
       "icon": "Ð",
       "entry_price": 0.09802,
-      "current_price": 0.09863,
+      "current_price": 0.09859,
       "amount": 7176.304636,
-      "value": 707.8,
+      "value": 707.51,
       "cost": 703.39,
-      "pnl": 4.38,
-      "pnl_pct": 0.62,
+      "pnl": 4.09,
+      "pnl_pct": 0.58,
       "stop_loss": 0.09719857142857143,
       "take_profit": 0.09966285714285714,
       "entry_time": "2026-04-26T01:45:54.927636",
-      "hours_open": 8.9,
+      "hours_open": 9.0,
       "indicators": {
         "mean_reversion": 0,
         "trend": 0.6,
@@ -660,38 +660,47 @@
       "name": "Cardano",
       "icon": "₳",
       "entry_price": 0.25,
-      "current_price": 0.2527,
+      "current_price": 0.2525,
       "amount": 2588.600235,
-      "value": 654.14,
+      "value": 653.62,
       "cost": 647.15,
-      "pnl": 6.99,
-      "pnl_pct": 1.08,
+      "pnl": 6.47,
+      "pnl_pct": 1.0,
       "stop_loss": 0.24725,
       "take_profit": 0.2555,
       "entry_time": "2026-04-26T03:15:20.960305",
-      "hours_open": 7.4,
+      "hours_open": 7.5,
       "indicators": {
         "mean_reversion": 0,
         "trend": 0.7,
         "momentum": 0.35,
         "volatility": 0.35
       }
+    },
+    "BNB/USDT": {
+      "symbol": "BNB/USDT",
+      "name": "BNB",
+      "icon": "◈",
+      "entry_price": 631.63,
+      "current_price": 631.63,
+      "amount": 0.942606,
+      "value": 595.38,
+      "cost": 595.03,
+      "pnl": 0,
+      "pnl_pct": 0,
+      "stop_loss": 627.7871428571428,
+      "take_profit": 639.3157142857143,
+      "entry_time": "2026-04-26T10:45:20.272807",
+      "hours_open": 0.0,
+      "indicators": {
+        "mean_reversion": 0,
+        "trend": 0.6,
+        "momentum": 0.65,
+        "volatility": 0.35
+      }
     }
   },
   "recent_activity": [
-    {
-      "time": "2026-04-23T20:15:38.578448",
-      "symbol": "BNB/USDT",
-      "action": "BUY",
-      "price": 636.98,
-      "amount": 0.857405,
-      "cost": 546.05469,
-      "profit": 0,
-      "profit_pct": 0,
-      "result": null,
-      "reason": "SIGNAL",
-      "icon": "◈"
-    },
     {
       "time": "2026-04-23T20:45:46.566665",
       "symbol": "AVAX/USDT",
@@ -938,6 +947,19 @@
       "result": null,
       "reason": "SIGNAL",
       "icon": "₳"
+    },
+    {
+      "time": "2026-04-26T10:45:20.272807",
+      "symbol": "BNB/USDT",
+      "action": "BUY",
+      "price": 631.63,
+      "amount": 0.942606,
+      "cost": 595.03314,
+      "profit": 0,
+      "profit_pct": 0,
+      "result": null,
+      "reason": "SIGNAL",
+      "icon": "◈"
     }
   ],
   "trades": [
@@ -1353,22 +1375,39 @@
         "momentum": 0.35,
         "volatility": 0.35
       }
+    },
+    {
+      "time": "2026-04-26T10:45:20.272807",
+      "symbol": "BNB/USDT",
+      "action": "BUY",
+      "price": 631.63,
+      "amount": 0.942606,
+      "cost": 595.03314,
+      "order_id": "3216262",
+      "stop_loss": 627.7871428571428,
+      "take_profit": 639.3157142857143,
+      "indicators": {
+        "mean_reversion": 0,
+        "trend": 0.6,
+        "momentum": 0.65,
+        "volatility": 0.35
+      }
     }
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -1.6,
-      "profit_pct": -0.02,
+      "profit": -4.92,
+      "profit_pct": -0.05,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1195.84,
+      "profit": -1196.3,
       "profit_pct": -11.96,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1194.24,
-      "pct": -11.94,
+      "value": -1191.38,
+      "pct": -11.91,
       "description": "Our strategy vs HODL"
     }
   }
