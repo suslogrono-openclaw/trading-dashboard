@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-26T22:03:43.658912",
+  "last_update": "2026-04-26T22:03:55.332914",
   "initial_capital": 10000,
   "capital": {
-    "total": 8822.05,
+    "total": 8821.42,
     "available": 6511.49,
-    "invested": 2310.56,
-    "pnl": -1177.95,
-    "pnl_pct": -11.78,
-    "peak": 8822.05,
+    "invested": 2309.93,
+    "pnl": -1178.58,
+    "pnl_pct": -11.79,
+    "peak": 8821.42,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -248,8 +248,8 @@
       "drawdown": 0.0
     },
     {
-      "time": "2026-04-26T22:03:43.131689",
-      "value": 8822.05,
+      "time": "2026-04-26T22:03:54.812498",
+      "value": 8821.42,
       "positions": 4,
       "drawdown": 0.0
     }
@@ -260,12 +260,12 @@
       "name": "Cardano",
       "icon": "₳",
       "entry_price": 0.25,
-      "current_price": 0.253,
+      "current_price": 0.2528,
       "amount": 2588.600235,
-      "value": 654.92,
+      "value": 654.4,
       "cost": 647.15,
-      "pnl": 7.77,
-      "pnl_pct": 1.2,
+      "pnl": 7.25,
+      "pnl_pct": 1.12,
       "stop_loss": 0.24725,
       "take_profit": 0.2555,
       "entry_time": "2026-04-26T03:15:20.960305",
@@ -326,12 +326,12 @@
       "name": "Solana",
       "icon": "◎",
       "entry_price": 86.44,
-      "current_price": 86.93,
+      "current_price": 86.91,
       "amount": 5.830141,
-      "value": 506.81,
+      "value": 506.7,
       "cost": 504.0,
-      "pnl": 2.86,
-      "pnl_pct": 0.57,
+      "pnl": 2.74,
+      "pnl_pct": 0.54,
       "stop_loss": 85.65785714285715,
       "take_profit": 88.0042857142857,
       "entry_time": "2026-04-26T15:15:23.000084",
@@ -1098,13 +1098,13 @@
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1177.95,
-      "profit_pct": -11.78,
+      "profit": -1178.58,
+      "profit_pct": -11.79,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1120.04,
-      "pct": -11.2,
+      "value": -1120.67,
+      "pct": -11.21,
       "description": "Our strategy vs HODL"
     }
   }
