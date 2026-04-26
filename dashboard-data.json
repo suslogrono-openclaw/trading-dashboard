@@ -1,22 +1,22 @@
 {
-  "last_update": "2026-04-26T01:17:10.056367",
+  "last_update": "2026-04-26T01:31:38.508902",
   "initial_capital": 10000,
   "capital": {
-    "total": 8793.91,
-    "available": 8291.44,
-    "invested": 502.47,
-    "pnl": -1206.09,
-    "pnl_pct": -12.06,
-    "peak": 8793.91,
+    "total": 8792.77,
+    "available": 8792.77,
+    "invested": 0,
+    "pnl": -1207.23,
+    "pnl_pct": -12.07,
+    "peak": 8792.77,
     "drawdown_pct": 0.0
   },
   "stats": {
-    "positions_open": 1,
-    "total_trades": 20,
-    "completed_trades": 10,
+    "positions_open": 0,
+    "total_trades": 21,
+    "completed_trades": 11,
     "wins": 3,
-    "losses": 7,
-    "win_rate": 30.0,
+    "losses": 8,
+    "win_rate": 27.3,
     "best_trade": {
       "symbol": "BTC/USDT",
       "profit": 14.08,
@@ -27,16 +27,10 @@
       "profit": -7.97,
       "profit_pct": -1.51
     },
-    "avg_profit": -0.6,
-    "avg_time_in_position_hours": 27.3
+    "avg_profit": -0.69,
+    "avg_time_in_position_hours": 29.6
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-25T17:15:45.915974",
-      "value": 8798.78,
-      "positions": 3,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-25T17:31:58.143711",
       "value": 8795.68,
@@ -630,46 +624,16 @@
       "value": 8793.91,
       "positions": 1,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-26T01:31:38.014525",
+      "value": 8792.77,
+      "positions": 0,
+      "drawdown": 0.0
     }
   ],
-  "positions": {
-    "AVAX/USDT": {
-      "symbol": "AVAX/USDT",
-      "name": "Avalanche",
-      "icon": "▲",
-      "entry_price": 9.34,
-      "current_price": 9.34,
-      "amount": 53.797141,
-      "value": 502.47,
-      "cost": 502.94,
-      "pnl": 0.0,
-      "pnl_pct": 0.0,
-      "stop_loss": 8.28642857142857,
-      "take_profit": 11.447142857142861,
-      "entry_time": "2026-04-23T20:45:46.566665",
-      "hours_open": 52.5,
-      "indicators": {
-        "mean_reversion": 0.25,
-        "trend": 1.1,
-        "momentum": 0.35,
-        "volatility": 0.25
-      }
-    }
-  },
+  "positions": {},
   "recent_activity": [
-    {
-      "time": "2026-04-21T21:01:05.967123",
-      "symbol": "SOL/USDT",
-      "action": "BUY",
-      "price": 85.55,
-      "amount": 6.924798,
-      "cost": 592.41744,
-      "profit": 0,
-      "profit_pct": 0,
-      "result": null,
-      "reason": "SIGNAL",
-      "icon": "◎"
-    },
     {
       "time": "2026-04-21T23:06:09.973074",
       "symbol": "BTC/USDT",
@@ -916,6 +880,19 @@
       "result": "loss",
       "reason": "STOP_LOSS",
       "icon": "●"
+    },
+    {
+      "time": "2026-04-26T01:31:34.627921",
+      "symbol": "AVAX/USDT",
+      "action": "SELL",
+      "price": 9.33,
+      "amount": 53.797141,
+      "cost": 501.3228,
+      "profit": -1.6137000000000512,
+      "profit_pct": -0.3208556149732722,
+      "result": "loss",
+      "reason": "SIGNAL",
+      "icon": "▲"
     }
   ],
   "trades": [
@@ -1278,22 +1255,41 @@
         "momentum": 0.35,
         "volatility": 0.35
       }
+    },
+    {
+      "time": "2026-04-26T01:31:34.627921",
+      "symbol": "AVAX/USDT",
+      "action": "SELL",
+      "price": 9.33,
+      "amount": 53.797141,
+      "revenue": 501.3228,
+      "profit": -1.6137000000000512,
+      "profit_pct": -0.3208556149732722,
+      "reason": "SIGNAL",
+      "order_id": "230992",
+      "holding_hours": 52.8,
+      "indicators": {
+        "mean_reversion": 0.25,
+        "trend": 1.1,
+        "momentum": 0.35,
+        "volatility": 0.25
+      }
     }
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 247.02,
+      "profit": 247.47,
       "profit_pct": 2.47,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1206.09,
-      "profit_pct": -12.06,
+      "profit": -1207.23,
+      "profit_pct": -12.07,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1453.11,
-      "pct": -14.53,
+      "value": -1454.7,
+      "pct": -14.55,
       "description": "Our strategy vs HODL"
     }
   }
