@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-26T13:15:50.188157",
+  "last_update": "2026-04-26T13:16:02.138472",
   "initial_capital": 10000,
   "capital": {
-    "total": 8804.34,
+    "total": 8804.31,
     "available": 6847.19,
-    "invested": 1957.15,
-    "pnl": -1195.66,
+    "invested": 1957.12,
+    "pnl": -1195.69,
     "pnl_pct": -11.96,
-    "peak": 8804.34,
+    "peak": 8804.31,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 29.6
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-26T05:15:35.703137",
-      "value": 8800.11,
-      "positions": 2,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-26T05:15:47.366637",
       "value": 8800.11,
@@ -630,6 +624,12 @@
       "value": 8804.34,
       "positions": 3,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-26T13:16:01.614984",
+      "value": 8804.31,
+      "positions": 3,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -682,11 +682,11 @@
       "name": "BNB",
       "icon": "◈",
       "entry_price": 631.63,
-      "current_price": 631.59,
+      "current_price": 631.56,
       "amount": 0.942606,
-      "value": 595.34,
+      "value": 595.31,
       "cost": 595.03,
-      "pnl": -0.04,
+      "pnl": -0.07,
       "pnl_pct": -0.01,
       "stop_loss": 627.7871428571428,
       "take_profit": 639.3157142857143,
@@ -1396,17 +1396,17 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -29.52,
+      "profit": -29.66,
       "profit_pct": -0.3,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1195.66,
+      "profit": -1195.69,
       "profit_pct": -11.96,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1166.14,
+      "value": -1166.02,
       "pct": -11.66,
       "description": "Our strategy vs HODL"
     }
