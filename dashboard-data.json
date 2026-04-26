@@ -1,14 +1,14 @@
 {
-  "last_update": "2026-04-26T11:30:16.073056",
+  "last_update": "2026-04-26T11:30:26.648335",
   "initial_capital": 10000,
   "capital": {
-    "total": 8812.22,
+    "total": 8812.3,
     "available": 6847.19,
-    "invested": 1965.02,
-    "pnl": -1187.78,
+    "invested": 1965.1,
+    "pnl": -1187.7,
     "pnl_pct": -11.88,
-    "peak": 8227.88,
-    "drawdown_pct": -7.1
+    "peak": 8812.3,
+    "drawdown_pct": 0.0
   },
   "stats": {
     "positions_open": 3,
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 29.6
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-26T03:16:00.498380",
-      "value": 8793.59,
-      "positions": 2,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-26T03:16:33.212373",
       "value": 8793.8,
@@ -630,6 +624,12 @@
       "value": 8805.92,
       "positions": 3,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-26T11:30:26.118062",
+      "value": 8812.3,
+      "positions": 3,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,12 +638,12 @@
       "name": "Dogecoin",
       "icon": "Ð",
       "entry_price": 0.09802,
-      "current_price": 0.09904,
+      "current_price": 0.09905,
       "amount": 7176.304636,
-      "value": 710.74,
+      "value": 710.81,
       "cost": 703.39,
-      "pnl": 7.35,
-      "pnl_pct": 1.04,
+      "pnl": 7.39,
+      "pnl_pct": 1.05,
       "stop_loss": 0.09719857142857143,
       "take_profit": 0.09966285714285714,
       "entry_time": "2026-04-26T01:45:54.927636",
@@ -682,12 +682,12 @@
       "name": "BNB",
       "icon": "◈",
       "entry_price": 631.63,
-      "current_price": 632.29,
+      "current_price": 632.3,
       "amount": 0.942606,
-      "value": 596.0,
+      "value": 596.01,
       "cost": 595.03,
-      "pnl": 0.97,
-      "pnl_pct": 0.1,
+      "pnl": 0.63,
+      "pnl_pct": 0.11,
       "stop_loss": 627.7871428571428,
       "take_profit": 639.3157142857143,
       "entry_time": "2026-04-26T10:45:20.272807",
@@ -1396,18 +1396,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -593.89,
-      "profit_pct": -5.94,
-      "description": "BTC buy and hold comparison"
+      "profit": 10.09,
+      "profit_pct": 0.1,
+      "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1187.78,
+      "profit": -1187.7,
       "profit_pct": -11.88,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -593.89,
-      "pct": -5.94,
+      "value": -1197.8,
+      "pct": -11.98,
       "description": "Our strategy vs HODL"
     }
   }
