@@ -1,14 +1,14 @@
 {
-  "last_update": "2026-04-26T16:33:37.431187",
+  "last_update": "2026-04-26T16:33:48.410216",
   "initial_capital": 10000,
   "capital": {
-    "total": 8804.94,
+    "total": 8805.43,
     "available": 5795.46,
-    "invested": 3009.47,
-    "pnl": -1195.06,
+    "invested": 3009.96,
+    "pnl": -1194.57,
     "pnl_pct": -11.95,
     "peak": 8227.88,
-    "drawdown_pct": -7.01
+    "drawdown_pct": -7.02
   },
   "stats": {
     "positions_open": 5,
@@ -638,12 +638,12 @@
       "name": "Dogecoin",
       "icon": "Ð",
       "entry_price": 0.09802,
-      "current_price": 0.09887,
+      "current_price": 0.09893,
       "amount": 7176.304636,
-      "value": 709.52,
+      "value": 709.95,
       "cost": 703.39,
-      "pnl": 6.13,
-      "pnl_pct": 0.87,
+      "pnl": 6.56,
+      "pnl_pct": 0.93,
       "stop_loss": 0.09719857142857143,
       "take_profit": 0.09966285714285714,
       "entry_time": "2026-04-26T01:45:54.927636",
@@ -726,12 +726,12 @@
       "name": "Solana",
       "icon": "◎",
       "entry_price": 86.44,
-      "current_price": 86.55,
+      "current_price": 86.56,
       "amount": 5.830141,
-      "value": 504.6,
+      "value": 504.66,
       "cost": 504.0,
-      "pnl": 0.6,
-      "pnl_pct": 0.13,
+      "pnl": 0.65,
+      "pnl_pct": 0.14,
       "stop_loss": 85.65785714285715,
       "take_profit": 88.0042857142857,
       "entry_time": "2026-04-26T15:15:23.000084",
@@ -1474,18 +1474,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -597.53,
-      "profit_pct": -5.98,
+      "profit": -597.29,
+      "profit_pct": -5.97,
       "description": "BTC buy and hold comparison"
     },
     "our_strategy": {
-      "profit": -1195.06,
+      "profit": -1194.57,
       "profit_pct": -11.95,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -597.53,
-      "pct": -5.98,
+      "value": -597.29,
+      "pct": -5.97,
       "description": "Our strategy vs HODL"
     }
   }
