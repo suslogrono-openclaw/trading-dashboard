@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-26T20:34:31.142101",
+  "last_update": "2026-04-26T20:34:43.104643",
   "initial_capital": 10000,
   "capital": {
-    "total": 8819.9,
+    "total": 8820.25,
     "available": 6511.49,
-    "invested": 2308.41,
-    "pnl": -1180.1,
+    "invested": 2308.76,
+    "pnl": -1179.75,
     "pnl_pct": -11.8,
-    "peak": 8819.9,
+    "peak": 8820.25,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -174,6 +174,12 @@
       "value": 8819.9,
       "positions": 4,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-26T20:34:42.584954",
+      "value": 8820.25,
+      "positions": 4,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -204,12 +210,12 @@
       "name": "BNB",
       "icon": "◈",
       "entry_price": 631.63,
-      "current_price": 635.69,
+      "current_price": 635.74,
       "amount": 0.942606,
-      "value": 599.21,
+      "value": 599.25,
       "cost": 595.03,
-      "pnl": 3.83,
-      "pnl_pct": 0.64,
+      "pnl": 3.87,
+      "pnl_pct": 0.65,
       "stop_loss": 627.7871428571428,
       "take_profit": 639.3157142857143,
       "entry_time": "2026-04-26T10:45:20.272807",
@@ -226,12 +232,12 @@
       "name": "Ripple",
       "icon": "✦",
       "entry_price": 1.4287,
-      "current_price": 1.4317,
+      "current_price": 1.4325,
       "amount": 383.408279,
-      "value": 548.93,
+      "value": 549.23,
       "cost": 547.73,
-      "pnl": 1.15,
-      "pnl_pct": 0.21,
+      "pnl": 1.46,
+      "pnl_pct": 0.27,
       "stop_loss": 1.4193785714285714,
       "take_profit": 1.4473428571428575,
       "entry_time": "2026-04-26T14:45:27.435961",
@@ -1020,12 +1026,12 @@
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1180.1,
+      "profit": -1179.75,
       "profit_pct": -11.8,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1110.28,
+      "value": -1109.93,
       "pct": -11.1,
       "description": "Our strategy vs HODL"
     }
