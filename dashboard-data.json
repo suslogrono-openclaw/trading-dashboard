@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-27T05:16:11.709123",
+  "last_update": "2026-04-27T05:16:35.580401",
   "initial_capital": 10000,
   "capital": {
-    "total": 8834.57,
+    "total": 8834.61,
     "available": 8288.21,
-    "invested": 546.36,
-    "pnl": -1165.43,
+    "invested": 546.4,
+    "pnl": -1165.39,
     "pnl_pct": -11.65,
-    "peak": 8834.57,
+    "peak": 8834.61,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 26.5
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-26T19:02:17.279938",
-      "value": 8811.81,
-      "positions": 5,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-26T19:15:26.085524",
       "value": 8815.54,
@@ -630,6 +624,12 @@
       "value": 8834.57,
       "positions": 1,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-27T05:16:35.083677",
+      "value": 8834.61,
+      "positions": 1,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,12 +638,12 @@
       "name": "Ripple",
       "icon": "✦",
       "entry_price": 1.4287,
-      "current_price": 1.425,
+      "current_price": 1.4251,
       "amount": 383.408279,
-      "value": 546.36,
+      "value": 546.4,
       "cost": 547.73,
-      "pnl": -1.42,
-      "pnl_pct": -0.26,
+      "pnl": -1.38,
+      "pnl_pct": -0.25,
       "stop_loss": 1.4193785714285714,
       "take_profit": 1.4473428571428575,
       "entry_time": "2026-04-26T14:45:27.435961",
@@ -1462,18 +1462,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 33.85,
-      "profit_pct": 0.34,
+      "profit": 7.83,
+      "profit_pct": 0.08,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1165.43,
+      "profit": -1165.39,
       "profit_pct": -11.65,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1199.28,
-      "pct": -11.99,
+      "value": -1173.22,
+      "pct": -11.73,
       "description": "Our strategy vs HODL"
     }
   }
