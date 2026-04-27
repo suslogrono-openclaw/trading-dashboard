@@ -1,14 +1,14 @@
 {
-  "last_update": "2026-04-27T01:32:58.395028",
+  "last_update": "2026-04-27T01:45:27.277472",
   "initial_capital": 10000,
   "capital": {
-    "total": 8833.21,
+    "total": 8835.23,
     "available": 6511.49,
-    "invested": 2321.73,
-    "pnl": -1166.79,
-    "pnl_pct": -11.67,
-    "peak": 8227.88,
-    "drawdown_pct": -7.36
+    "invested": 2323.75,
+    "pnl": -1164.77,
+    "pnl_pct": -11.65,
+    "peak": 8835.23,
+    "drawdown_pct": 0.0
   },
   "stats": {
     "positions_open": 4,
@@ -432,6 +432,12 @@
       "value": 8832.81,
       "positions": 4,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-27T01:45:26.736851",
+      "value": 8835.23,
+      "positions": 4,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -440,16 +446,16 @@
       "name": "Cardano",
       "icon": "₳",
       "entry_price": 0.25,
-      "current_price": 0.2547,
+      "current_price": 0.2548,
       "amount": 2588.600235,
-      "value": 659.32,
+      "value": 659.58,
       "cost": 647.15,
-      "pnl": 12.17,
-      "pnl_pct": 1.88,
+      "pnl": 12.43,
+      "pnl_pct": 1.92,
       "stop_loss": 0.24725,
       "take_profit": 0.2555,
       "entry_time": "2026-04-26T03:15:20.960305",
-      "hours_open": 22.3,
+      "hours_open": 22.5,
       "indicators": {
         "mean_reversion": 0,
         "trend": 0.7,
@@ -462,16 +468,16 @@
       "name": "BNB",
       "icon": "◈",
       "entry_price": 631.63,
-      "current_price": 637.32,
+      "current_price": 637.41,
       "amount": 0.942606,
-      "value": 600.74,
+      "value": 600.83,
       "cost": 595.03,
-      "pnl": 5.71,
-      "pnl_pct": 0.9,
+      "pnl": 5.45,
+      "pnl_pct": 0.92,
       "stop_loss": 627.7871428571428,
       "take_profit": 639.3157142857143,
       "entry_time": "2026-04-26T10:45:20.272807",
-      "hours_open": 14.8,
+      "hours_open": 15.0,
       "indicators": {
         "mean_reversion": 0,
         "trend": 0.6,
@@ -484,16 +490,16 @@
       "name": "Ripple",
       "icon": "✦",
       "entry_price": 1.4287,
-      "current_price": 1.4391,
+      "current_price": 1.4415,
       "amount": 383.408279,
-      "value": 551.76,
+      "value": 552.68,
       "cost": 547.73,
-      "pnl": 4.04,
-      "pnl_pct": 0.73,
+      "pnl": 4.91,
+      "pnl_pct": 0.9,
       "stop_loss": 1.4193785714285714,
       "take_profit": 1.4473428571428575,
       "entry_time": "2026-04-26T14:45:27.435961",
-      "hours_open": 10.8,
+      "hours_open": 11.0,
       "indicators": {
         "mean_reversion": 0,
         "trend": 0.45,
@@ -506,16 +512,16 @@
       "name": "Solana",
       "icon": "◎",
       "entry_price": 86.44,
-      "current_price": 87.46,
+      "current_price": 87.59,
       "amount": 5.830141,
-      "value": 509.9,
+      "value": 510.66,
       "cost": 504.0,
-      "pnl": 5.9,
-      "pnl_pct": 1.18,
+      "pnl": 6.7,
+      "pnl_pct": 1.33,
       "stop_loss": 85.65785714285715,
       "take_profit": 88.0042857142857,
       "entry_time": "2026-04-26T15:15:23.000084",
-      "hours_open": 10.3,
+      "hours_open": 10.5,
       "indicators": {
         "mean_reversion": 0,
         "trend": 0.7,
@@ -1273,18 +1279,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -583.39,
-      "profit_pct": -5.83,
-      "description": "BTC buy and hold comparison"
+      "profit": 60.3,
+      "profit_pct": 0.6,
+      "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1166.79,
-      "profit_pct": -11.67,
+      "profit": -1164.77,
+      "profit_pct": -11.65,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -583.39,
-      "pct": -5.83,
+      "value": -1225.06,
+      "pct": -12.25,
       "description": "Our strategy vs HODL"
     }
   }
