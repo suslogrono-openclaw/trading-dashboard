@@ -1,34 +1,34 @@
 {
-  "last_update": "2026-04-27T01:48:13.457248",
+  "last_update": "2026-04-27T02:05:29.257495",
   "initial_capital": 10000,
   "capital": {
-    "total": 8840.42,
-    "available": 6511.49,
-    "invested": 2328.94,
-    "pnl": -1159.58,
+    "total": 8840.09,
+    "available": 7173.13,
+    "invested": 1666.96,
+    "pnl": -1159.91,
     "pnl_pct": -11.6,
-    "peak": 8227.88,
-    "drawdown_pct": -7.44
+    "peak": 8840.09,
+    "drawdown_pct": 0.0
   },
   "stats": {
-    "positions_open": 4,
-    "total_trades": 27,
-    "completed_trades": 12,
-    "wins": 4,
+    "positions_open": 3,
+    "total_trades": 28,
+    "completed_trades": 13,
+    "wins": 5,
     "losses": 8,
-    "win_rate": 33.3,
+    "win_rate": 38.5,
     "best_trade": {
-      "symbol": "BTC/USDT",
-      "profit": 14.08,
-      "profit_pct": 2.59
+      "symbol": "ADA/USDT",
+      "profit": 14.5,
+      "profit_pct": 2.24
     },
     "worst_trade": {
       "symbol": "DOT/USDT",
       "profit": -7.97,
       "profit_pct": -1.51
     },
-    "avg_profit": 0.42,
-    "avg_time_in_position_hours": 28.7
+    "avg_profit": 1.5,
+    "avg_time_in_position_hours": 28.3
   },
   "portfolio_history": [
     {
@@ -456,46 +456,30 @@
       "value": 8839.94,
       "positions": 4,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-27T02:05:28.733100",
+      "value": 8840.09,
+      "positions": 3,
+      "drawdown": 0.0
     }
   ],
   "positions": {
-    "ADA/USDT": {
-      "symbol": "ADA/USDT",
-      "name": "Cardano",
-      "icon": "₳",
-      "entry_price": 0.25,
-      "current_price": 0.2555,
-      "amount": 2588.600235,
-      "value": 661.39,
-      "cost": 647.15,
-      "pnl": 14.24,
-      "pnl_pct": 2.2,
-      "stop_loss": 0.24725,
-      "take_profit": 0.2555,
-      "entry_time": "2026-04-26T03:15:20.960305",
-      "hours_open": 22.5,
-      "indicators": {
-        "mean_reversion": 0,
-        "trend": 0.7,
-        "momentum": 0.35,
-        "volatility": 0.35
-      }
-    },
     "BNB/USDT": {
       "symbol": "BNB/USDT",
       "name": "BNB",
       "icon": "◈",
       "entry_price": 631.63,
-      "current_price": 638.33,
+      "current_price": 638.58,
       "amount": 0.942606,
-      "value": 601.69,
+      "value": 601.93,
       "cost": 595.03,
-      "pnl": 6.66,
-      "pnl_pct": 1.06,
+      "pnl": 6.55,
+      "pnl_pct": 1.1,
       "stop_loss": 627.7871428571428,
       "take_profit": 639.3157142857143,
       "entry_time": "2026-04-26T10:45:20.272807",
-      "hours_open": 15.0,
+      "hours_open": 15.3,
       "indicators": {
         "mean_reversion": 0,
         "trend": 0.6,
@@ -508,16 +492,16 @@
       "name": "Ripple",
       "icon": "✦",
       "entry_price": 1.4287,
-      "current_price": 1.4447,
+      "current_price": 1.4433,
       "amount": 383.408279,
-      "value": 553.91,
+      "value": 553.37,
       "cost": 547.73,
-      "pnl": 6.18,
-      "pnl_pct": 1.12,
+      "pnl": 5.6,
+      "pnl_pct": 1.02,
       "stop_loss": 1.4193785714285714,
       "take_profit": 1.4473428571428575,
       "entry_time": "2026-04-26T14:45:27.435961",
-      "hours_open": 11.0,
+      "hours_open": 11.3,
       "indicators": {
         "mean_reversion": 0,
         "trend": 0.45,
@@ -530,16 +514,16 @@
       "name": "Solana",
       "icon": "◎",
       "entry_price": 86.44,
-      "current_price": 87.81,
+      "current_price": 87.76,
       "amount": 5.830141,
-      "value": 511.94,
+      "value": 511.65,
       "cost": 504.0,
-      "pnl": 7.94,
-      "pnl_pct": 1.58,
+      "pnl": 7.7,
+      "pnl_pct": 1.53,
       "stop_loss": 85.65785714285715,
       "take_profit": 88.0042857142857,
       "entry_time": "2026-04-26T15:15:23.000084",
-      "hours_open": 10.5,
+      "hours_open": 10.8,
       "indicators": {
         "mean_reversion": 0,
         "trend": 0.7,
@@ -549,19 +533,6 @@
     }
   },
   "recent_activity": [
-    {
-      "time": "2026-04-24T06:05:03.451293",
-      "symbol": "BTC/USDT",
-      "action": "BUY",
-      "price": 77948.06,
-      "amount": 0.006301,
-      "cost": 491.072778,
-      "profit": 0,
-      "profit_pct": 0,
-      "result": null,
-      "reason": "SIGNAL",
-      "icon": "₿"
-    },
     {
       "time": "2026-04-24T10:02:14.531934",
       "symbol": "XRP/USDT",
@@ -808,6 +779,19 @@
       "result": "profit",
       "reason": "TAKE_PROFIT",
       "icon": "Ð"
+    },
+    {
+      "time": "2026-04-27T02:05:18.983086",
+      "symbol": "ADA/USDT",
+      "action": "SELL",
+      "price": 0.2557,
+      "amount": 2588.600235,
+      "cost": 661.64616,
+      "profit": 14.496160000000032,
+      "profit_pct": 2.2400000000000047,
+      "result": "profit",
+      "reason": "TAKE_PROFIT",
+      "icon": "₳"
     }
   ],
   "trades": [
@@ -1293,22 +1277,41 @@
         "momentum": 0.35,
         "volatility": 0.55
       }
+    },
+    {
+      "time": "2026-04-27T02:05:18.983086",
+      "symbol": "ADA/USDT",
+      "action": "SELL",
+      "price": 0.2557,
+      "amount": 2588.600235,
+      "revenue": 661.64616,
+      "profit": 14.496160000000032,
+      "profit_pct": 2.2400000000000047,
+      "reason": "TAKE_PROFIT",
+      "order_id": "354091",
+      "holding_hours": 22.8,
+      "indicators": {
+        "mean_reversion": 0,
+        "trend": 0.7,
+        "momentum": 0.35,
+        "volatility": 0.35
+      }
     }
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -579.79,
-      "profit_pct": -5.8,
-      "description": "BTC buy and hold comparison"
+      "profit": 129.17,
+      "profit_pct": 1.29,
+      "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1159.58,
+      "profit": -1159.91,
       "profit_pct": -11.6,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -579.79,
-      "pct": -5.8,
+      "value": -1289.08,
+      "pct": -12.89,
       "description": "Our strategy vs HODL"
     }
   }
