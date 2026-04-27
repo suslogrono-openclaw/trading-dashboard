@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-27T01:15:28.518609",
+  "last_update": "2026-04-27T01:15:45.949922",
   "initial_capital": 10000,
   "capital": {
-    "total": 8833.59,
+    "total": 8834.6,
     "available": 6511.49,
-    "invested": 2322.1,
-    "pnl": -1166.41,
-    "pnl_pct": -11.66,
-    "peak": 8833.59,
+    "invested": 2323.12,
+    "pnl": -1165.4,
+    "pnl_pct": -11.65,
+    "peak": 8834.6,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -420,6 +420,12 @@
       "value": 8833.59,
       "positions": 4,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-27T01:15:45.408090",
+      "value": 8834.6,
+      "positions": 4,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -428,12 +434,12 @@
       "name": "Cardano",
       "icon": "₳",
       "entry_price": 0.25,
-      "current_price": 0.2547,
+      "current_price": 0.2548,
       "amount": 2588.600235,
-      "value": 659.32,
+      "value": 659.58,
       "cost": 647.15,
-      "pnl": 12.17,
-      "pnl_pct": 1.88,
+      "pnl": 12.43,
+      "pnl_pct": 1.92,
       "stop_loss": 0.24725,
       "take_profit": 0.2555,
       "entry_time": "2026-04-26T03:15:20.960305",
@@ -494,12 +500,12 @@
       "name": "Solana",
       "icon": "◎",
       "entry_price": 86.44,
-      "current_price": 87.44,
+      "current_price": 87.57,
       "amount": 5.830141,
-      "value": 509.79,
+      "value": 510.55,
       "cost": 504.0,
-      "pnl": 5.83,
-      "pnl_pct": 1.16,
+      "pnl": 6.59,
+      "pnl_pct": 1.31,
       "stop_loss": 85.65785714285715,
       "take_profit": 88.0042857142857,
       "entry_time": "2026-04-26T15:15:23.000084",
@@ -1261,18 +1267,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 60.78,
+      "profit": 60.61,
       "profit_pct": 0.61,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1166.41,
-      "profit_pct": -11.66,
+      "profit": -1165.4,
+      "profit_pct": -11.65,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1227.19,
-      "pct": -12.27,
+      "value": -1226.0,
+      "pct": -12.26,
       "description": "Our strategy vs HODL"
     }
   }
