@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-27T04:16:06.062509",
+  "last_update": "2026-04-27T04:16:33.855829",
   "initial_capital": 10000,
   "capital": {
-    "total": 8840.55,
+    "total": 8840.74,
     "available": 8288.21,
-    "invested": 552.34,
-    "pnl": -1159.45,
+    "invested": 552.53,
+    "pnl": -1159.26,
     "pnl_pct": -11.59,
-    "peak": 8840.55,
+    "peak": 8840.74,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -612,6 +612,12 @@
       "value": 8840.55,
       "positions": 1,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-27T04:16:33.338639",
+      "value": 8840.74,
+      "positions": 1,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -620,12 +626,12 @@
       "name": "Ripple",
       "icon": "✦",
       "entry_price": 1.4287,
-      "current_price": 1.4406,
+      "current_price": 1.4411,
       "amount": 383.408279,
-      "value": 552.34,
+      "value": 552.53,
       "cost": 547.73,
-      "pnl": 4.56,
-      "pnl_pct": 0.83,
+      "pnl": 4.75,
+      "pnl_pct": 0.87,
       "stop_loss": 1.4193785714285714,
       "take_profit": 1.4473428571428575,
       "entry_time": "2026-04-26T14:45:27.435961",
@@ -1444,18 +1450,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 89.07,
-      "profit_pct": 0.89,
+      "profit": 90.37,
+      "profit_pct": 0.9,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1159.45,
+      "profit": -1159.26,
       "profit_pct": -11.59,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1248.52,
-      "pct": -12.49,
+      "value": -1249.62,
+      "pct": -12.5,
       "description": "Our strategy vs HODL"
     }
   }
