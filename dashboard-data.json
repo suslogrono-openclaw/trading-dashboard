@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-27T00:03:34.273658",
+  "last_update": "2026-04-27T00:04:16.610592",
   "initial_capital": 10000,
   "capital": {
-    "total": 8823.59,
+    "total": 8823.46,
     "available": 6511.49,
-    "invested": 2312.11,
-    "pnl": -1176.41,
-    "pnl_pct": -11.76,
-    "peak": 8823.59,
+    "invested": 2311.97,
+    "pnl": -1176.54,
+    "pnl_pct": -11.77,
+    "peak": 8823.46,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -366,6 +366,12 @@
       "value": 8823.59,
       "positions": 4,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-27T00:04:16.092624",
+      "value": 8823.46,
+      "positions": 4,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -418,12 +424,12 @@
       "name": "Ripple",
       "icon": "✦",
       "entry_price": 1.4287,
-      "current_price": 1.4334,
+      "current_price": 1.4335,
       "amount": 383.408279,
-      "value": 549.58,
+      "value": 549.62,
       "cost": 547.73,
-      "pnl": 1.8,
-      "pnl_pct": 0.33,
+      "pnl": 1.84,
+      "pnl_pct": 0.34,
       "stop_loss": 1.4193785714285714,
       "take_profit": 1.4473428571428575,
       "entry_time": "2026-04-26T14:45:27.435961",
@@ -440,12 +446,12 @@
       "name": "Solana",
       "icon": "◎",
       "entry_price": 86.44,
-      "current_price": 87.18,
+      "current_price": 87.15,
       "amount": 5.830141,
-      "value": 508.27,
+      "value": 508.1,
       "cost": 504.0,
-      "pnl": 4.31,
-      "pnl_pct": 0.86,
+      "pnl": 4.14,
+      "pnl_pct": 0.82,
       "stop_loss": 85.65785714285715,
       "take_profit": 88.0042857142857,
       "entry_time": "2026-04-26T15:15:23.000084",
@@ -1207,18 +1213,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 11.59,
-      "profit_pct": 0.12,
+      "profit": 9.64,
+      "profit_pct": 0.1,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1176.41,
-      "profit_pct": -11.76,
+      "profit": -1176.54,
+      "profit_pct": -11.77,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1188.0,
-      "pct": -11.88,
+      "value": -1186.19,
+      "pct": -11.86,
       "description": "Our strategy vs HODL"
     }
   }
