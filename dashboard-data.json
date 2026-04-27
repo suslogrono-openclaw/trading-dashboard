@@ -1,22 +1,22 @@
 {
-  "last_update": "2026-04-27T05:45:46.943111",
+  "last_update": "2026-04-27T06:05:47.063845",
   "initial_capital": 10000,
   "capital": {
-    "total": 8832.77,
-    "available": 8288.21,
-    "invested": 544.55,
-    "pnl": -1167.23,
-    "pnl_pct": -11.67,
-    "peak": 8227.88,
-    "drawdown_pct": -7.35
+    "total": 8830.92,
+    "available": 8830.92,
+    "invested": 0,
+    "pnl": -1169.08,
+    "pnl_pct": -11.69,
+    "peak": 8830.92,
+    "drawdown_pct": 0.0
   },
   "stats": {
-    "positions_open": 1,
-    "total_trades": 30,
-    "completed_trades": 15,
+    "positions_open": 0,
+    "total_trades": 31,
+    "completed_trades": 16,
     "wins": 7,
-    "losses": 8,
-    "win_rate": 46.7,
+    "losses": 9,
+    "win_rate": 43.8,
     "best_trade": {
       "symbol": "ADA/USDT",
       "profit": 14.5,
@@ -27,16 +27,10 @@
       "profit": -7.97,
       "profit_pct": -1.51
     },
-    "avg_profit": 2.37,
-    "avg_time_in_position_hours": 26.5
+    "avg_profit": 1.91,
+    "avg_time_in_position_hours": 25.8
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-26T19:46:02.789010",
-      "value": 8815.59,
-      "positions": 5,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-26T20:03:16.060857",
       "value": 8814.4,
@@ -630,46 +624,16 @@
       "value": 8832.58,
       "positions": 1,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-27T06:05:46.579481",
+      "value": 8830.92,
+      "positions": 0,
+      "drawdown": 0.0
     }
   ],
-  "positions": {
-    "XRP/USDT": {
-      "symbol": "XRP/USDT",
-      "name": "Ripple",
-      "icon": "✦",
-      "entry_price": 1.4287,
-      "current_price": 1.4203,
-      "amount": 383.408279,
-      "value": 544.55,
-      "cost": 547.73,
-      "pnl": -3.17,
-      "pnl_pct": -0.59,
-      "stop_loss": 1.4193785714285714,
-      "take_profit": 1.4473428571428575,
-      "entry_time": "2026-04-26T14:45:27.435961",
-      "hours_open": 15.0,
-      "indicators": {
-        "mean_reversion": 0,
-        "trend": 0.45,
-        "momentum": 0.65,
-        "volatility": 0.35
-      }
-    }
-  },
+  "positions": {},
   "recent_activity": [
-    {
-      "time": "2026-04-24T15:15:20.714530",
-      "symbol": "SOL/USDT",
-      "action": "SELL",
-      "price": 85.8,
-      "amount": 6.924798,
-      "cost": 594.0792,
-      "profit": 1.6617599999999584,
-      "profit_pct": 0.28050490883589757,
-      "result": "profit",
-      "reason": "SIGNAL",
-      "icon": "◎"
-    },
     {
       "time": "2026-04-24T15:45:35.911490",
       "symbol": "ETH/USDT",
@@ -916,6 +880,19 @@
       "result": "profit",
       "reason": "TAKE_PROFIT",
       "icon": "◎"
+    },
+    {
+      "time": "2026-04-27T06:05:37.929082",
+      "symbol": "XRP/USDT",
+      "action": "SELL",
+      "price": 1.4155,
+      "amount": 383.408279,
+      "cost": 542.7027,
+      "profit": -5.022539999999935,
+      "profit_pct": -0.916981660366781,
+      "result": "loss",
+      "reason": "STOP_LOSS",
+      "icon": "✦"
     }
   ],
   "trades": [
@@ -1458,22 +1435,41 @@
         "momentum": 0.35,
         "volatility": 0.35
       }
+    },
+    {
+      "time": "2026-04-27T06:05:37.929082",
+      "symbol": "XRP/USDT",
+      "action": "SELL",
+      "price": 1.4155,
+      "amount": 383.408279,
+      "revenue": 542.7027,
+      "profit": -5.022539999999935,
+      "profit_pct": -0.916981660366781,
+      "reason": "STOP_LOSS",
+      "order_id": "1104927",
+      "holding_hours": 15.3,
+      "indicators": {
+        "mean_reversion": 0,
+        "trend": 0.45,
+        "momentum": 0.65,
+        "volatility": 0.35
+      }
     }
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -583.62,
-      "profit_pct": -5.84,
-      "description": "BTC buy and hold comparison"
+      "profit": -1.05,
+      "profit_pct": -0.01,
+      "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1167.23,
-      "profit_pct": -11.67,
+      "profit": -1169.08,
+      "profit_pct": -11.69,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -583.62,
-      "pct": -5.84,
+      "value": -1168.03,
+      "pct": -11.68,
       "description": "Our strategy vs HODL"
     }
   }
