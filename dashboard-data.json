@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-27T02:45:46.365909",
+  "last_update": "2026-04-27T02:45:58.320502",
   "initial_capital": 10000,
   "capital": {
-    "total": 8838.49,
+    "total": 8838.43,
     "available": 7173.13,
-    "invested": 1665.36,
-    "pnl": -1161.51,
+    "invested": 1665.3,
+    "pnl": -1161.57,
     "pnl_pct": -11.62,
-    "peak": 8838.49,
+    "peak": 8838.43,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -516,6 +516,12 @@
       "value": 8838.49,
       "positions": 3,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-27T02:45:57.800010",
+      "value": 8838.43,
+      "positions": 3,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -568,12 +574,12 @@
       "name": "Solana",
       "icon": "◎",
       "entry_price": 86.44,
-      "current_price": 87.62,
+      "current_price": 87.61,
       "amount": 5.830141,
-      "value": 510.84,
+      "value": 510.78,
       "cost": 504.0,
-      "pnl": 6.88,
-      "pnl_pct": 1.37,
+      "pnl": 6.82,
+      "pnl_pct": 1.35,
       "stop_loss": 85.65785714285715,
       "take_profit": 88.0042857142857,
       "entry_time": "2026-04-26T15:15:23.000084",
@@ -1354,18 +1360,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": 115.33,
-      "profit_pct": 1.15,
+      "profit": 116.45,
+      "profit_pct": 1.16,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -1161.51,
+      "profit": -1161.57,
       "profit_pct": -11.62,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -1276.84,
-      "pct": -12.77,
+      "value": -1278.02,
+      "pct": -12.78,
       "description": "Our strategy vs HODL"
     }
   }
