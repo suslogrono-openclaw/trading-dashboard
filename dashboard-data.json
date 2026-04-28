@@ -1,22 +1,22 @@
 {
-  "last_update": "2026-04-28T12:30:35.941858",
+  "last_update": "2026-04-28T12:30:47.317195",
   "initial_capital": 10000,
   "capital": {
-    "total": 9324.62,
-    "available": 8623.84,
-    "invested": 700.78,
-    "pnl": -675.38,
-    "pnl_pct": -6.75,
-    "peak": 8227.88,
-    "drawdown_pct": -13.33
+    "total": 9324.17,
+    "available": 9324.17,
+    "invested": 0,
+    "pnl": -675.83,
+    "pnl_pct": -6.76,
+    "peak": 9324.17,
+    "drawdown_pct": 0.0
   },
   "stats": {
-    "positions_open": 1,
-    "total_trades": 32,
-    "completed_trades": 16,
+    "positions_open": 0,
+    "total_trades": 33,
+    "completed_trades": 17,
     "wins": 7,
-    "losses": 9,
-    "win_rate": 43.8,
+    "losses": 10,
+    "win_rate": 41.2,
     "best_trade": {
       "symbol": "ADA/USDT",
       "profit": 14.5,
@@ -27,16 +27,10 @@
       "profit": -7.97,
       "profit_pct": -1.51
     },
-    "avg_profit": 1.91,
-    "avg_time_in_position_hours": 25.8
+    "avg_profit": 1.46,
+    "avg_time_in_position_hours": 24.7
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-28T03:45:35.271827",
-      "value": 8830.92,
-      "positions": 0,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-28T03:45:53.708258",
       "value": 8830.92,
@@ -630,46 +624,16 @@
       "value": 9325.36,
       "positions": 1,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-28T12:30:46.822667",
+      "value": 9324.17,
+      "positions": 0,
+      "drawdown": 0.0
     }
   ],
-  "positions": {
-    "BNB/USDT": {
-      "symbol": "BNB/USDT",
-      "name": "BNB",
-      "icon": "◈",
-      "entry_price": 626.46,
-      "current_price": 621.41,
-      "amount": 1.127723,
-      "value": 700.78,
-      "cost": 706.03,
-      "pnl": -5.25,
-      "pnl_pct": -0.81,
-      "stop_loss": 621.5814285714287,
-      "take_profit": 636.2171428571428,
-      "entry_time": "2026-04-28T05:07:13.593166",
-      "hours_open": 7.4,
-      "indicators": {
-        "mean_reversion": 0,
-        "trend": 1.1,
-        "momentum": 0.8,
-        "volatility": -0.35
-      }
-    }
-  },
+  "positions": {},
   "recent_activity": [
-    {
-      "time": "2026-04-24T21:15:33.624189",
-      "symbol": "BNB/USDT",
-      "action": "SELL",
-      "price": 637.05,
-      "amount": 0.857405,
-      "cost": 545.94328,
-      "profit": -0.11141000000009171,
-      "profit_pct": -0.020402718269866286,
-      "result": "loss",
-      "reason": "SIGNAL",
-      "icon": "◈"
-    },
     {
       "time": "2026-04-25T00:00:37.918220",
       "symbol": "DOGE/USDT",
@@ -915,6 +879,19 @@
       "profit_pct": 0,
       "result": null,
       "reason": "SIGNAL",
+      "icon": "◈"
+    },
+    {
+      "time": "2026-04-28T12:30:37.948405",
+      "symbol": "BNB/USDT",
+      "action": "SELL",
+      "price": 621.41,
+      "amount": 1.127723,
+      "cost": 700.32907,
+      "profit": -5.7026200000000244,
+      "profit_pct": -0.8077002889204624,
+      "result": "loss",
+      "reason": "STOP_LOSS",
       "icon": "◈"
     }
   ],
@@ -1494,22 +1471,41 @@
         "momentum": 0.8,
         "volatility": -0.35
       }
+    },
+    {
+      "time": "2026-04-28T12:30:37.948405",
+      "symbol": "BNB/USDT",
+      "action": "SELL",
+      "price": 621.41,
+      "amount": 1.127723,
+      "revenue": 700.32907,
+      "profit": -5.7026200000000244,
+      "profit_pct": -0.8077002889204624,
+      "reason": "STOP_LOSS",
+      "order_id": "3445547",
+      "holding_hours": 7.4,
+      "indicators": {
+        "mean_reversion": 0,
+        "trend": 1.1,
+        "momentum": 0.8,
+        "volatility": -0.35
+      }
     }
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -337.69,
-      "profit_pct": -3.38,
-      "description": "BTC buy and hold comparison"
+      "profit": -170.98,
+      "profit_pct": -1.71,
+      "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -675.38,
-      "profit_pct": -6.75,
+      "profit": -675.83,
+      "profit_pct": -6.76,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -337.69,
-      "pct": -3.38,
+      "value": -504.85,
+      "pct": -5.05,
       "description": "Our strategy vs HODL"
     }
   }
