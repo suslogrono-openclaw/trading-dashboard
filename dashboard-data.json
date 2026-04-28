@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-28T09:36:35.319874",
+  "last_update": "2026-04-28T09:45:42.266794",
   "initial_capital": 10000,
   "capital": {
-    "total": 9326.56,
+    "total": 9326.51,
     "available": 8623.84,
-    "invested": 702.72,
-    "pnl": -673.44,
+    "invested": 702.67,
+    "pnl": -673.49,
     "pnl_pct": -6.73,
-    "peak": 9326.56,
+    "peak": 9326.51,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 25.8
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-28T00:04:41.763260",
-      "value": 8830.92,
-      "positions": 0,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-28T00:15:31.557931",
       "value": 8830.92,
@@ -630,6 +624,12 @@
       "value": 9326.56,
       "positions": 1,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-28T09:45:41.776215",
+      "value": 9326.51,
+      "positions": 1,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,16 +638,16 @@
       "name": "BNB",
       "icon": "◈",
       "entry_price": 626.46,
-      "current_price": 623.13,
+      "current_price": 623.09,
       "amount": 1.127723,
-      "value": 702.72,
+      "value": 702.67,
       "cost": 706.03,
-      "pnl": -3.76,
-      "pnl_pct": -0.53,
+      "pnl": -3.8,
+      "pnl_pct": -0.54,
       "stop_loss": 621.5814285714287,
       "take_profit": 636.2171428571428,
       "entry_time": "2026-04-28T05:07:13.593166",
-      "hours_open": 4.5,
+      "hours_open": 4.6,
       "indicators": {
         "mean_reversion": 0,
         "trend": 1.1,
@@ -1498,18 +1498,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -147.08,
+      "profit": -146.74,
       "profit_pct": -1.47,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -673.44,
+      "profit": -673.49,
       "profit_pct": -6.73,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -526.36,
-      "pct": -5.26,
+      "value": -526.75,
+      "pct": -5.27,
       "description": "Our strategy vs HODL"
     }
   }
