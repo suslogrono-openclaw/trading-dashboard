@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-28T17:16:15.874294",
+  "last_update": "2026-04-28T17:16:33.214211",
   "initial_capital": 10000,
   "capital": {
-    "total": 9321.75,
+    "total": 9321.45,
     "available": 8577.94,
-    "invested": 743.81,
-    "pnl": -678.25,
-    "pnl_pct": -6.78,
-    "peak": 9321.75,
+    "invested": 743.51,
+    "pnl": -678.55,
+    "pnl_pct": -6.79,
+    "peak": 9321.45,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 24.7
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-28T08:34:41.065209",
-      "value": 8830.03,
-      "positions": 1,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-28T08:34:57.583537",
       "value": 8830.03,
@@ -630,6 +624,12 @@
       "value": 9321.75,
       "positions": 1,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-28T17:16:32.705756",
+      "value": 9321.45,
+      "positions": 1,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,12 +638,12 @@
       "name": "Cardano",
       "icon": "₳",
       "entry_price": 0.2464,
-      "current_price": 0.2457,
+      "current_price": 0.2456,
       "amount": 3027.32784,
-      "value": 743.81,
+      "value": 743.51,
       "cost": 746.23,
-      "pnl": -2.12,
-      "pnl_pct": -0.28,
+      "pnl": -2.42,
+      "pnl_pct": -0.32,
       "stop_loss": 0.24075714285714286,
       "take_profit": 0.2576857142857143,
       "entry_time": "2026-04-28T16:03:14.759966",
@@ -1534,18 +1534,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -258.63,
+      "profit": -259.09,
       "profit_pct": -2.59,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -678.25,
-      "profit_pct": -6.78,
+      "profit": -678.55,
+      "profit_pct": -6.79,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -419.62,
-      "pct": -4.2,
+      "value": -419.46,
+      "pct": -4.19,
       "description": "Our strategy vs HODL"
     }
   }
