@@ -1,14 +1,14 @@
 {
-  "last_update": "2026-04-28T17:05:34.672171",
+  "last_update": "2026-04-28T17:05:43.514484",
   "initial_capital": 10000,
   "capital": {
-    "total": 9322.36,
+    "total": 9322.97,
     "available": 8577.94,
-    "invested": 744.42,
-    "pnl": -677.64,
-    "pnl_pct": -6.78,
-    "peak": 9322.36,
-    "drawdown_pct": 0.0
+    "invested": 745.03,
+    "pnl": -677.03,
+    "pnl_pct": -6.77,
+    "peak": 8227.88,
+    "drawdown_pct": -13.31
   },
   "stats": {
     "positions_open": 1,
@@ -638,12 +638,12 @@
       "name": "Cardano",
       "icon": "₳",
       "entry_price": 0.2464,
-      "current_price": 0.2459,
+      "current_price": 0.2461,
       "amount": 3027.32784,
-      "value": 744.42,
+      "value": 745.03,
       "cost": 746.23,
-      "pnl": -1.51,
-      "pnl_pct": -0.2,
+      "pnl": -1.2,
+      "pnl_pct": -0.12,
       "stop_loss": 0.24075714285714286,
       "take_profit": 0.2576857142857143,
       "entry_time": "2026-04-28T16:03:14.759966",
@@ -1534,18 +1534,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -251.59,
-      "profit_pct": -2.52,
-      "description": "BTC buy and hold since first trade"
+      "profit": -338.52,
+      "profit_pct": -3.39,
+      "description": "BTC buy and hold comparison"
     },
     "our_strategy": {
-      "profit": -677.64,
-      "profit_pct": -6.78,
+      "profit": -677.03,
+      "profit_pct": -6.77,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -426.05,
-      "pct": -4.26,
+      "value": -338.52,
+      "pct": -3.39,
       "description": "Our strategy vs HODL"
     }
   }
