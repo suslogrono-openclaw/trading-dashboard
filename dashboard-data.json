@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-28T19:45:37.151904",
+  "last_update": "2026-04-28T19:45:51.888628",
   "initial_capital": 10000,
   "capital": {
-    "total": 9326.9,
+    "total": 9327.81,
     "available": 8577.94,
-    "invested": 748.96,
-    "pnl": -673.1,
-    "pnl_pct": -6.73,
-    "peak": 9326.9,
+    "invested": 749.87,
+    "pnl": -672.19,
+    "pnl_pct": -6.72,
+    "peak": 9327.81,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 24.7
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-28T11:02:49.429499",
-      "value": 9325.98,
-      "positions": 1,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-28T11:15:33.659081",
       "value": 9325.21,
@@ -630,6 +624,12 @@
       "value": 9326.9,
       "positions": 1,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-28T19:45:51.320233",
+      "value": 9327.81,
+      "positions": 1,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,12 +638,12 @@
       "name": "Cardano",
       "icon": "₳",
       "entry_price": 0.2464,
-      "current_price": 0.2474,
+      "current_price": 0.2477,
       "amount": 3027.32784,
-      "value": 748.96,
+      "value": 749.87,
       "cost": 746.23,
-      "pnl": 3.03,
-      "pnl_pct": 0.41,
+      "pnl": 3.94,
+      "pnl_pct": 0.53,
       "stop_loss": 0.24075714285714286,
       "take_profit": 0.2576857142857143,
       "entry_time": "2026-04-28T16:03:14.759966",
@@ -1534,17 +1534,17 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -187.99,
-      "profit_pct": -1.88,
+      "profit": -187.22,
+      "profit_pct": -1.87,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -673.1,
-      "profit_pct": -6.73,
+      "profit": -672.19,
+      "profit_pct": -6.72,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -485.11,
+      "value": -484.97,
       "pct": -4.85,
       "description": "Our strategy vs HODL"
     }
