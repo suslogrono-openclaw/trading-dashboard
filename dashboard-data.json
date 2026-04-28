@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-28T10:04:42.547526",
+  "last_update": "2026-04-28T10:04:58.428364",
   "initial_capital": 10000,
   "capital": {
-    "total": 9326.95,
+    "total": 9327.12,
     "available": 8623.84,
-    "invested": 703.11,
-    "pnl": -673.05,
+    "invested": 703.28,
+    "pnl": -672.88,
     "pnl_pct": -6.73,
-    "peak": 9326.95,
+    "peak": 9327.12,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 25.8
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-28T01:02:38.130076",
-      "value": 8830.92,
-      "positions": 0,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-28T01:15:33.368345",
       "value": 8830.92,
@@ -630,6 +624,12 @@
       "value": 9326.95,
       "positions": 1,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-28T10:04:57.909305",
+      "value": 9327.12,
+      "positions": 1,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,12 +638,12 @@
       "name": "BNB",
       "icon": "◈",
       "entry_price": 626.46,
-      "current_price": 623.48,
+      "current_price": 623.63,
       "amount": 1.127723,
-      "value": 703.11,
+      "value": 703.28,
       "cost": 706.03,
-      "pnl": -3.36,
-      "pnl_pct": -0.48,
+      "pnl": -3.19,
+      "pnl_pct": -0.45,
       "stop_loss": 621.5814285714287,
       "take_profit": 636.2171428571428,
       "entry_time": "2026-04-28T05:07:13.593166",
@@ -1498,18 +1498,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -125.42,
-      "profit_pct": -1.25,
+      "profit": -129.22,
+      "profit_pct": -1.29,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -673.05,
+      "profit": -672.88,
       "profit_pct": -6.73,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -547.63,
-      "pct": -5.48,
+      "value": -543.66,
+      "pct": -5.44,
       "description": "Our strategy vs HODL"
     }
   }
