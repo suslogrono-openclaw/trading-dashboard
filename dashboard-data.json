@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-28T12:03:10.351220",
+  "last_update": "2026-04-28T12:03:40.858090",
   "initial_capital": 10000,
   "capital": {
-    "total": 9330.31,
+    "total": 9325.01,
     "available": 8623.84,
-    "invested": 706.47,
-    "pnl": -669.69,
-    "pnl_pct": -6.7,
-    "peak": 9330.31,
+    "invested": 701.17,
+    "pnl": -674.99,
+    "pnl_pct": -6.75,
+    "peak": 9325.01,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 25.8
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-28T03:15:35.336998",
-      "value": 8830.92,
-      "positions": 0,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-28T03:15:52.078869",
       "value": 8830.92,
@@ -630,6 +624,12 @@
       "value": 9330.31,
       "positions": 1,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-28T12:03:40.349586",
+      "value": 9325.01,
+      "positions": 1,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,16 +638,16 @@
       "name": "BNB",
       "icon": "◈",
       "entry_price": 626.46,
-      "current_price": 626.46,
+      "current_price": 621.76,
       "amount": 1.127723,
-      "value": 706.47,
+      "value": 701.17,
       "cost": 706.03,
-      "pnl": 0,
-      "pnl_pct": 0,
+      "pnl": -5.3,
+      "pnl_pct": -0.75,
       "stop_loss": 621.5814285714287,
       "take_profit": 636.2171428571428,
       "entry_time": "2026-04-28T05:07:13.593166",
-      "hours_open": 0.0,
+      "hours_open": 6.9,
       "indicators": {
         "mean_reversion": 0,
         "trend": 1.1,
@@ -1498,18 +1498,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -167.26,
-      "profit_pct": -1.67,
+      "profit": -168.22,
+      "profit_pct": -1.68,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -669.69,
-      "profit_pct": -6.7,
+      "profit": -674.99,
+      "profit_pct": -6.75,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -502.43,
-      "pct": -5.02,
+      "value": -506.76,
+      "pct": -5.07,
       "description": "Our strategy vs HODL"
     }
   }
