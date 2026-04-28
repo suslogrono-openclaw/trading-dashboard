@@ -1,18 +1,18 @@
 {
-  "last_update": "2026-04-28T22:02:56.209840",
+  "last_update": "2026-04-28T22:15:36.266291",
   "initial_capital": 10000,
   "capital": {
-    "total": 9326.9,
-    "available": 8577.94,
-    "invested": 748.96,
-    "pnl": -673.1,
-    "pnl_pct": -6.73,
-    "peak": 8227.88,
-    "drawdown_pct": -13.36
+    "total": 9326.08,
+    "available": 7891.79,
+    "invested": 1434.29,
+    "pnl": -673.92,
+    "pnl_pct": -6.74,
+    "peak": 9326.08,
+    "drawdown_pct": 0.0
   },
   "stats": {
-    "positions_open": 1,
-    "total_trades": 34,
+    "positions_open": 2,
+    "total_trades": 35,
     "completed_trades": 17,
     "wins": 7,
     "losses": 10,
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 24.7
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-28T15:02:59.187189",
-      "value": 9324.17,
-      "positions": 0,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-28T15:03:12.253392",
       "value": 9324.17,
@@ -630,6 +624,12 @@
       "value": 9327.2,
       "positions": 1,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-28T22:15:35.684635",
+      "value": 9326.08,
+      "positions": 2,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,38 +638,47 @@
       "name": "Cardano",
       "icon": "₳",
       "entry_price": 0.2464,
-      "current_price": 0.2474,
+      "current_price": 0.2471,
       "amount": 3027.32784,
-      "value": 748.96,
+      "value": 748.05,
       "cost": 746.23,
-      "pnl": 2.73,
-      "pnl_pct": 0.41,
+      "pnl": 2.12,
+      "pnl_pct": 0.28,
       "stop_loss": 0.24075714285714286,
       "take_profit": 0.2576857142857143,
       "entry_time": "2026-04-28T16:03:14.759966",
-      "hours_open": 6.0,
+      "hours_open": 6.2,
       "indicators": {
         "mean_reversion": 0,
         "trend": 1.1,
         "momentum": 0.35,
         "volatility": -0.1
       }
+    },
+    "XRP/USDT": {
+      "symbol": "XRP/USDT",
+      "name": "Ripple",
+      "icon": "✦",
+      "entry_price": 1.3817,
+      "current_price": 1.3817,
+      "amount": 496.660074,
+      "value": 686.24,
+      "cost": 686.15,
+      "pnl": 0,
+      "pnl_pct": 0,
+      "stop_loss": 1.369842857142857,
+      "take_profit": 1.4054142857142857,
+      "entry_time": "2026-04-28T22:15:30.928591",
+      "hours_open": 0.0,
+      "indicators": {
+        "mean_reversion": 0,
+        "trend": 0.6,
+        "momentum": 0.65,
+        "volatility": 0.55
+      }
     }
   },
   "recent_activity": [
-    {
-      "time": "2026-04-25T01:15:24.164955",
-      "symbol": "DOT/USDT",
-      "action": "BUY",
-      "price": 1.257,
-      "amount": 419.340865,
-      "cost": 527.52972,
-      "profit": 0,
-      "profit_pct": 0,
-      "result": null,
-      "reason": "SIGNAL",
-      "icon": "●"
-    },
     {
       "time": "2026-04-25T02:05:23.653447",
       "symbol": "ADA/USDT",
@@ -916,6 +925,19 @@
       "result": null,
       "reason": "SIGNAL",
       "icon": "₳"
+    },
+    {
+      "time": "2026-04-28T22:15:30.928591",
+      "symbol": "XRP/USDT",
+      "action": "BUY",
+      "price": 1.3817,
+      "amount": 496.660074,
+      "cost": 686.15222,
+      "profit": 0,
+      "profit_pct": 0,
+      "result": null,
+      "reason": "SIGNAL",
+      "icon": "✦"
     }
   ],
   "trades": [
@@ -1530,22 +1552,39 @@
         "momentum": 0.35,
         "volatility": -0.1
       }
+    },
+    {
+      "time": "2026-04-28T22:15:30.928591",
+      "symbol": "XRP/USDT",
+      "action": "BUY",
+      "price": 1.3817,
+      "amount": 496.660074,
+      "cost": 686.15222,
+      "order_id": "1170933",
+      "stop_loss": 1.369842857142857,
+      "take_profit": 1.4054142857142857,
+      "indicators": {
+        "mean_reversion": 0,
+        "trend": 0.6,
+        "momentum": 0.65,
+        "volatility": 0.55
+      }
     }
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -336.55,
-      "profit_pct": -3.37,
-      "description": "BTC buy and hold comparison"
+      "profit": -160.54,
+      "profit_pct": -1.61,
+      "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -673.1,
-      "profit_pct": -6.73,
+      "profit": -673.92,
+      "profit_pct": -6.74,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -336.55,
-      "pct": -3.37,
+      "value": -513.39,
+      "pct": -5.13,
       "description": "Our strategy vs HODL"
     }
   }
