@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-29T02:16:07.914146",
+  "last_update": "2026-04-29T02:16:21.395119",
   "initial_capital": 10000,
   "capital": {
-    "total": 9328.64,
+    "total": 9328.72,
     "available": 6680.37,
-    "invested": 2648.26,
-    "pnl": -671.36,
+    "invested": 2648.35,
+    "pnl": -671.28,
     "pnl_pct": -6.71,
-    "peak": 9328.64,
+    "peak": 9328.72,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 24.7
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-28T18:46:03.612255",
-      "value": 9323.87,
-      "positions": 1,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-28T18:46:21.471181",
       "value": 9323.87,
@@ -630,6 +624,12 @@
       "value": 9328.64,
       "positions": 4,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-29T02:16:20.883564",
+      "value": 9328.72,
+      "positions": 4,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -704,12 +704,12 @@
       "name": "Ethereum",
       "icon": "Ξ",
       "entry_price": 2291.56,
-      "current_price": 2292.25,
+      "current_price": 2292.59,
       "amount": 0.253489,
-      "value": 581.06,
+      "value": 581.15,
       "cost": 580.68,
-      "pnl": 0.17,
-      "pnl_pct": 0.03,
+      "pnl": 0.26,
+      "pnl_pct": 0.04,
       "stop_loss": 2266.2028571428573,
       "take_profit": 2342.2742857142857,
       "entry_time": "2026-04-29T02:05:34.076412",
@@ -1651,18 +1651,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -113.75,
-      "profit_pct": -1.14,
+      "profit": -114.56,
+      "profit_pct": -1.15,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -671.36,
+      "profit": -671.28,
       "profit_pct": -6.71,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -557.61,
-      "pct": -5.58,
+      "value": -556.72,
+      "pct": -5.57,
       "description": "Our strategy vs HODL"
     }
   }
