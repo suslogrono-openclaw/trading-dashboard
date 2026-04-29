@@ -1,22 +1,22 @@
 {
-  "last_update": "2026-04-29T12:30:33.878287",
+  "last_update": "2026-04-29T12:30:42.970296",
   "initial_capital": 10000,
   "capital": {
-    "total": 9361.55,
-    "available": 8608.05,
-    "invested": 753.5,
-    "pnl": -638.45,
-    "pnl_pct": -6.38,
-    "peak": 8227.88,
-    "drawdown_pct": -13.78
+    "total": 9361.24,
+    "available": 9361.24,
+    "invested": 0,
+    "pnl": -638.76,
+    "pnl_pct": -6.39,
+    "peak": 9361.24,
+    "drawdown_pct": 0.0
   },
   "stats": {
-    "positions_open": 1,
-    "total_trades": 40,
-    "completed_trades": 20,
-    "wins": 10,
+    "positions_open": 0,
+    "total_trades": 41,
+    "completed_trades": 21,
+    "wins": 11,
     "losses": 10,
-    "win_rate": 50.0,
+    "win_rate": 52.4,
     "best_trade": {
       "symbol": "ADA/USDT",
       "profit": 14.5,
@@ -27,16 +27,10 @@
       "profit": -7.97,
       "profit_pct": -1.51
     },
-    "avg_profit": 2.75,
-    "avg_time_in_position_hours": 22.5
+    "avg_profit": 2.95,
+    "avg_time_in_position_hours": 22.4
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-29T06:46:40.765957",
-      "value": 9348.72,
-      "positions": 4,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-29T06:46:53.581757",
       "value": 9348.71,
@@ -630,46 +624,16 @@
       "value": 9363.97,
       "positions": 1,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-29T12:30:42.468589",
+      "value": 9361.24,
+      "positions": 0,
+      "drawdown": 0.0
     }
   ],
-  "positions": {
-    "ADA/USDT": {
-      "symbol": "ADA/USDT",
-      "name": "Cardano",
-      "icon": "₳",
-      "entry_price": 0.2464,
-      "current_price": 0.2489,
-      "amount": 3027.32784,
-      "value": 753.5,
-      "cost": 746.23,
-      "pnl": 7.27,
-      "pnl_pct": 1.01,
-      "stop_loss": 0.24075714285714286,
-      "take_profit": 0.2576857142857143,
-      "entry_time": "2026-04-28T16:03:14.759966",
-      "hours_open": 20.5,
-      "indicators": {
-        "mean_reversion": 0,
-        "trend": 1.1,
-        "momentum": 0.35,
-        "volatility": -0.1
-      }
-    }
-  },
+  "positions": {},
   "recent_activity": [
-    {
-      "time": "2026-04-26T01:31:34.627921",
-      "symbol": "AVAX/USDT",
-      "action": "SELL",
-      "price": 9.33,
-      "amount": 53.797141,
-      "cost": 501.3228,
-      "profit": -1.6137000000000512,
-      "profit_pct": -0.3208556149732722,
-      "result": "loss",
-      "reason": "SIGNAL",
-      "icon": "▲"
-    },
     {
       "time": "2026-04-26T01:45:54.927636",
       "symbol": "DOGE/USDT",
@@ -916,6 +880,19 @@
       "result": "profit",
       "reason": "TAKE_PROFIT",
       "icon": "Ξ"
+    },
+    {
+      "time": "2026-04-29T12:30:38.687863",
+      "symbol": "ADA/USDT",
+      "action": "SELL",
+      "price": 0.2489,
+      "amount": 3027.32784,
+      "cost": 753.19224,
+      "profit": 6.962789999999927,
+      "profit_pct": 0.9330628803245339,
+      "result": "profit",
+      "reason": "SIGNAL",
+      "icon": "₳"
     }
   ],
   "trades": [
@@ -1638,22 +1615,41 @@
         "momentum": 0.65,
         "volatility": -0.15
       }
+    },
+    {
+      "time": "2026-04-29T12:30:38.687863",
+      "symbol": "ADA/USDT",
+      "action": "SELL",
+      "price": 0.2489,
+      "amount": 3027.32784,
+      "revenue": 753.19224,
+      "profit": 6.962789999999927,
+      "profit_pct": 0.9330628803245339,
+      "reason": "SIGNAL",
+      "order_id": "381235",
+      "holding_hours": 20.5,
+      "indicators": {
+        "mean_reversion": 0,
+        "trend": 1.1,
+        "momentum": 0.35,
+        "volatility": -0.1
+      }
     }
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -319.23,
-      "profit_pct": -3.19,
-      "description": "BTC buy and hold comparison"
+      "profit": -78.47,
+      "profit_pct": -0.78,
+      "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -638.45,
-      "profit_pct": -6.38,
+      "profit": -638.76,
+      "profit_pct": -6.39,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -319.23,
-      "pct": -3.19,
+      "value": -560.29,
+      "pct": -5.6,
       "description": "Our strategy vs HODL"
     }
   }
