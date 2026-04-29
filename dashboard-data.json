@@ -1,18 +1,18 @@
 {
-  "last_update": "2026-04-29T20:16:12.060950",
+  "last_update": "2026-04-29T20:30:42.872208",
   "initial_capital": 10000,
   "capital": {
-    "total": 9361.24,
-    "available": 9361.24,
-    "invested": 0,
-    "pnl": -638.76,
-    "pnl_pct": -6.39,
-    "peak": 9361.24,
+    "total": 9360.43,
+    "available": 8611.53,
+    "invested": 748.9,
+    "pnl": -639.57,
+    "pnl_pct": -6.4,
+    "peak": 9360.43,
     "drawdown_pct": 0.0
   },
   "stats": {
-    "positions_open": 0,
-    "total_trades": 41,
+    "positions_open": 1,
+    "total_trades": 42,
     "completed_trades": 21,
     "wins": 11,
     "losses": 10,
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 22.4
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-29T11:34:23.326496",
-      "value": 9369.42,
-      "positions": 1,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-29T11:45:30.921047",
       "value": 9369.72,
@@ -630,23 +624,39 @@
       "value": 9361.24,
       "positions": 0,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-29T20:30:42.373142",
+      "value": 9360.43,
+      "positions": 1,
+      "drawdown": 0.0
     }
   ],
-  "positions": {},
+  "positions": {
+    "POL/USDT": {
+      "symbol": "POL/USDT",
+      "name": "Polygon",
+      "icon": "◆",
+      "entry_price": 0.0919,
+      "current_price": 0.0919,
+      "amount": 8149.065078,
+      "value": 748.9,
+      "cost": 749.71,
+      "pnl": 0,
+      "pnl_pct": 0,
+      "stop_loss": 0.08847142857142856,
+      "take_profit": 0.09875714285714285,
+      "entry_time": "2026-04-29T20:30:41.815907",
+      "hours_open": 0.0,
+      "indicators": {
+        "mean_reversion": 0,
+        "trend": 1.1,
+        "momentum": 0.35,
+        "volatility": -0.1
+      }
+    }
+  },
   "recent_activity": [
-    {
-      "time": "2026-04-26T01:45:54.927636",
-      "symbol": "DOGE/USDT",
-      "action": "BUY",
-      "price": 0.09802,
-      "amount": 7176.304636,
-      "cost": 703.39152,
-      "profit": 0,
-      "profit_pct": 0,
-      "result": null,
-      "reason": "SIGNAL",
-      "icon": "Ð"
-    },
     {
       "time": "2026-04-26T03:15:20.960305",
       "symbol": "ADA/USDT",
@@ -893,6 +903,19 @@
       "result": "profit",
       "reason": "SIGNAL",
       "icon": "₳"
+    },
+    {
+      "time": "2026-04-29T20:30:41.815907",
+      "symbol": "POL/USDT",
+      "action": "BUY",
+      "price": 0.0919,
+      "amount": 8149.065078,
+      "cost": 749.708,
+      "profit": 0,
+      "profit_pct": 0,
+      "result": null,
+      "reason": "SIGNAL",
+      "icon": "◆"
     }
   ],
   "trades": [
@@ -1634,22 +1657,39 @@
         "momentum": 0.35,
         "volatility": -0.1
       }
+    },
+    {
+      "time": "2026-04-29T20:30:41.815907",
+      "symbol": "POL/USDT",
+      "action": "BUY",
+      "price": 0.0919,
+      "amount": 8149.065078,
+      "cost": 749.708,
+      "order_id": "88309",
+      "stop_loss": 0.08847142857142856,
+      "take_profit": 0.09875714285714285,
+      "indicators": {
+        "mean_reversion": 0,
+        "trend": 1.1,
+        "momentum": 0.35,
+        "volatility": -0.1
+      }
     }
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -219.9,
-      "profit_pct": -2.2,
+      "profit": -202.27,
+      "profit_pct": -2.02,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -638.76,
-      "profit_pct": -6.39,
+      "profit": -639.57,
+      "profit_pct": -6.4,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -418.87,
-      "pct": -4.19,
+      "value": -437.3,
+      "pct": -4.37,
       "description": "Our strategy vs HODL"
     }
   }
