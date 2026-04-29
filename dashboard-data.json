@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-29T07:03:56.824995",
+  "last_update": "2026-04-29T07:04:11.781612",
   "initial_capital": 10000,
   "capital": {
-    "total": 9348.37,
+    "total": 9348.49,
     "available": 6680.37,
-    "invested": 2667.99,
-    "pnl": -651.63,
+    "invested": 2668.11,
+    "pnl": -651.51,
     "pnl_pct": -6.52,
-    "peak": 9348.37,
+    "peak": 9348.49,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 24.7
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-28T23:16:38.452680",
-      "value": 9324.72,
-      "positions": 2,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-28T23:16:56.772357",
       "value": 9324.77,
@@ -630,6 +624,12 @@
       "value": 9348.37,
       "positions": 4,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-29T07:04:11.158186",
+      "value": 9348.49,
+      "positions": 4,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -682,12 +682,12 @@
       "name": "BNB",
       "icon": "◈",
       "entry_price": 623.86,
-      "current_price": 625.9,
+      "current_price": 626.02,
       "amount": 1.011995,
-      "value": 633.41,
+      "value": 633.53,
       "cost": 630.73,
-      "pnl": 2.06,
-      "pnl_pct": 0.33,
+      "pnl": 2.19,
+      "pnl_pct": 0.35,
       "stop_loss": 621.3778571428572,
       "take_profit": 628.8242857142857,
       "entry_time": "2026-04-29T00:30:36.666793",
@@ -704,9 +704,9 @@
       "name": "Ethereum",
       "icon": "Ξ",
       "entry_price": 2291.56,
-      "current_price": 2325.29,
+      "current_price": 2325.28,
       "amount": 0.253489,
-      "value": 589.44,
+      "value": 589.43,
       "cost": 580.68,
       "pnl": 8.55,
       "pnl_pct": 1.47,
@@ -1656,12 +1656,12 @@
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -651.63,
+      "profit": -651.51,
       "profit_pct": -6.52,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -577.39,
+      "value": -577.27,
       "pct": -5.77,
       "description": "Our strategy vs HODL"
     }
