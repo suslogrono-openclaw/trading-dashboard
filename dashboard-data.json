@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-29T12:04:16.457218",
+  "last_update": "2026-04-29T12:15:31.437362",
   "initial_capital": 10000,
   "capital": {
-    "total": 9367.3,
+    "total": 9362.76,
     "available": 8608.05,
-    "invested": 759.25,
-    "pnl": -632.7,
-    "pnl_pct": -6.33,
-    "peak": 9367.3,
+    "invested": 754.71,
+    "pnl": -637.24,
+    "pnl_pct": -6.37,
+    "peak": 9362.76,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 22.5
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-29T06:06:09.412275",
-      "value": 9356.09,
-      "positions": 4,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-29T06:06:42.970987",
       "value": 9356.29,
@@ -630,6 +624,12 @@
       "value": 9367.3,
       "positions": 1,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-29T12:15:30.939642",
+      "value": 9362.76,
+      "positions": 1,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,16 +638,16 @@
       "name": "Cardano",
       "icon": "₳",
       "entry_price": 0.2464,
-      "current_price": 0.2508,
+      "current_price": 0.2493,
       "amount": 3027.32784,
-      "value": 759.25,
+      "value": 754.71,
       "cost": 746.23,
-      "pnl": 13.32,
-      "pnl_pct": 1.79,
+      "pnl": 8.78,
+      "pnl_pct": 1.18,
       "stop_loss": 0.24075714285714286,
       "take_profit": 0.2576857142857143,
       "entry_time": "2026-04-28T16:03:14.759966",
-      "hours_open": 20.0,
+      "hours_open": 20.2,
       "indicators": {
         "mean_reversion": 0,
         "trend": 1.1,
@@ -1642,18 +1642,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -23.77,
-      "profit_pct": -0.24,
+      "profit": -47.31,
+      "profit_pct": -0.47,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -632.7,
-      "profit_pct": -6.33,
+      "profit": -637.24,
+      "profit_pct": -6.37,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -608.93,
-      "pct": -6.09,
+      "value": -589.93,
+      "pct": -5.9,
       "description": "Our strategy vs HODL"
     }
   }
