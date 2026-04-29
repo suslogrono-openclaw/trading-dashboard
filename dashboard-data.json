@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-29T06:46:54.090829",
+  "last_update": "2026-04-29T06:47:11.898096",
   "initial_capital": 10000,
   "capital": {
     "total": 9348.71,
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 24.7
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-28T23:04:44.517340",
-      "value": 9323.67,
-      "positions": 2,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-28T23:05:31.714731",
       "value": 9323.52,
@@ -630,6 +624,12 @@
       "value": 9348.71,
       "positions": 4,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-29T06:47:11.395607",
+      "value": 9348.71,
+      "positions": 4,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -660,11 +660,11 @@
       "name": "Ripple",
       "icon": "✦",
       "entry_price": 1.3817,
-      "current_price": 1.3928,
+      "current_price": 1.3927,
       "amount": 496.660074,
-      "value": 691.75,
+      "value": 691.7,
       "cost": 686.15,
-      "pnl": 5.51,
+      "pnl": 5.46,
       "pnl_pct": 0.8,
       "stop_loss": 1.369842857142857,
       "take_profit": 1.4054142857142857,
@@ -682,12 +682,12 @@
       "name": "BNB",
       "icon": "◈",
       "entry_price": 623.86,
-      "current_price": 625.98,
+      "current_price": 626.03,
       "amount": 1.011995,
-      "value": 633.49,
+      "value": 633.54,
       "cost": 630.73,
-      "pnl": 2.15,
-      "pnl_pct": 0.34,
+      "pnl": 2.2,
+      "pnl_pct": 0.35,
       "stop_loss": 621.3778571428572,
       "take_profit": 628.8242857142857,
       "entry_time": "2026-04-29T00:30:36.666793",
