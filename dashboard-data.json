@@ -1,14 +1,14 @@
 {
-  "last_update": "2026-04-29T23:34:20.335773",
+  "last_update": "2026-04-29T23:34:46.180533",
   "initial_capital": 10000,
   "capital": {
-    "total": 9366.95,
+    "total": 9368.58,
     "available": 8611.53,
-    "invested": 755.42,
-    "pnl": -633.05,
-    "pnl_pct": -6.33,
-    "peak": 8227.88,
-    "drawdown_pct": -13.84
+    "invested": 757.05,
+    "pnl": -631.42,
+    "pnl_pct": -6.31,
+    "peak": 9368.58,
+    "drawdown_pct": 0.0
   },
   "stats": {
     "positions_open": 1,
@@ -31,18 +31,6 @@
     "avg_time_in_position_hours": 22.4
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-29T15:15:27.505377",
-      "value": 9361.24,
-      "positions": 0,
-      "drawdown": 0.0
-    },
-    {
-      "time": "2026-04-29T15:15:40.850958",
-      "value": 9361.24,
-      "positions": 0,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-29T15:33:12.459404",
       "value": 9361.24,
@@ -630,20 +618,32 @@
       "value": 9367.76,
       "positions": 1,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-29T23:34:18.546427",
+      "value": 9366.95,
+      "positions": 1,
+      "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-29T23:34:45.686805",
+      "value": 9368.58,
+      "positions": 1,
+      "drawdown": 0.0
     }
   ],
   "positions": {
     "POL/USDT": {
       "symbol": "POL/USDT",
-      "name": "POL",
-      "icon": "?",
+      "name": "Polygon",
+      "icon": "◆",
       "entry_price": 0.0919,
-      "current_price": 0.0927,
+      "current_price": 0.0929,
       "amount": 8149.065078,
-      "value": 755.42,
+      "value": 757.05,
       "cost": 749.71,
-      "pnl": 5.71,
-      "pnl_pct": 0.87,
+      "pnl": 8.15,
+      "pnl_pct": 1.09,
       "stop_loss": 0.08847142857142856,
       "take_profit": 0.09875714285714285,
       "entry_time": "2026-04-29T20:30:41.815907",
@@ -915,7 +915,7 @@
       "profit_pct": 0,
       "result": null,
       "reason": "SIGNAL",
-      "icon": "?"
+      "icon": "◆"
     }
   ],
   "trades": [
@@ -1678,18 +1678,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -316.53,
-      "profit_pct": -3.17,
-      "description": "BTC buy and hold comparison"
+      "profit": -213.68,
+      "profit_pct": -2.14,
+      "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -633.05,
-      "profit_pct": -6.33,
+      "profit": -631.42,
+      "profit_pct": -6.31,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -316.53,
-      "pct": -3.17,
+      "value": -417.74,
+      "pct": -4.18,
       "description": "Our strategy vs HODL"
     }
   }
