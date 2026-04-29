@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-29T23:00:40.830810",
+  "last_update": "2026-04-29T23:02:42.545508",
   "initial_capital": 10000,
   "capital": {
-    "total": 9366.95,
+    "total": 9367.76,
     "available": 8611.53,
-    "invested": 755.42,
-    "pnl": -633.05,
-    "pnl_pct": -6.33,
-    "peak": 9366.95,
+    "invested": 756.23,
+    "pnl": -632.24,
+    "pnl_pct": -6.32,
+    "peak": 9367.76,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 22.4
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-29T14:34:56.882813",
-      "value": 9361.24,
-      "positions": 0,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-29T14:35:20.884870",
       "value": 9361.24,
@@ -630,6 +624,12 @@
       "value": 9366.95,
       "positions": 1,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-29T23:02:42.036968",
+      "value": 9367.76,
+      "positions": 1,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,12 +638,12 @@
       "name": "Polygon",
       "icon": "◆",
       "entry_price": 0.0919,
-      "current_price": 0.0927,
+      "current_price": 0.0928,
       "amount": 8149.065078,
-      "value": 755.42,
+      "value": 756.23,
       "cost": 749.71,
-      "pnl": 6.52,
-      "pnl_pct": 0.87,
+      "pnl": 7.33,
+      "pnl_pct": 0.98,
       "stop_loss": 0.08847142857142856,
       "take_profit": 0.09875714285714285,
       "entry_time": "2026-04-29T20:30:41.815907",
@@ -1683,13 +1683,13 @@
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -633.05,
-      "profit_pct": -6.33,
+      "profit": -632.24,
+      "profit_pct": -6.32,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -433.97,
-      "pct": -4.34,
+      "value": -433.16,
+      "pct": -4.33,
       "description": "Our strategy vs HODL"
     }
   }
