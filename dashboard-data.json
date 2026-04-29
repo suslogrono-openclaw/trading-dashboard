@@ -1,14 +1,14 @@
 {
-  "last_update": "2026-04-29T21:47:14.970961",
+  "last_update": "2026-04-29T22:03:54.511623",
   "initial_capital": 10000,
   "capital": {
-    "total": 9363.69,
+    "total": 9364.5,
     "available": 8611.53,
-    "invested": 752.16,
-    "pnl": -636.31,
-    "pnl_pct": -6.36,
-    "peak": 9363.69,
-    "drawdown_pct": 0.0
+    "invested": 752.97,
+    "pnl": -635.5,
+    "pnl_pct": -6.35,
+    "peak": 8227.88,
+    "drawdown_pct": -13.81
   },
   "stats": {
     "positions_open": 1,
@@ -635,19 +635,19 @@
   "positions": {
     "POL/USDT": {
       "symbol": "POL/USDT",
-      "name": "Polygon",
-      "icon": "◆",
+      "name": "POL",
+      "icon": "?",
       "entry_price": 0.0919,
-      "current_price": 0.0923,
+      "current_price": 0.0924,
       "amount": 8149.065078,
-      "value": 752.16,
+      "value": 752.97,
       "cost": 749.71,
-      "pnl": 3.26,
-      "pnl_pct": 0.44,
+      "pnl": 3.27,
+      "pnl_pct": 0.54,
       "stop_loss": 0.08847142857142856,
       "take_profit": 0.09875714285714285,
       "entry_time": "2026-04-29T20:30:41.815907",
-      "hours_open": 1.3,
+      "hours_open": 1.6,
       "indicators": {
         "mean_reversion": 0,
         "trend": 1.1,
@@ -915,7 +915,7 @@
       "profit_pct": 0,
       "result": null,
       "reason": "SIGNAL",
-      "icon": "◆"
+      "icon": "?"
     }
   ],
   "trades": [
@@ -1678,18 +1678,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -169.47,
-      "profit_pct": -1.69,
-      "description": "BTC buy and hold since first trade"
+      "profit": -317.75,
+      "profit_pct": -3.18,
+      "description": "BTC buy and hold comparison"
     },
     "our_strategy": {
-      "profit": -636.31,
-      "profit_pct": -6.36,
+      "profit": -635.5,
+      "profit_pct": -6.35,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -466.84,
-      "pct": -4.67,
+      "value": -317.75,
+      "pct": -3.18,
       "description": "Our strategy vs HODL"
     }
   }
