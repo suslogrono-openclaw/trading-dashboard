@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-29T08:07:35.906514",
+  "last_update": "2026-04-29T08:08:08.043902",
   "initial_capital": 10000,
   "capital": {
-    "total": 9346.42,
+    "total": 9347.06,
     "available": 6680.37,
-    "invested": 2666.04,
-    "pnl": -653.58,
-    "pnl_pct": -6.54,
-    "peak": 9346.42,
+    "invested": 2666.68,
+    "pnl": -652.94,
+    "pnl_pct": -6.53,
+    "peak": 9347.06,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 24.7
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-29T01:34:24.569986",
-      "value": 9320.78,
-      "positions": 3,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-29T01:34:38.710577",
       "value": 9320.93,
@@ -630,6 +624,12 @@
       "value": 9346.42,
       "positions": 4,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-29T08:08:07.541434",
+      "value": 9347.06,
+      "positions": 4,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,12 +638,12 @@
       "name": "Cardano",
       "icon": "₳",
       "entry_price": 0.2464,
-      "current_price": 0.2495,
+      "current_price": 0.2496,
       "amount": 3027.32784,
-      "value": 755.32,
+      "value": 755.62,
       "cost": 746.23,
-      "pnl": 9.38,
-      "pnl_pct": 1.26,
+      "pnl": 9.69,
+      "pnl_pct": 1.3,
       "stop_loss": 0.24075714285714286,
       "take_profit": 0.2576857142857143,
       "entry_time": "2026-04-28T16:03:14.759966",
@@ -660,12 +660,12 @@
       "name": "Ripple",
       "icon": "✦",
       "entry_price": 1.3817,
-      "current_price": 1.3893,
+      "current_price": 1.3895,
       "amount": 496.660074,
-      "value": 690.01,
+      "value": 690.11,
       "cost": 686.15,
-      "pnl": 3.77,
-      "pnl_pct": 0.55,
+      "pnl": 3.87,
+      "pnl_pct": 0.56,
       "stop_loss": 1.369842857142857,
       "take_profit": 1.4054142857142857,
       "entry_time": "2026-04-28T22:15:30.928591",
@@ -682,12 +682,12 @@
       "name": "BNB",
       "icon": "◈",
       "entry_price": 623.86,
-      "current_price": 624.78,
+      "current_price": 624.76,
       "amount": 1.011995,
-      "value": 632.27,
+      "value": 632.25,
       "cost": 630.73,
-      "pnl": 0.93,
-      "pnl_pct": 0.15,
+      "pnl": 0.91,
+      "pnl_pct": 0.14,
       "stop_loss": 621.3778571428572,
       "take_profit": 628.8242857142857,
       "entry_time": "2026-04-29T00:30:36.666793",
@@ -704,12 +704,12 @@
       "name": "Ethereum",
       "icon": "Ξ",
       "entry_price": 2291.56,
-      "current_price": 2321.36,
+      "current_price": 2322.38,
       "amount": 0.253489,
-      "value": 588.44,
+      "value": 588.7,
       "cost": 580.68,
-      "pnl": 7.55,
-      "pnl_pct": 1.3,
+      "pnl": 7.81,
+      "pnl_pct": 1.34,
       "stop_loss": 2266.2028571428573,
       "take_profit": 2342.2742857142857,
       "entry_time": "2026-04-29T02:05:34.076412",
@@ -1651,18 +1651,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -66.55,
-      "profit_pct": -0.67,
+      "profit": -37.97,
+      "profit_pct": -0.38,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -653.58,
-      "profit_pct": -6.54,
+      "profit": -652.94,
+      "profit_pct": -6.53,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -587.03,
-      "pct": -5.87,
+      "value": -614.98,
+      "pct": -6.15,
       "description": "Our strategy vs HODL"
     }
   }
