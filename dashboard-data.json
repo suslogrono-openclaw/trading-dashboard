@@ -1,14 +1,14 @@
 {
-  "last_update": "2026-04-30T08:04:14.874763",
+  "last_update": "2026-04-30T08:15:24.144355",
   "initial_capital": 10000,
   "capital": {
-    "total": 9377.15,
+    "total": 9380.25,
     "available": 6169.34,
-    "invested": 3207.81,
-    "pnl": -622.85,
-    "pnl_pct": -6.23,
-    "peak": 9377.15,
-    "drawdown_pct": 0.0
+    "invested": 3210.9,
+    "pnl": -619.75,
+    "pnl_pct": -6.2,
+    "peak": 8227.88,
+    "drawdown_pct": -14.01
   },
   "stats": {
     "positions_open": 5,
@@ -635,19 +635,19 @@
   "positions": {
     "POL/USDT": {
       "symbol": "POL/USDT",
-      "name": "Polygon",
-      "icon": "◆",
+      "name": "POL",
+      "icon": "?",
       "entry_price": 0.0919,
-      "current_price": 0.0936,
+      "current_price": 0.0939,
       "amount": 8149.065078,
-      "value": 762.75,
+      "value": 765.2,
       "cost": 749.71,
-      "pnl": 13.85,
-      "pnl_pct": 1.85,
+      "pnl": 15.49,
+      "pnl_pct": 2.18,
       "stop_loss": 0.08847142857142856,
       "take_profit": 0.09875714285714285,
       "entry_time": "2026-04-29T20:30:41.815907",
-      "hours_open": 11.6,
+      "hours_open": 11.7,
       "indicators": {
         "mean_reversion": 0,
         "trend": 1.1,
@@ -664,12 +664,12 @@
       "amount": 8.288287,
       "value": 690.41,
       "cost": 688.9,
-      "pnl": 1.49,
+      "pnl": 1.52,
       "pnl_pct": 0.22,
       "stop_loss": 82.08785714285713,
       "take_profit": 85.18428571428574,
       "entry_time": "2026-04-30T07:33:10.060680",
-      "hours_open": 0.5,
+      "hours_open": 0.7,
       "indicators": {
         "mean_reversion": 0,
         "trend": 1.1,
@@ -682,16 +682,16 @@
       "name": "Ripple",
       "icon": "✦",
       "entry_price": 1.3724,
-      "current_price": 1.3746,
+      "current_price": 1.3748,
       "amount": 461.826403,
-      "value": 634.83,
+      "value": 634.92,
       "cost": 633.82,
-      "pnl": 1.02,
-      "pnl_pct": 0.16,
+      "pnl": 1.1,
+      "pnl_pct": 0.17,
       "stop_loss": 1.3556142857142859,
       "take_profit": 1.4059714285714282,
       "entry_time": "2026-04-30T07:45:29.767441",
-      "hours_open": 0.3,
+      "hours_open": 0.5,
       "indicators": {
         "mean_reversion": 0,
         "trend": 1.1,
@@ -704,16 +704,16 @@
       "name": "BNB",
       "icon": "◈",
       "entry_price": 617.4,
-      "current_price": 617.66,
+      "current_price": 617.63,
       "amount": 0.944452,
-      "value": 583.35,
+      "value": 583.32,
       "cost": 583.0,
-      "pnl": 0.25,
+      "pnl": 0.32,
       "pnl_pct": 0.04,
       "stop_loss": 612.8857142857144,
       "take_profit": 626.4285714285711,
       "entry_time": "2026-04-30T08:03:37.621282",
-      "hours_open": 0.0,
+      "hours_open": 0.2,
       "indicators": {
         "mean_reversion": -0.05,
         "trend": 1.1,
@@ -726,16 +726,16 @@
       "name": "Avalanche",
       "icon": "▲",
       "entry_price": 9.15,
-      "current_price": 9.15,
+      "current_price": 9.16,
       "amount": 58.630002,
-      "value": 536.46,
+      "value": 537.05,
       "cost": 536.46,
-      "pnl": 0.0,
-      "pnl_pct": 0.0,
+      "pnl": 0.59,
+      "pnl_pct": 0.11,
       "stop_loss": 9.035714285714286,
       "take_profit": 9.378571428571426,
       "entry_time": "2026-04-30T08:03:40.580944",
-      "hours_open": 0.0,
+      "hours_open": 0.2,
       "indicators": {
         "mean_reversion": 0,
         "trend": 1.1,
@@ -951,7 +951,7 @@
       "profit_pct": 0,
       "result": null,
       "reason": "SIGNAL",
-      "icon": "◆"
+      "icon": "?"
     },
     {
       "time": "2026-04-30T07:33:10.060680",
@@ -1834,18 +1834,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -238.67,
-      "profit_pct": -2.39,
-      "description": "BTC buy and hold since first trade"
+      "profit": -309.88,
+      "profit_pct": -3.1,
+      "description": "BTC buy and hold comparison"
     },
     "our_strategy": {
-      "profit": -622.85,
-      "profit_pct": -6.23,
+      "profit": -619.75,
+      "profit_pct": -6.2,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -384.18,
-      "pct": -3.84,
+      "value": -309.88,
+      "pct": -3.1,
       "description": "Our strategy vs HODL"
     }
   }
