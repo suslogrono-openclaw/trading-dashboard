@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-30T01:15:28.823659",
+  "last_update": "2026-04-30T01:15:40.978267",
   "initial_capital": 10000,
   "capital": {
-    "total": 9382.43,
+    "total": 9383.25,
     "available": 8611.53,
-    "invested": 770.9,
-    "pnl": -617.57,
-    "pnl_pct": -6.18,
-    "peak": 9382.43,
+    "invested": 771.72,
+    "pnl": -616.75,
+    "pnl_pct": -6.17,
+    "peak": 9383.25,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 22.4
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-29T17:05:27.067325",
-      "value": 9361.24,
-      "positions": 0,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-29T17:15:29.995193",
       "value": 9361.24,
@@ -630,6 +624,12 @@
       "value": 9382.43,
       "positions": 1,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-30T01:15:40.483888",
+      "value": 9383.25,
+      "positions": 1,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,12 +638,12 @@
       "name": "Polygon",
       "icon": "◆",
       "entry_price": 0.0919,
-      "current_price": 0.0946,
+      "current_price": 0.0947,
       "amount": 8149.065078,
-      "value": 770.9,
+      "value": 771.72,
       "cost": 749.71,
-      "pnl": 22.0,
-      "pnl_pct": 2.94,
+      "pnl": 22.82,
+      "pnl_pct": 3.05,
       "stop_loss": 0.08847142857142856,
       "take_profit": 0.09875714285714285,
       "entry_time": "2026-04-29T20:30:41.815907",
@@ -1678,18 +1678,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -177.05,
-      "profit_pct": -1.77,
+      "profit": -175.11,
+      "profit_pct": -1.75,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -617.57,
-      "profit_pct": -6.18,
+      "profit": -616.75,
+      "profit_pct": -6.17,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -440.52,
-      "pct": -4.41,
+      "value": -441.64,
+      "pct": -4.42,
       "description": "Our strategy vs HODL"
     }
   }
