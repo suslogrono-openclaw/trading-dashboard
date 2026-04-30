@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-30T03:04:31.410595",
+  "last_update": "2026-04-30T03:04:34.179641",
   "initial_capital": 10000,
   "capital": {
     "total": 9377.54,
@@ -7,8 +7,8 @@
     "invested": 766.01,
     "pnl": -622.46,
     "pnl_pct": -6.22,
-    "peak": 9377.54,
-    "drawdown_pct": 0.0
+    "peak": 8227.88,
+    "drawdown_pct": -13.97
   },
   "stats": {
     "positions_open": 1,
@@ -635,14 +635,14 @@
   "positions": {
     "POL/USDT": {
       "symbol": "POL/USDT",
-      "name": "Polygon",
-      "icon": "◆",
+      "name": "POL",
+      "icon": "?",
       "entry_price": 0.0919,
       "current_price": 0.094,
       "amount": 8149.065078,
       "value": 766.01,
       "cost": 749.71,
-      "pnl": 17.11,
+      "pnl": 16.3,
       "pnl_pct": 2.29,
       "stop_loss": 0.08847142857142856,
       "take_profit": 0.09875714285714285,
@@ -915,7 +915,7 @@
       "profit_pct": 0,
       "result": null,
       "reason": "SIGNAL",
-      "icon": "◆"
+      "icon": "?"
     }
   ],
   "trades": [
@@ -1678,9 +1678,9 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -226.8,
-      "profit_pct": -2.27,
-      "description": "BTC buy and hold since first trade"
+      "profit": -311.23,
+      "profit_pct": -3.11,
+      "description": "BTC buy and hold comparison"
     },
     "our_strategy": {
       "profit": -622.46,
@@ -1688,8 +1688,8 @@
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -395.66,
-      "pct": -3.96,
+      "value": -311.23,
+      "pct": -3.11,
       "description": "Our strategy vs HODL"
     }
   }
