@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-04-30T04:45:35.902301",
+  "last_update": "2026-04-30T04:46:04.597111",
   "initial_capital": 10000,
   "capital": {
     "total": 9375.1,
@@ -7,8 +7,8 @@
     "invested": 763.57,
     "pnl": -624.9,
     "pnl_pct": -6.25,
-    "peak": 8227.88,
-    "drawdown_pct": -13.94
+    "peak": 9375.1,
+    "drawdown_pct": 0.0
   },
   "stats": {
     "positions_open": 1,
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 22.4
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-29T20:03:42.422869",
-      "value": 9361.24,
-      "positions": 0,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-29T20:04:10.874485",
       "value": 9361.24,
@@ -630,24 +624,30 @@
       "value": 9375.1,
       "positions": 1,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-30T04:46:04.082671",
+      "value": 9375.1,
+      "positions": 1,
+      "drawdown": 0.0
     }
   ],
   "positions": {
     "POL/USDT": {
       "symbol": "POL/USDT",
-      "name": "POL",
-      "icon": "?",
+      "name": "Polygon",
+      "icon": "◆",
       "entry_price": 0.0919,
       "current_price": 0.0937,
       "amount": 8149.065078,
       "value": 763.57,
       "cost": 749.71,
-      "pnl": 13.86,
+      "pnl": 14.67,
       "pnl_pct": 1.96,
       "stop_loss": 0.08847142857142856,
       "take_profit": 0.09875714285714285,
       "entry_time": "2026-04-29T20:30:41.815907",
-      "hours_open": 8.2,
+      "hours_open": 8.3,
       "indicators": {
         "mean_reversion": 0,
         "trend": 1.1,
@@ -915,7 +915,7 @@
       "profit_pct": 0,
       "result": null,
       "reason": "SIGNAL",
-      "icon": "?"
+      "icon": "◆"
     }
   ],
   "trades": [
@@ -1678,9 +1678,9 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -312.45,
-      "profit_pct": -3.12,
-      "description": "BTC buy and hold comparison"
+      "profit": -250.17,
+      "profit_pct": -2.5,
+      "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
       "profit": -624.9,
@@ -1688,8 +1688,8 @@
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -312.45,
-      "pct": -3.12,
+      "value": -374.73,
+      "pct": -3.75,
       "description": "Our strategy vs HODL"
     }
   }
