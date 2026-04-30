@@ -1,13 +1,13 @@
 {
-  "last_update": "2026-04-30T03:05:00.538988",
+  "last_update": "2026-04-30T03:15:32.981352",
   "initial_capital": 10000,
   "capital": {
-    "total": 9377.54,
+    "total": 9374.28,
     "available": 8611.53,
-    "invested": 766.01,
-    "pnl": -622.46,
-    "pnl_pct": -6.22,
-    "peak": 9377.54,
+    "invested": 762.75,
+    "pnl": -625.72,
+    "pnl_pct": -6.26,
+    "peak": 9374.28,
     "drawdown_pct": 0.0
   },
   "stats": {
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 22.4
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-29T18:16:22.664274",
-      "value": 9361.24,
-      "positions": 0,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-29T18:16:36.195756",
       "value": 9361.24,
@@ -630,6 +624,12 @@
       "value": 9377.54,
       "positions": 1,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-30T03:15:32.471251",
+      "value": 9374.28,
+      "positions": 1,
+      "drawdown": 0.0
     }
   ],
   "positions": {
@@ -638,16 +638,16 @@
       "name": "Polygon",
       "icon": "◆",
       "entry_price": 0.0919,
-      "current_price": 0.094,
+      "current_price": 0.0936,
       "amount": 8149.065078,
-      "value": 766.01,
+      "value": 762.75,
       "cost": 749.71,
-      "pnl": 17.11,
-      "pnl_pct": 2.29,
+      "pnl": 13.85,
+      "pnl_pct": 1.85,
       "stop_loss": 0.08847142857142856,
       "take_profit": 0.09875714285714285,
       "entry_time": "2026-04-29T20:30:41.815907",
-      "hours_open": 6.6,
+      "hours_open": 6.7,
       "indicators": {
         "mean_reversion": 0,
         "trend": 1.1,
@@ -1678,18 +1678,18 @@
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -226.82,
-      "profit_pct": -2.27,
+      "profit": -221.48,
+      "profit_pct": -2.21,
       "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -622.46,
-      "profit_pct": -6.22,
+      "profit": -625.72,
+      "profit_pct": -6.26,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -395.64,
-      "pct": -3.96,
+      "value": -404.24,
+      "pct": -4.04,
       "description": "Our strategy vs HODL"
     }
   }
