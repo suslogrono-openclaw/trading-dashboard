@@ -1,18 +1,18 @@
 {
-  "last_update": "2026-04-30T07:45:43.908424",
+  "last_update": "2026-04-30T08:03:44.586947",
   "initial_capital": 10000,
   "capital": {
-    "total": 9375.11,
-    "available": 7288.81,
-    "invested": 2086.3,
-    "pnl": -624.89,
-    "pnl_pct": -6.25,
-    "peak": 8227.88,
-    "drawdown_pct": -13.94
+    "total": 9376.83,
+    "available": 6169.34,
+    "invested": 3207.49,
+    "pnl": -623.17,
+    "pnl_pct": -6.23,
+    "peak": 9376.83,
+    "drawdown_pct": 0.0
   },
   "stats": {
-    "positions_open": 3,
-    "total_trades": 44,
+    "positions_open": 5,
+    "total_trades": 46,
     "completed_trades": 21,
     "wins": 11,
     "losses": 10,
@@ -31,12 +31,6 @@
     "avg_time_in_position_hours": 22.4
   },
   "portfolio_history": [
-    {
-      "time": "2026-04-29T22:17:33.435710",
-      "value": 9364.5,
-      "positions": 1,
-      "drawdown": 0.0
-    },
     {
       "time": "2026-04-29T22:17:51.094644",
       "value": 9364.5,
@@ -630,24 +624,30 @@
       "value": 9375.29,
       "positions": 3,
       "drawdown": 0.0
+    },
+    {
+      "time": "2026-04-30T08:03:44.065136",
+      "value": 9376.83,
+      "positions": 5,
+      "drawdown": 0.0
     }
   ],
   "positions": {
     "POL/USDT": {
       "symbol": "POL/USDT",
-      "name": "POL",
-      "icon": "?",
+      "name": "Polygon",
+      "icon": "◆",
       "entry_price": 0.0919,
       "current_price": 0.0936,
       "amount": 8149.065078,
       "value": 762.75,
       "cost": 749.71,
-      "pnl": 13.04,
+      "pnl": 13.85,
       "pnl_pct": 1.85,
       "stop_loss": 0.08847142857142856,
       "take_profit": 0.09875714285714285,
       "entry_time": "2026-04-29T20:30:41.815907",
-      "hours_open": 11.3,
+      "hours_open": 11.5,
       "indicators": {
         "mean_reversion": 0,
         "trend": 1.1,
@@ -660,16 +660,16 @@
       "name": "Solana",
       "icon": "◎",
       "entry_price": 83.12,
-      "current_price": 83.24,
+      "current_price": 83.28,
       "amount": 8.288287,
-      "value": 689.92,
+      "value": 690.25,
       "cost": 688.9,
-      "pnl": 1.02,
-      "pnl_pct": 0.14,
+      "pnl": 1.33,
+      "pnl_pct": 0.19,
       "stop_loss": 82.08785714285713,
       "take_profit": 85.18428571428574,
       "entry_time": "2026-04-30T07:33:10.060680",
-      "hours_open": 0.2,
+      "hours_open": 0.5,
       "indicators": {
         "mean_reversion": 0,
         "trend": 1.1,
@@ -682,15 +682,59 @@
       "name": "Ripple",
       "icon": "✦",
       "entry_price": 1.3724,
-      "current_price": 1.372,
+      "current_price": 1.3748,
       "amount": 461.826403,
-      "value": 633.63,
+      "value": 634.92,
       "cost": 633.82,
-      "pnl": -0.19,
-      "pnl_pct": -0.03,
+      "pnl": 1.11,
+      "pnl_pct": 0.17,
       "stop_loss": 1.3556142857142859,
       "take_profit": 1.4059714285714282,
       "entry_time": "2026-04-30T07:45:29.767441",
+      "hours_open": 0.3,
+      "indicators": {
+        "mean_reversion": 0,
+        "trend": 1.1,
+        "momentum": 0.35,
+        "volatility": -0.15
+      }
+    },
+    "BNB/USDT": {
+      "symbol": "BNB/USDT",
+      "name": "BNB",
+      "icon": "◈",
+      "entry_price": 617.4,
+      "current_price": 617.4,
+      "amount": 0.944452,
+      "value": 583.1,
+      "cost": 583.0,
+      "pnl": 0,
+      "pnl_pct": 0,
+      "stop_loss": 612.8857142857144,
+      "take_profit": 626.4285714285711,
+      "entry_time": "2026-04-30T08:03:37.621282",
+      "hours_open": 0.0,
+      "indicators": {
+        "mean_reversion": -0.05,
+        "trend": 1.1,
+        "momentum": 0.35,
+        "volatility": -0.15
+      }
+    },
+    "AVAX/USDT": {
+      "symbol": "AVAX/USDT",
+      "name": "Avalanche",
+      "icon": "▲",
+      "entry_price": 9.15,
+      "current_price": 9.15,
+      "amount": 58.630002,
+      "value": 536.46,
+      "cost": 536.46,
+      "pnl": 0,
+      "pnl_pct": 0,
+      "stop_loss": 9.035714285714286,
+      "take_profit": 9.378571428571426,
+      "entry_time": "2026-04-30T08:03:40.580944",
       "hours_open": 0.0,
       "indicators": {
         "mean_reversion": 0,
@@ -701,32 +745,6 @@
     }
   },
   "recent_activity": [
-    {
-      "time": "2026-04-26T14:45:27.435961",
-      "symbol": "XRP/USDT",
-      "action": "BUY",
-      "price": 1.4287,
-      "amount": 383.408279,
-      "cost": 547.72524,
-      "profit": 0,
-      "profit_pct": 0,
-      "result": null,
-      "reason": "SIGNAL",
-      "icon": "✦"
-    },
-    {
-      "time": "2026-04-26T15:15:23.000084",
-      "symbol": "SOL/USDT",
-      "action": "BUY",
-      "price": 86.44,
-      "amount": 5.830141,
-      "cost": 504.0035,
-      "profit": 0,
-      "profit_pct": 0,
-      "result": null,
-      "reason": "SIGNAL",
-      "icon": "◎"
-    },
     {
       "time": "2026-04-26T20:31:33.669178",
       "symbol": "DOGE/USDT",
@@ -933,7 +951,7 @@
       "profit_pct": 0,
       "result": null,
       "reason": "SIGNAL",
-      "icon": "?"
+      "icon": "◆"
     },
     {
       "time": "2026-04-30T07:33:10.060680",
@@ -960,6 +978,32 @@
       "result": null,
       "reason": "SIGNAL",
       "icon": "✦"
+    },
+    {
+      "time": "2026-04-30T08:03:37.621282",
+      "symbol": "BNB/USDT",
+      "action": "BUY",
+      "price": 617.4,
+      "amount": 0.944452,
+      "cost": 583.00496,
+      "profit": 0,
+      "profit_pct": 0,
+      "result": null,
+      "reason": "SIGNAL",
+      "icon": "◈"
+    },
+    {
+      "time": "2026-04-30T08:03:40.580944",
+      "symbol": "AVAX/USDT",
+      "action": "BUY",
+      "price": 9.15,
+      "amount": 58.630002,
+      "cost": 536.4645,
+      "profit": 0,
+      "profit_pct": 0,
+      "result": null,
+      "reason": "SIGNAL",
+      "icon": "▲"
     }
   ],
   "trades": [
@@ -1752,22 +1796,56 @@
         "momentum": 0.35,
         "volatility": -0.15
       }
+    },
+    {
+      "time": "2026-04-30T08:03:37.621282",
+      "symbol": "BNB/USDT",
+      "action": "BUY",
+      "price": 617.4,
+      "amount": 0.944452,
+      "cost": 583.00496,
+      "order_id": "3649922",
+      "stop_loss": 612.8857142857144,
+      "take_profit": 626.4285714285711,
+      "indicators": {
+        "mean_reversion": -0.05,
+        "trend": 1.1,
+        "momentum": 0.35,
+        "volatility": -0.15
+      }
+    },
+    {
+      "time": "2026-04-30T08:03:40.580944",
+      "symbol": "AVAX/USDT",
+      "action": "BUY",
+      "price": 9.15,
+      "amount": 58.630002,
+      "cost": 536.4645,
+      "order_id": "249974",
+      "stop_loss": 9.035714285714286,
+      "take_profit": 9.378571428571426,
+      "indicators": {
+        "mean_reversion": 0,
+        "trend": 1.1,
+        "momentum": 0.35,
+        "volatility": -0.15
+      }
     }
   ],
   "market_comparison": {
     "buy_and_hold": {
-      "profit": -312.45,
-      "profit_pct": -3.12,
-      "description": "BTC buy and hold comparison"
+      "profit": -239.58,
+      "profit_pct": -2.4,
+      "description": "BTC buy and hold since first trade"
     },
     "our_strategy": {
-      "profit": -624.89,
-      "profit_pct": -6.25,
+      "profit": -623.17,
+      "profit_pct": -6.23,
       "description": "Multi-factor strategy performance"
     },
     "difference": {
-      "value": -312.45,
-      "pct": -3.12,
+      "value": -383.59,
+      "pct": -3.84,
       "description": "Our strategy vs HODL"
     }
   }
